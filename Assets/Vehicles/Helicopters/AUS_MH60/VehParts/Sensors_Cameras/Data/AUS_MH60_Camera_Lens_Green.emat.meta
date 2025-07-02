@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F37A427A78896BF0}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Sensors_Cameras/Data/AUS_MH60_Camera_Lens_Green.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

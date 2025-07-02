@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E0393C0A8A4FE86B}Assets/Vehicles/Helicopters/AUS_MH60/anm/txa/p_mh60m_right_rear_idle.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

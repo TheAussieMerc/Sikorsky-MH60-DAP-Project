@@ -1,0 +1,6 @@
+MatPBRBasic {
+ AlphaMul 0
+ BlendMode AlphaBlend
+ BCRMap "{42664270F49C057C}Assets/Weapons/Magazines/NSV/Data/Magazine_50rn_NSV_BCR.edds"
+ NMOMap "{7ABEF9E22DEB57E2}Assets/Weapons/Magazines/NSV/Data/Magazine_50rn_NSV_NMO.edds"
+}

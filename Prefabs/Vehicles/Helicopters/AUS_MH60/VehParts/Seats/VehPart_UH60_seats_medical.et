@@ -1,0 +1,561 @@
+GenericEntity : "{205599C7074F1E02}Prefabs/Vehicles/Helicopters/UH1H/VehParts/Seats/VehPart_UH1H_seats_cargo.et" {
+ ID "4B42E71698F5739C"
+ components {
+  BaseLightManagerComponent "{625CB247B096E1FF}" {
+   LightSlots {
+    SCR_LightSlot "{625CB247BAACF2D7}" {
+     LightType Reverse
+     LightPositionInfo EntitySlotInfo overhead_light_forward {
+      Offset 0.0023 1.9607 3.9072
+      Angles -89.0727 -90.001 90.001
+     }
+     LightPrefab "{6039F0A7E0359E70}Prefabs/Vehicles/Helicopters/UH1H/Lights/VehicleLight_UH60_Medical_Rear.et"
+     ParentSurface "cabin_front"
+    }
+    SCR_LightSlot "{625CB258F7654B3C}" {
+     LightType Reverse
+     LightState 1
+     LightPositionInfo EntitySlotInfo overhead_light_forward {
+      Offset -0.0104 1.9546 3.4983
+      Angles -90 -90.0008 90
+     }
+     LightPrefab "{6039F0A7E0359E70}Prefabs/Vehicles/Helicopters/UH1H/Lights/VehicleLight_UH60_Medical_Rear.et"
+     ParentSurface "cabin_rear"
+    }
+   }
+   EmissiveSurfaceSlots {
+    EmissiveLightSurfaceSlot cabin_rear {
+     Prefab "{D5AD31CE8C4E34ED}Prefabs/Vehicles/Helicopters/UH1H/VehParts/Lights/MH60_ES_light_cabin_rear.et"
+     LightType 16
+     EmissiveOnMultiplier 1
+     ConfigurationsOverride {
+      SurfaceLightConfigItem "{625CB256BDC072FC}" {
+       ForLightType 16
+       Priority 1
+       EmissiveMultiplier 10
+      }
+     }
+    }
+    EmissiveLightSurfaceSlot cabin_front {
+     Prefab "{BABE76A7E4B2DF07}Prefabs/Vehicles/Helicopters/UH1H/VehParts/Lights/MH60_ES_light_cabin_front.et"
+     LightType 16
+     EmissiveOnMultiplier 1
+     ConfigurationsOverride {
+      SurfaceLightConfigItem "{625CB25684CF978E}" {
+       ForLightType 16
+       Priority 1
+       EmissiveMultiplier 10
+      }
+     }
+    }
+   }
+   LightAction {
+    LightUserAction "{625CB2583A9EC03F}" {
+     ParentContextList {
+      "overhead_left" "overhead_right"
+     }
+     UIInfo UIInfo "{5E59577602F9EA6C}" {
+      Name "#AR-UserAction_DomeLightsDim"
+     }
+     CanAggregate 1
+     m_eLightType Reverse
+     m_sBlockedByPilotText "#AR-UserAction_ControlledByPilot"
+     m_aDefinedCompartmentSectionsOnly {
+      1
+     }
+    }
+   }
+  }
+  MeshObject "{4B42E716914465B9}" {
+   Object "{7B01A59E7D54310F}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/AUS_MH60_Medical_Equipment.xob"
+  }
+  SCR_BaseCompartmentManagerComponent "{2CD4A765A7D52986}" {
+   Enabled 0
+   DoorInfoList {
+    CompartmentDoorReference "{615EE9E4E23CBD94}" {
+     AnimDoorIndex 6
+    }
+    CompartmentDoorReference "{615EE9E4E0441CA2}" {
+     AnimDoorIndex 7
+    }
+    CompartmentDoorInfo "{625ABEC7390C0D5F}" {
+     AnimDoorIndex 2
+     ContextName "door_l03"
+     Coverage 0.015
+     EntryPositionInfo PointInfo "{50B8D5DD78963937}" {
+      PivotID "Left_Passenger_Entry"
+      Offset 0 -1.1201 0.9167
+      Angles 0 180 0
+     }
+     ExitPositionInfo PointInfo "{59DEA1B29487FC14}" {
+      PivotID "Left_Passenger_Entry"
+      Offset 0 0 0.2187
+     }
+     GetInTeleport 1
+     AlignDuringGetOut 1
+     GetOutAligningTeleport 1
+     GetInSeatAligningOnEvent 1
+    }
+    CompartmentDoorInfo "{625B470EB80A427E}" {
+     AnimDoorIndex 3
+     ContextName "door_r03"
+     Coverage 0.015
+     EntryPositionInfo PointInfo "{50B8D5DD78963937}" {
+      PivotID "Right_Passenger_Entry"
+      Offset 0 -1.1201 -0.7371
+      Angles 0 180 0
+     }
+     ExitPositionInfo PointInfo "{59DEA1B29487FC14}" {
+      PivotID "Right_Passenger_Entry"
+      Offset 0 0 -0.2925
+      Angles 0 180 0
+     }
+     GetInTeleport 1
+     AlignDuringGetOut 1
+     GetOutAligningTeleport 1
+     GetInSeatAligningOnEvent 1
+    }
+   }
+   CompartmentSlots {
+    SCR_DoctorCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "doctor_left_seat"
+      }
+      UIInfo SCR_ActionUIInfo "{5086CC2FC26F3322}" {
+       Name "#AR-UserAction_GetIn"
+       Icon "{04EF6B438A9F69A1}UI/Textures/UserActions/getinaction.edds"
+       m_sIconName "mountAsPassangerCommand"
+      }
+      "Sort Priority" 2
+     }
+     GetOutAction SCR_GetOutAction "{509D56665A8C6923}" {
+      ParentContextList {
+       "LeftDoor_int"
+      }
+      UIInfo SCR_ActionUIInfo "{625B47096A187CEC}" {
+       Name "#AR-UserAction_GetOut"
+       Icon ""
+       m_sIconName "getOutCommand"
+      }
+      VisibilityRange 6
+     }
+     JumpOutAction SCR_JumpOutAction "{625B470BD09BAA84}" {
+      UIInfo SCR_ActionUIInfo "{5D0B1D4714B59342}" {
+       Name "#AR-Keybind_Eject"
+       m_sIconName "getOutCommand"
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "doctor_left_seat"
+      }
+      UIInfo SCR_ActionUIInfo "{625B470B36FA2716}" {
+       Name "#AR-UserAction_SwitchSeat"
+       m_sIconName "mountAsPassangerCommand"
+      }
+      VisibilityRange 6
+      Duration 0.5
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList {
+        "doctor_left_seat"
+       }
+       UIInfo SCR_ActionUIInfo "{625B4708D7D39D8B}" {
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E00C44348}" {
+       ParentContextList {
+        "LeftDoorEnter"
+       }
+       UIInfo SCR_ActionUIInfo "{625B4708D589B6FF}" {
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "doctor_right_seat"
+     }
+     SeatType 4
+     DoorInfoList {
+      2
+     }
+     OverrideExitPositionInfo PointInfo "{60DEE09C58896E03}" {
+      PivotID "Left_Passenger_Entry"
+      Angles 0 180 0
+     }
+     UIInfo UIInfo "{50870A10CE897250}" {
+      Name "#AR-VehiclePosition_Doctor"
+     }
+     BaseCoverage 0
+     ContextName "Doctor_Left"
+     m_iCompartmentSection 2
+     m_DefaultOccupantData SCR_DefaultOccupantData "{59DEA1B298CF7AE9}" {
+      m_bEnabled 0
+     }
+     m_fFreelookAimLimitOverrideLeft -90
+     m_fFreelookAimLimitOverrideRight 90
+     m_vFreelookCameraNeckOffsetScale 0 0 0
+     m_fFreelookCameraNeckFollowTraverse 0
+    }
+    SCR_DoctorCompartmentSlot Passenger_l02 {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "doctor_right_seat"
+      }
+      UIInfo SCR_ActionUIInfo "{5086CC2FC26F3322}" {
+      }
+      "Sort Priority" 2
+     }
+     GetOutAction SCR_GetOutAction "{509D56665A8C6923}" {
+      ParentContextList {
+       "RightDoor_int"
+      }
+      UIInfo SCR_ActionUIInfo "{625B470917303F3A}" {
+      }
+      VisibilityRange 6
+     }
+     JumpOutAction SCR_JumpOutAction "{625B470BD09BAA84}" {
+      UIInfo SCR_ActionUIInfo "{5D0B1D4714B59342}" {
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "doctor_right_seat"
+      }
+      UIInfo SCR_ActionUIInfo "{625B47097F0F24B7}" {
+      }
+      VisibilityRange 6
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList {
+        "doctor_left_seat"
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E00C44348}" {
+       ParentContextList {
+        "LeftDoorEnter" "doctor_left_seat"
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "doctor_left_seat"
+     }
+     SeatType 4
+     DoorInfoList {
+      3
+     }
+     OverrideExitPositionInfo PointInfo "{60DEE09C58896E03}" {
+      PivotID "Left_Passenger_Entry"
+      Angles 0 180 0
+     }
+     UIInfo UIInfo "{50870A10CE897250}" {
+      Name "#AR-VehiclePosition_Doctor"
+     }
+     BaseCoverage 0
+     ContextName "Doctor_Right"
+     m_iCompartmentSection 2
+     m_DefaultOccupantData SCR_DefaultOccupantData "{59DEA1B298CF7AE9}" {
+      m_bEnabled 0
+     }
+     m_fFreelookAimLimitOverrideLeft -90
+     m_fFreelookAimLimitOverrideRight 90
+     m_vFreelookCameraNeckOffsetScale 0 0 0
+     m_fFreelookCameraNeckFollowTraverse 0
+    }
+    SCR_PatientCompartmentSlot Passenger_l03 {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "patient_right_upper_load"
+      }
+      UIInfo SCR_ActionUIInfo "{5086CC2FC26F3322}" {
+      }
+      "Sort Priority" 2
+     }
+     GetOutAction SCR_GetOutAction "{509D56665A8C6923}" {
+      ParentContextList {
+       "LeftDoor_int"
+      }
+      UIInfo SCR_ActionUIInfo "{625B4702EEAB6FF2}" {
+      }
+      VisibilityRange 6
+     }
+     JumpOutAction SCR_JumpOutAction "{625B470BD09BAA84}" {
+      UIInfo SCR_ActionUIInfo "{5D0B1D4714B59342}" {
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "patient_right_upper_load"
+      }
+      UIInfo SCR_ActionUIInfo "{625B470299D8EF00}" {
+       Name "#AR-UserAction_SwitchSeat"
+       m_sIconName "mountAsPassangerCommand"
+      }
+      VisibilityRange 6
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList {
+        "patient_right_upper_load"
+       }
+       UIInfo SCR_ActionUIInfo "{625B4702AF9D59A2}" {
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E00C44348}" {
+       ParentContextList {
+        "LeftDoorEnter"
+       }
+       UIInfo SCR_ActionUIInfo "{625B47025C690764}" {
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "patient_idle_Left_Upper"
+     }
+     SeatType 4
+     DoorInfoList {
+      2
+     }
+     UIInfo UIInfo "{50870A10CE897250}" {
+      Name "#AR-VehiclePosition_Patient"
+     }
+     BaseCoverage 0
+     ContextName "Patient_Left_Top"
+     m_iCompartmentSection 1
+     m_DefaultOccupantData SCR_DefaultOccupantData "{59DEA1B298CF7AE9}" {
+      m_bEnabled 0
+     }
+     m_fFreelookAimLimitOverrideDown 0
+     m_fFreelookAimLimitOverrideUp 0.05
+     m_fFreelookAimLimitOverrideLeft 0
+     m_fFreelookAimLimitOverrideRight 0.05
+     m_vFreelookCameraNeckOffsetScale 0 0 1
+     m_fFreelookCameraNeckFollowTraverse -1
+    }
+    SCR_PatientCompartmentSlot Passenger_r01 {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "patient_right_lower_load"
+      }
+      UIInfo SCR_ActionUIInfo "{5086CC2FC26F3322}" {
+      }
+      "Sort Priority" 2
+     }
+     GetOutAction SCR_GetOutAction "{509D56665A8C6923}" {
+      ParentContextList {
+       "LeftDoor_int"
+      }
+      UIInfo SCR_ActionUIInfo "{625B4702EEAB6FF2}" {
+      }
+      VisibilityRange 6
+     }
+     JumpOutAction SCR_JumpOutAction "{625B470BD09BAA84}" {
+      UIInfo SCR_ActionUIInfo "{5D0B1D4714B59342}" {
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "patient_right_lower_load"
+      }
+      UIInfo SCR_ActionUIInfo "{625B470299D8EF00}" {
+       Name "#AR-UserAction_SwitchSeat"
+       m_sIconName "mountAsPassangerCommand"
+      }
+      VisibilityRange 6
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList {
+        "patient_right_lower_load"
+       }
+       UIInfo SCR_ActionUIInfo "{625B4702AF9D59A2}" {
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E00C44348}" {
+       ParentContextList {
+        "LeftDoorEnter"
+       }
+       UIInfo SCR_ActionUIInfo "{625B47025C690764}" {
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "patient_idle_Left_Lower"
+     }
+     SeatType 4
+     DoorInfoList {
+      2
+     }
+     UIInfo UIInfo "{50870A10CE897250}" {
+      Name "#AR-VehiclePosition_Patient"
+     }
+     BaseCoverage 0
+     ContextName "Patient_Left_Bottom"
+     m_iCompartmentSection 1
+     m_DefaultOccupantData SCR_DefaultOccupantData "{59DEA1B298CF7AE9}" {
+      m_bEnabled 0
+     }
+     m_fFreelookAimLimitOverrideDown 0
+     m_fFreelookAimLimitOverrideUp 0.05
+     m_fFreelookAimLimitOverrideLeft 0
+     m_fFreelookAimLimitOverrideRight 0.05
+     m_vFreelookCameraNeckOffsetScale 0 0 1
+     m_fFreelookCameraNeckFollowTraverse -1
+    }
+    SCR_PatientCompartmentSlot Passenger_r02 {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "patient_right_upper_load"
+      }
+      UIInfo SCR_ActionUIInfo "{5086CC2FC26F3322}" {
+      }
+      "Sort Priority" 2
+     }
+     GetOutAction SCR_GetOutAction "{509D56665A8C6923}" {
+      ParentContextList {
+       "RightDoor_int"
+      }
+      UIInfo SCR_ActionUIInfo "{625B4702EEAB6FF2}" {
+      }
+      VisibilityRange 6
+     }
+     JumpOutAction SCR_JumpOutAction "{625B470BD09BAA84}" {
+      UIInfo SCR_ActionUIInfo "{5D0B1D4714B59342}" {
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "patient_left_upper_load"
+      }
+      UIInfo SCR_ActionUIInfo "{625B470299D8EF00}" {
+       Name "#AR-UserAction_SwitchSeat"
+       m_sIconName "mountAsPassangerCommand"
+      }
+      VisibilityRange 6
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList {
+        "patient_left_upper_load"
+       }
+       UIInfo SCR_ActionUIInfo "{625B4702AF9D59A2}" {
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E00C44348}" {
+       ParentContextList {
+        "RightDoorEnter"
+       }
+       UIInfo SCR_ActionUIInfo "{625B47025C690764}" {
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "patient_idle_Right_Upper"
+     }
+     SeatType 4
+     DoorInfoList {
+      2
+     }
+     UIInfo UIInfo "{50870A10CE897250}" {
+      Name "#AR-VehiclePosition_Patient"
+     }
+     BaseCoverage 0
+     ContextName "Patient_Right_Top"
+     m_iCompartmentSection 2
+     m_DefaultOccupantData SCR_DefaultOccupantData "{59DEA1B298CF7AE9}" {
+      m_bEnabled 0
+     }
+     m_fFreelookAimLimitOverrideDown 0
+     m_fFreelookAimLimitOverrideUp 0.05
+     m_fFreelookAimLimitOverrideLeft 0
+     m_fFreelookAimLimitOverrideRight 0.05
+     m_vFreelookCameraNeckOffsetScale 0 0 1
+     m_fFreelookCameraNeckFollowTraverse -1
+    }
+    SCR_PatientCompartmentSlot Passenger_r03 {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "patient_left_lower_load"
+      }
+      UIInfo SCR_ActionUIInfo "{5086CC2FC26F3322}" {
+      }
+      "Sort Priority" 2
+     }
+     GetOutAction SCR_GetOutAction "{509D56665A8C6923}" {
+      ParentContextList {
+       "RightDoor_int"
+      }
+      UIInfo SCR_ActionUIInfo "{625B4702EEAB6FF2}" {
+      }
+      VisibilityRange 6
+     }
+     JumpOutAction SCR_JumpOutAction "{625B470BD09BAA84}" {
+      UIInfo SCR_ActionUIInfo "{5D0B1D4714B59342}" {
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "patient_left_lower_load"
+      }
+      UIInfo SCR_ActionUIInfo "{625B470299D8EF00}" {
+       Name "#AR-UserAction_SwitchSeat"
+       m_sIconName "mountAsPassangerCommand"
+      }
+      VisibilityRange 6
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList {
+        "patient_left_lower_load"
+       }
+       UIInfo SCR_ActionUIInfo "{625B4702AF9D59A2}" {
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E00C44348}" {
+       ParentContextList {
+        "RightDoorEnter"
+       }
+       UIInfo SCR_ActionUIInfo "{625B47025C690764}" {
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "patient_idle_Right_Lower"
+     }
+     SeatType 4
+     DoorInfoList {
+      2
+     }
+     UIInfo UIInfo "{50870A10CE897250}" {
+      Name "#AR-VehiclePosition_Patient"
+     }
+     BaseCoverage 0
+     ContextName "Patient_Right_Bottom"
+     m_iCompartmentSection 2
+     m_DefaultOccupantData SCR_DefaultOccupantData "{59DEA1B298CF7AE9}" {
+      m_bEnabled 0
+     }
+     m_fFreelookAimLimitOverrideDown 0
+     m_fFreelookAimLimitOverrideUp 0.05
+     m_fFreelookAimLimitOverrideLeft 0
+     m_fFreelookAimLimitOverrideRight 0.05
+     m_vFreelookCameraNeckOffsetScale 0 0 1
+     m_fFreelookCameraNeckFollowTraverse -1
+    }
+   }
+  }
+  VehicleAnimationComponent "{50B812962B17E60B}" {
+   AnimGraph "{DD601A1AC023E6F4}Assets/Vehicles/Helicopters/AUS_MH60/workspace/AUS_UH60_Medevac.agr"
+   AnimInstance "{A08442CC7095C777}Assets/Vehicles/Helicopters/AUS_MH60/workspace/AUS_UH60_Medevac_vehicle.asi"
+   AlwaysActive 1
+   AnimInjection AnimationAttachmentInfo "{50B812961A339FD2}" {
+    AnimGraph "{DD601A1AC023E6F4}Assets/Vehicles/Helicopters/AUS_MH60/workspace/AUS_UH60_Medevac.agr"
+    AnimInstance "{56D06F011E1E4FEC}Assets/Vehicles/Helicopters/AUS_MH60/workspace/AUS_UH60_Medevac_player.asi"
+   }
+   BindWithInjection 1
+  }
+ }
+ coords 1105.654 39 2404.086
+}

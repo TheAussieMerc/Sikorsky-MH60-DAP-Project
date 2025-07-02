@@ -1,0 +1,15 @@
+GenericEntity : "{C74AFD1DC392E729}Prefabs/Vehicles/Helicopters/UH1H/VehParts/UH1H_SubsystemBeams.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{951F7C2EF17ECF48}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/AUS_MH60_DAP_Pylons.xob"
+  }
+  RigidBody "{4B42E71692C2FB79}" {
+   Mass 150
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   Enabled 0
+  }
+ }
+ coords 1147.32 39 2389.108
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A9F30DAABF55EB0B}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Data/AUS_MH60_Cargo_Seating.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

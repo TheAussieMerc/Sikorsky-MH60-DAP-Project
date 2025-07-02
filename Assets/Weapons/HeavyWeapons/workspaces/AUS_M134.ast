@@ -1,0 +1,24 @@
+AnimSetTemplateSource {
+ Groups {
+  AnimSetTemplateSource_AnimationGroup "{617CCAB75592E75A}" {
+   Name "Gunner"
+   Animations {
+    "Aimspace"
+    "Fire"
+    "Idle"
+    "Turn_Aimspace_High"
+    "Turn_Aimspace_Low"
+    "Turn_Aimspace_Mid"
+    "TurnL_High"
+    "TurnL_Low"
+    "TurnR_High"
+    "TurnR_Low"
+   }
+   Columns {
+    "120"
+    "50"
+    "Ground"
+   }
+  }
+ }
+}

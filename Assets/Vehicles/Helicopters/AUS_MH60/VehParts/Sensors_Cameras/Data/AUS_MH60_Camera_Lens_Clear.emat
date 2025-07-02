@@ -1,0 +1,6 @@
+MatPBRBasicGlass {
+ AlphaMul 0.467
+ BCRMap "{4618BC32179C89CF}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Sensors_Cameras/Data/AUS_MH60_Camera_Lens_Clear_BCR.edds"
+ OpacityMap "{9FFDF6058E89F71C}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Sensors_Cameras/Data/AUS_MH60_Camera_Lens_Clear_A.edds"
+ NMOMap "{7EC007A0CEEBDB51}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Sensors_Cameras/Data/AUS_MH60_Camera_Lens_Clear_NMO.edds"
+}

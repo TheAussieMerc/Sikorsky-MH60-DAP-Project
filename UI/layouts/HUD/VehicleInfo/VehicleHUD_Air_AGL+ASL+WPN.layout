@@ -1,0 +1,261 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ Slot FrameWidgetSlot "{5E06E0477E40DF5A}" {
+  Anchor 0 0 1 1
+  PositionX 0
+  PositionY 1080
+  SizeX -1920
+  OffsetRight 0
+  SizeY -1080
+  OffsetBottom 0
+ }
+ components {
+  SCR_WidgetExportRuleRoot "{6288C686B023EF2F}" {
+   DestinationPath "{3E4ACC71B58867A5}scripts/Game/UI/HUD/WeaponInfo"
+   GenerateFullWidgetPath 0
+  }
+ }
+ {
+  VerticalLayoutWidgetClass "{6288C681D826A66A}" {
+   Name "m_WeaponInfoPanel"
+   Slot FrameWidgetSlot "{6288C6816D55EB18}" {
+    PositionX 1704
+    OffsetLeft 1704
+    PositionY 952
+    OffsetTop 952
+    SizeX 100
+    OffsetRight -1804
+    SizeY 30
+    OffsetBottom -982
+   }
+   {
+    HorizontalLayoutWidgetClass "{6288C681D8288058}" {
+     Name "m_Main"
+     Slot LayoutSlot "{56E0F18571A67517}" {
+      HorizontalAlign 2
+      Padding 0 8 0 0
+     }
+     "Inherit Color" 1
+     {
+      SizeLayoutWidgetClass "{6288C681D82B8DDD}" {
+       Name "m_MagCount"
+       Slot LayoutSlot "{58ACBDDE14E9B78B}" {
+        HorizontalAlign 1
+        VerticalAlign 1
+        FillWeight 0.5
+       }
+       Clipping Ancestor
+       AllowWidthOverride 1
+       WidthOverride 40
+       {
+        FrameWidgetClass "{6288C681D82B8DDC}" {
+         Name "Frame0"
+         Slot LayoutSlot "{58AE92904E8DB85D}" {
+         }
+         {
+          RichTextWidgetClass "{6288C681D82B8DDB}" {
+           Name "m_MagCountText"
+           Slot FrameWidgetSlot "{58AE929064F7336F}" {
+            Anchor 0.5 0.5 0.5 0.5
+            OffsetLeft 0
+            OffsetTop 0
+            SizeX 100
+            OffsetRight -100
+            SizeY 36
+            OffsetBottom -36
+            Alignment 0.5 0.5
+           }
+           Clipping False
+           Color 1 1 1 1
+           Text "99"
+           "Font Size" 96
+           "Min Font Size" 36
+           "Horizontal Alignment" Center
+           "Vertical Alignment" Center
+           FontProperties FontProperties "{55F8C56F24F71D2E}" {
+            Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+            ShadowSize 10
+            ShadowOffset 0 0
+            ShadowOpacity 0.7
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+    HorizontalLayoutWidgetClass "{6288C681D82B8DDA}" {
+     Name "m_WeaponNameAndCaliber"
+     Slot LayoutSlot "{59628161513F5F3E}" {
+      HorizontalAlign 2
+      Padding 0 2 0 0
+     }
+     {
+      RichTextWidgetClass "{6288C681D82A7EA6}" {
+       Name "m_WeaponName"
+       Slot LayoutSlot "{56E0F189AA8E9CDB}" {
+        HorizontalAlign 2
+        VerticalAlign 1
+       }
+       Clipping False
+       Color 1 1 1 1
+       Text "#AR-Weapon_M2HB_Name"
+       "Font Size" 20
+       "Min Font Size" 20
+       "Horizontal Alignment" Right
+       "Vertical Alignment" Center
+       FontProperties FontProperties "{55F8C56F794D79A5}" {
+        Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+        ShadowSize 10
+        ShadowOffset 0 0
+        ShadowOpacity 0.7
+       }
+      }
+     }
+    }
+   }
+  }
+  OverlayWidgetClass "{6284C461210A5613}" {
+   Name "Overlay0"
+   Slot FrameWidgetSlot "{5E2F07B1370DF32F}" {
+    Anchor 0 1 0 1
+    OffsetLeft 0
+    OffsetTop 0
+    SizeX 0
+    OffsetRight 0
+    SizeY 0
+    OffsetBottom 0
+    Alignment 0 1
+    SizeToContent 1
+   }
+   {
+    VerticalLayoutWidgetClass "{6284C461210A5612}" {
+     Name "Content"
+     Slot OverlayWidgetSlot "{6284C461210A573A}" {
+      Padding 6 0 0 6
+     }
+     {
+      HorizontalLayoutWidgetClass "{6284C461210A566D}" {
+       Name "Indicators"
+       Slot LayoutSlot "{5E2CC7AB5BC89192}" {
+       }
+       components {
+        SCR_SlotLabelsComponent "{5E2CC7AB2B5D82DC}" {
+        }
+       }
+       {
+        OverlayWidgetClass "{6284C461210A566C}" {
+         Name "Slot-AutoHover"
+         Slot LayoutSlot "{50E6EB981C1AAF0A}" {
+          VerticalAlign 2
+         }
+        }
+        OverlayWidgetClass "{6284C4612105AD3D}" {
+         Name "Slot-ParkingBrake"
+         Slot LayoutSlot "{50E6EB981C1AAF0A}" {
+          VerticalAlign 2
+         }
+        }
+        OverlayWidgetClass "{6284C4612105AD35}" {
+         Name "Slot-LightsLanding"
+         Slot LayoutSlot "{50E6EB981C1AAF0A}" {
+          VerticalAlign 2
+         }
+        }
+        OverlayWidgetClass "{6284C4612105AD36}" {
+         Name "Slot-DmgFuelTank"
+         Slot LayoutSlot "{50E6EB981C1AAF0A}" {
+          VerticalAlign 2
+         }
+        }
+        OverlayWidgetClass "{6284C4612105AD37}" {
+         Name "Slot-DmgHull"
+         Slot LayoutSlot "{50E6EB981C1AAF0A}" {
+          VerticalAlign 2
+         }
+        }
+        OverlayWidgetClass "{6284C4612105E7D1}" {
+         Name "Slot-DmgEngine"
+         Slot LayoutSlot "{50E6EB981C1AAF0A}" {
+          VerticalAlign 2
+         }
+        }
+        OverlayWidgetClass "{6284C4612105E7D6}" {
+         Name "Slot-DmgEngine2"
+         Slot LayoutSlot "{50E6EB981C1AAF0A}" {
+          VerticalAlign 2
+         }
+        }
+        OverlayWidgetClass "{6284C4612105E7D7}" {
+         Name "Slot-DmgGearbox"
+         Slot LayoutSlot "{50E6EB981C1AAF0A}" {
+          VerticalAlign 2
+         }
+        }
+        OverlayWidgetClass "{6284C4612105E7D4}" {
+         Name "Slot-DmgRotorMain"
+         Slot LayoutSlot "{50E6EB981C1AAF0A}" {
+          VerticalAlign 2
+         }
+        }
+        OverlayWidgetClass "{6284C46121053229}" {
+         Name "Slot-DmgRotorRear"
+         Slot LayoutSlot "{50E6EB981C1AAF0A}" {
+          VerticalAlign 2
+         }
+        }
+       }
+      }
+      HorizontalLayoutWidgetClass "{6284C46121053228}" {
+       Name "Gauges"
+       Slot LayoutSlot "{5E2CC7AB5F72B308}" {
+       }
+       components {
+        SCR_SlotLabelsComponent "{50E8AA0DAD0C13B4}" {
+        }
+       }
+       {
+        OverlayWidgetClass "{6284C46121053237}" {
+         Name "Slot-AirSpeed"
+         Slot LayoutSlot "{50E6EB981C1AAEA0}" {
+          VerticalAlign 2
+          Padding 0 0 6 0
+         }
+        }
+        OverlayWidgetClass "{6284C46121053236}" {
+         Name "Slot-ClimbRate"
+         Slot LayoutSlot "{50E6EB981C1AAF6F}" {
+          VerticalAlign 2
+          Padding 6 0 6 0
+         }
+        }
+        OverlayWidgetClass "{6284C46121053235}" {
+         Name "Slot-AltitudeAGL"
+         Slot LayoutSlot "{50E6EB981C1AAF6F}" {
+          VerticalAlign 2
+          Padding 6 0 6 0
+         }
+        }
+        OverlayWidgetClass "{6284C46121048755}" {
+         Name "Slot-Altitude"
+         Slot LayoutSlot "{50E6EB981C1AAF6F}" {
+          VerticalAlign 2
+          Padding 6 0 6 0
+         }
+        }
+        OverlayWidgetClass "{6284C46121048754}" {
+         Name "Slot-Fuel"
+         Slot LayoutSlot "{50E6EB981C1AAF0A}" {
+          VerticalAlign 2
+          Padding 6 0 0 0
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

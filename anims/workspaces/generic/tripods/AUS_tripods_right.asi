@@ -1,0 +1,5 @@
+AnimSetInstanceSource "{617AB23C0CB3780A}" {
+ Template "{2F9F465C4D585119}anims/workspaces/generic/tripods/AUS_tripods_right.ast"
+ RBF AnimSetInstanceSourceRBFArray "{617AB23C68D5217B}" {
+ }
+}

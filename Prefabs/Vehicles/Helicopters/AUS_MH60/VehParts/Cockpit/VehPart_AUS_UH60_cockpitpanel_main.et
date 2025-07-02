@@ -1,0 +1,17 @@
+GenericEntity : "{2C26C7CBD33A74C6}Prefabs/Vehicles/Helicopters/UH1H/VehParts/Cockpit/VehPart_UH1H_cockpitpanel_base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{5985F5F7554847F7}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Cockpit/AUS_UH60_CockpitPanel_Main.xob"
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone CockpitPanel {
+     ColliderNames {
+      "UTM_FG_CockpitPanelMain"
+     }
+    }
+   }
+  }
+ }
+}

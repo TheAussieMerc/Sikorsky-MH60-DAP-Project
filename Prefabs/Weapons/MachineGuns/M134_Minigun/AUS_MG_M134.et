@@ -1,0 +1,172 @@
+GenericEntity : "{9EB848F2EE8182D0}Prefabs/Weapons/MachineGuns/M60/AUS_MG_M60D.et" {
+ ID "50D6D3D8D7C6DF66"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames +{
+   }
+   IncludeInactive 1
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{3B55266522CA33E3}Assets/Weapons/HeavyWeapons/AUS_M134Minigun/AUS_GAU-17_Minigun.xob"
+   PixelSizeScale 1
+  }
+  RigidBody "{6066B0977CC27ED8}" {
+   Mass 5
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Enabled 1
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07E1D123E9}" {
+     Name "GAU-17 Minigun"
+     Description "M134 - 7.62x51mm"
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960E60421307}" {
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    SightsComponent "{BB23A637957CFFF8}" {
+     SightsPosition PointInfo "{BB23A63796688E69}" {
+      PivotID "w_barrel"
+     }
+     CameraRecoilAmount 0.05
+    }
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     components {
+      CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
+       ParticleEffect "{45D764EF557E02B4}Particles/Weapon/Smoke_M2.ptc"
+       EffectPosition EntitySlotInfo "{513A938439231378}" {
+        PivotID "w_barrel_muzzle"
+        Offset 0 0 0.0872
+       }
+      }
+      CaseEjectingEffectComponent "{6172D67218E78E79}" {
+       ParticleEffect "{E7ACDE0ACCBCB07A}Particles/Weapon/Casing_Holder.ptc"
+       EffectPosition EntitySlotInfo link_eject {
+        PivotID "w_ejection"
+        Offset -0.0001 0 0.0737
+       }
+       ResetOnFire 1
+       HasSound 0
+      }
+      CaseEjectingEffectComponent "{6172D6724F21C587}" {
+       ParticleEffect "{6A0F068A792EA37C}Particles/Weapon/Casing_762x51.ptc"
+       EffectPosition EntitySlotInfo casing_eject {
+        PivotID "w_ejection"
+        Offset 0.0013 0 0.0747
+       }
+       ResetOnFire 1
+       HasSound 0
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       ParticleEffect "{29585F150D5E3093}particles/M134_Muzzle.ptc"
+       EffectPosition EntitySlotInfo "{C9B3271BB85B5D32}" {
+        PivotID "w_barrel_muzzle"
+        Offset -0.0193 0.0298 0.0963
+       }
+       ResetOnFire 1
+      }
+     }
+     MuzzleEndPositions {
+      PointInfo "{B80A64F4B6CFB9BF}" {
+       PivotID "w_barrel_muzzle"
+       Offset 0 0 0.0762
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{50F64C476EC435CA}" {
+       PivotID "w_barrel_chamber"
+       Offset 0 0 0.0671
+      }
+     }
+     ChamberedAmmo 1
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" {
+       MaxSalvo 1
+       RoundsPerMinute 1500
+      }
+      BaseFireMode "{506B20D1476BA99E}" {
+       MaxBurst 0
+       MaxSalvo 0
+       RoundsPerMinute 0
+       UIName "Safe"
+      }
+     }
+     MagazineWell MagazineWellAUSM134 "{6066B35D5DA460AD}" {
+     }
+     DispersionDiameter 0.5
+     DispersionRange 200
+     WeaponAimModifiers {
+      RecoilWeaponAimModifier "{60849D28464103A3}" {
+       LinearData RecoilData "{58789524314BEC4D}" {
+        "Curve Y" +{
+        }
+        "Curve Z" +{
+        }
+        "Base Recoil Scale" 0.05
+        "Move Recoil Scale" 0.05
+       }
+       AngularData RecoilData "{58789524326653EF}" {
+        "Curve X" +{
+        }
+        "Curve Y" +{
+        }
+        "Curve Z" +{
+        }
+        "Base Recoil Scale" 0.05
+        "Move Recoil Scale" 0.05
+       }
+       TurnOffsetData RecoilData "{58789524322E5B0A}" {
+        "Curve X" +{
+        }
+        "Curve Y" +{
+        }
+        "Base Recoil Scale" 0.05
+        "Move Recoil Scale" 0.05
+       }
+      }
+     }
+     ReloadDuration 10
+     AllowWeaponDeployment 1
+     "LEFT HAND TARGET" DeploymentPointInfo LHandIK {
+      Offset 0.3486 -0.0103 -0.1481
+     }
+     RIGHT_HAND_TARGET DeploymentPointInfo RHandIK {
+      PivotID ""
+      Offset 0.3486 -0.0103 0.148
+     }
+     MagazineTemplate "{F99D0817CFA7E916}Prefabs/Weapons/Magazines/Box_762x51_M134_2000rnd_2Ball_1Tracer.et"
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     Enabled 1
+     AnimGraph "{3F6B83F54060DC52}Assets/Weapons/HeavyWeapons/workspaces/AUS_M134.agr"
+     AnimInstance "{2947D64368A389AB}Assets/Weapons/HeavyWeapons/workspaces/AUS_M134_Weapon.asi"
+     StartNode "WeaponMasterControl"
+     AlwaysActive 1
+     AnimInjection AnimationAttachmentInfo "{617CCAB3ACFA429A}" {
+      AnimGraph "{3F6B83F54060DC52}Assets/Weapons/HeavyWeapons/workspaces/AUS_M134.agr"
+      AnimInstance "{D2194772F0A2ED47}Assets/Weapons/HeavyWeapons/workspaces/AUS_M134_Player.asi"
+      BindingName "Weapon"
+     }
+     BindWithInjection 1
+     AutoVariablesBind 1
+     AnimVariablesToBind {
+     }
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "GAU-17 Minigun"
+    Description "M134 - 7.62x51mm"
+   }
+   CanBeOnSling 1
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   Enabled 0
+  }
+ }
+ coords 1132.445 39.963 2372.777
+ angleY 0
+}

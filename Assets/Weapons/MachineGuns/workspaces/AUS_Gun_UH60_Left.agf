@@ -1,0 +1,549 @@
+AnimSrcGraphFile {
+ Sheets {
+  AnimSrcGraphSheet Master {
+   Nodes {
+    AnimSrcNodePose2 AimSpaceFront_Src {
+     EditorPos -1.8 -25.7
+     Source "Gunner.Default.AimSpaceFront"
+     ValueX "AimX"
+     ValueY "AimY"
+     Table "Y(-60):   X(-50) = 11, X(-20) = 10, X(15) = 9, X(50) = 8 "\
+     "Y(0):       X(-50) = 7, X(-20) = 6, X(15) = 5, X(50) = 4"\
+     "Y(12):     X(-50) = 3, X(-20) = 2, X(15) = 1, X(50) = 0"
+    }
+    AnimSrcNodeIK2 ArmsIK {
+     EditorPos -2.1 -34.4
+     Child "SOUND_GETIN"
+     Chains {
+      AnimSrcIkBinding "{61109D1D1256B5E9}" {
+       IkTarget "LHandIKTarget"
+       IkChain "LeftArm"
+      }
+      AnimSrcIkBinding "{61109D1D1256B5E6}" {
+       IkTarget "RHandIKTarget"
+       IkChain "RightArm"
+      }
+     }
+     Solver AnimSrcNodeIK2TwoBoneSolver "{61109D1D1256B5E3}" {
+      SnapRotation 1
+      AllowStretching 1
+     }
+     Version 1
+    }
+    AnimSrcNodeEvent SOUND_GETIN {
+     EditorPos -2.1 -32.4
+     Child "IK2 20266"
+     Events {
+      AnimSrcEvent "{61109D1D1256B51F}" {
+       Name "Sound"
+       UserString "SOUND_CHAR_VEHICLE.leftfoot"
+       UserInt 21
+       MainPathOnly 1
+       Condition "!IsTag(\"TagUnconscious\")"
+      }
+      AnimSrcEvent "{61109D1D1256B51D}" {
+       Name "Sound"
+       UserString "SOUND_CHAR_VEHICLE.righthand"
+       UserInt 24
+       MainPathOnly 1
+       Condition "!IsTag(\"TagUnconscious\")"
+      }
+     }
+    }
+    AnimSrcNodeVarUpdate MasterControl {
+     EditorPos -2.2 -51.4
+     Child "GunnerStateMachine"
+     Varupdate {
+      AnimSrcNodeVarUpdateItem "{61109D1D1256B517}" {
+       VariableName "Vehicle_Wobble"
+       UpdateOnInit 1
+       UpdateOnMainPath 1
+       UpdateOnBlendOut 1
+       MaxDifferencePerSecond 0.05
+      }
+     }
+    }
+    AnimSrcNodeIK2Target "SteeringMainIKT 36786" {
+     EditorPos -2.1 -35.9
+     Child "ArmsIK"
+     Chains {
+      AnimSrcIkTargetBinding "{61109D1D1256B511}" {
+       IkTarget "LHandIKTarget"
+       IkChain "LeftArm"
+      }
+      AnimSrcIkTargetBinding "{61109D1D1256B52F}" {
+       IkTarget "RHandIKTarget"
+       IkChain "RightArm"
+      }
+      AnimSrcIkTargetBinding "{61109D1D1256B52E}" {
+       IkTarget "LeftLeg"
+       IkChain "LeftLeg"
+      }
+      AnimSrcIkTargetBinding "{61109D1D1256B52C}" {
+       IkTarget "RightLeg"
+       IkChain "RightLeg"
+      }
+     }
+    }
+    AnimSrcNodeIK2 "VehicleIK 28738" {
+     EditorPos -2.1 -38.8
+     Child "SteeringMainIKT 36786"
+     Chains {
+      AnimSrcIkBinding "{61109D1D1256B529}" {
+       IkTarget "LHandIKTarget"
+       IkChain "LeftArm"
+      }
+      AnimSrcIkBinding "{61109D1D1256B528}" {
+       IkTarget "RHandIKTarget"
+       IkChain "RightArm"
+      }
+      AnimSrcIkBinding "{61109D1D1256B527}" {
+       IkTarget "LeftLeg"
+       IkChain "LeftLeg"
+      }
+      AnimSrcIkBinding "{61109D1D1256B526}" {
+       IkTarget "RightLeg"
+       IkChain "RightLeg"
+      }
+     }
+     Solver AnimSrcNodeIK2TwoBoneSolver "{61109D1D1256B524}" {
+      SnapRotation 1
+      AllowStretching 1
+     }
+     Version 1
+    }
+    AnimSrcNodeSource Unconscious_L_OutAnim {
+     EditorPos 11.1 -34.1
+     Source "Gunner.Default.Unconscious_L_Out"
+    }
+    AnimSrcNodeSource Unconscious_L_LoopAnim {
+     EditorPos 8.1 -34.1
+     Source "Gunner.Default.Unconscious_L_Loop"
+     Looptype Loop
+    }
+    AnimSrcNodeStateMachine UnconsciousSTM {
+     Tags {
+      "TagUnconscious"
+     }
+     EditorPos 10.2 -39.3
+     states {
+      AnimSrcNodeState UnconsciousL_Loop {
+       Tags {
+        "TagCanExitUnconscious"
+       }
+       EditorPos 8.3 -35.6
+       Child "Unconscious_L_LoopAnim"
+       StartCondition "false"
+       TimeStorage "Real Time"
+      }
+      AnimSrcNodeState UnconsciousL_Out {
+       EditorPos 10.9 -35.5
+       Child "Unconscious_L_OutAnim"
+       StartCondition "false"
+       TimeStorage "Real Time"
+       IsExit 1
+      }
+      AnimSrcNodeState UnconsciousR_Loop {
+       Tags {
+        "TagCanExitUnconscious"
+       }
+       EditorPos 17.4 -35.5
+       Child "Unconscious_R_LoopAnim"
+       StartCondition "false"
+       TimeStorage "Real Time"
+      }
+      AnimSrcNodeState UnconsciousR_Out {
+       EditorPos 19.9 -35.5
+       Child "Unconscious_R_OutAnim"
+       StartCondition "false"
+       TimeStorage "Real Time"
+       IsExit 1
+      }
+      AnimSrcNodeState "UnconsciousL_In _Low" {
+       EditorPos 5.2 -36.6
+       Child "Unconscious_L_In_HighAnim 19952"
+       StartCondition "AimX < 0"
+       TimeStorage "Real Time"
+      }
+      AnimSrcNodeState "UnconsciousR _Low" {
+       EditorPos 15 -36.7
+       Child "Unconscious_R_In_LowAnim"
+       StartCondition "AimX >= 0 "
+       TimeStorage "Real Time"
+      }
+     }
+     transitions {
+      AnimSrcNodeTransition "{61109D1D1256B536}" {
+       FromState "UnconsciousL_Loop"
+       ToState "UnconsciousL_Out"
+       Duration "0.2"
+       Condition "GetCommandI(CMD_Unconscious) == -1"
+      }
+      AnimSrcNodeTransition "{61109D1D1256B532}" {
+       FromState "UnconsciousR_Loop"
+       ToState "UnconsciousR_Out"
+       Duration "0.2"
+       Condition "GetCommandI(CMD_Unconscious) == -1"
+      }
+      AnimSrcNodeTransition "{6110D21C6194602A}" {
+       FromState "UnconsciousL_In _Low"
+       ToState "UnconsciousL_Loop"
+       Duration "0.25"
+       Condition "RemainingTimeLess(0.1)"
+       BlendFn "Ease In"
+       PostEval 1
+      }
+      AnimSrcNodeTransition "{6110D21C32CCFF7D}" {
+       FromState "UnconsciousR _Low"
+       ToState "UnconsciousR_Loop"
+       Duration "0.3"
+       Condition "RemainingTimeLess(0.1)"
+       BlendFn "Ease In"
+       PostEval 1
+      }
+     }
+    }
+    AnimSrcNodeSource Unconscious_R_OutAnim {
+     EditorPos 20.1 -34
+     Source "Gunner.Default.Unconscious_R_Out"
+    }
+    AnimSrcNodeSource Unconscious_R_LoopAnim {
+     EditorPos 17.5 -34
+     Source "Gunner.Default.Unconscious_R_Loop"
+     Looptype Loop
+    }
+    AnimSrcNodeStateMachine GunnerStateMachine {
+     EditorPos -2.8 -45.4
+     states {
+      AnimSrcNodeState Idle {
+       Tags {
+        "TagVehicleIdle"
+       }
+       EditorPos -1.8 -44.2
+       Child "VehicleIK 28738"
+       StartCondition "true"
+       TimeStorage Inherit
+       IsExit 0
+      }
+      AnimSrcNodeState Death {
+       Tags {
+        "TagDeath"
+       }
+       EditorPos 10.5 -44.2
+       Child "DeathSTM 41019"
+       StartCondition ""
+       TimeStorage "Real Time"
+       IsExit 0
+      }
+      AnimSrcNodeState Unconscious {
+       EditorPos 6.9 -44.2
+       Child "UnconsciousSTM"
+      }
+      AnimSrcNodeState ExitEvent {
+       Tags {
+        "TagVehicleIdle"
+       }
+       EditorPos -4.8 -44.2
+       Child "CanFinishEvent"
+       StartCondition "false"
+       TimeStorage Inherit
+       IsExit 0
+      }
+     }
+     transitions {
+      AnimSrcNodeTransition "{61109D1D1256B549}" {
+       FromState ""
+       ToState "Death"
+       Duration "0.5"
+       StartTime ""
+       Condition "IsCommand(CMD_Death)"
+       BlendFn S
+       PostEval 1
+       MotionVecBlend 51
+      }
+      AnimSrcNodeTransition "{61109D1D1256B546}" {
+       FromState ""
+       ToState "Unconscious"
+       Duration "0.3"
+       Condition "GetCommandI(CMD_Unconscious) == 1"
+      }
+      AnimSrcNodeTransition "{61109D1D1256B545}" {
+       FromState "Unconscious"
+       ToState "Idle"
+       Duration "0.1"
+       StartTime ""
+       Condition "RemainingTimeLess(0.11) || GetCommandI(CMD_Unconscious) == -2"
+       BlendFn S
+       PostEval 1
+       MotionVecBlend 51
+      }
+      AnimSrcNodeTransition "{613AA95B24E394FF}" {
+       FromState "Idle"
+       ToState "ExitEvent"
+       Condition "IsCommand(CMD_Vehicle_GetOut) || IsCommand(CMD_Vehicle_SwitchSeat)"
+      }
+     }
+    }
+    AnimSrcNodeStateMachine "DeathSTM 41019" {
+     Tags {
+      "TagDeath"
+     }
+     EditorPos 27.8 -39.3
+     states {
+      AnimSrcNodeState DeathL_Loop {
+       EditorPos 25.8 -35.5
+       Child "Death_L_LoopAnim"
+       StartCondition "AimX < 0  && IsTag(\"TagUnconscious\")"
+       TimeStorage "Real Time"
+      }
+      AnimSrcNodeState DeathR_Loop {
+       EditorPos 34.9 -35.5
+       Child "Death_R_LoopAnim"
+       StartCondition "AimX >= 0  && IsTag(\"TagUnconscious\")"
+       TimeStorage "Real Time"
+      }
+      AnimSrcNodeState DeathL_Low_In {
+       EditorPos 22.8 -36.6
+       Child "Death_L_In_LowAnim"
+       StartCondition "AimX < 0 && !IsTag(\"TagUnconscious\")"
+       TimeStorage "Real Time"
+      }
+      AnimSrcNodeState DeathR_Low_In {
+       EditorPos 32.4 -36.6
+       Child "Death_R_In_LowAnim"
+       StartCondition "AimX >= 0 && !IsTag(\"TagUnconscious\")"
+       TimeStorage "Real Time"
+      }
+     }
+     transitions {
+      AnimSrcNodeTransition "{6110D21DF92CA0DD}" {
+       FromState "DeathL_Low_In"
+       ToState "DeathL_Loop"
+       Duration "0.2"
+       Condition "RemainingTimeLess(0.1)"
+       PostEval 1
+      }
+      AnimSrcNodeTransition "{6110D21DB5A62D62}" {
+       FromState "DeathR_Low_In"
+       ToState "DeathR_Loop"
+       Duration "0.2"
+       Condition "RemainingTimeLess(0.1)"
+       PostEval 1
+      }
+     }
+    }
+    AnimSrcNodePose Death_L_LoopAnim {
+     EditorPos 25.8 -34.2
+     Source "Gunner.Default.Unconscious_L_Loop"
+     Time "0.0"
+    }
+    AnimSrcNodePose Death_R_LoopAnim {
+     EditorPos 35 -34
+     Source "Gunner.Default.Unconscious_R_Loop"
+     Time "0.0"
+    }
+    AnimSrcNodeStateMachine FeetIKTargets_STM {
+     EditorPos -6.6 -22.7
+     states {
+      AnimSrcNodeState LeftToRight {
+       EditorPos -7 -21.6
+       Child "Source 11003"
+       StartCondition "false"
+       TimeStorage "Real Time"
+      }
+      AnimSrcNodeState RightToLeft {
+       EditorPos -7 -20
+       Child "Source 31913"
+       StartCondition "false"
+       TimeStorage "Real Time"
+      }
+      AnimSrcNodeState LeftPose {
+       EditorPos -10.1 -20.8
+       Child "Sound Transition Steps - foley in transition arrow"
+       StartCondition "AimX >= 0"
+       TimeStorage "Real Time"
+      }
+      AnimSrcNodeState RightPose {
+       EditorPos -4.5 -20.8
+       Child "Event 16765"
+       StartCondition "AimX < 0"
+       TimeStorage "Real Time"
+      }
+     }
+     transitions {
+      AnimSrcNodeTransition "{6110AA5FFCCCB677}" {
+       FromState "LeftPose"
+       ToState "LeftToRight"
+       Duration "0.1"
+       Condition "AimX > 5"
+       Events {
+        AnimSrcEvent "{612CE32293EF926C}" {
+         Name "Sound"
+         UserString "SOUND_CHAR_FOOTSTEP_OFFSTEP_GEAR"
+         InitOnly 0
+         MainPathOnly 1
+        }
+       }
+      }
+      AnimSrcNodeTransition "{6110AA5FF90C968D}" {
+       FromState "RightPose"
+       ToState "RightToLeft"
+       Duration "0.1"
+       Condition "AimX < -5"
+       Events {
+        AnimSrcEvent "{612CE322AC45A825}" {
+         Name "Sound"
+         UserString "SOUND_CHAR_FOOTSTEP_OFFSTEP_GEAR"
+         InitOnly 0
+         MainPathOnly 1
+        }
+       }
+      }
+      AnimSrcNodeTransition "{6110AA5FC2554DD4}" {
+       FromState "LeftToRight"
+       ToState "RightPose"
+       Condition "RemainingTimeLess(0.05)"
+       PostEval 1
+      }
+      AnimSrcNodeTransition "{6110AA5FB07C7D07}" {
+       FromState "RightToLeft"
+       ToState "LeftPose"
+       Condition "RemainingTimeLess(0.05)"
+       PostEval 1
+      }
+     }
+    }
+    AnimSrcNodeSource "Source 11003" {
+     EditorPos -8.5 -23.4
+     Source "Gunner.Default.Transition_LeftToRight"
+    }
+    AnimSrcNodeSource "Source 31913" {
+     EditorPos -7 -18.6
+     Source "Gunner.Default.Transition_RightToLeft"
+    }
+    AnimSrcNodeIK2Target "IK2 Target 25416" {
+     EditorPos -6.6 -24.2
+     Child "FeetIKTargets_STM"
+     Bones {
+      AnimSrcNodeIK2BoneTarget "{6110AA5C23425550}" {
+       IkTarget "LFoot"
+       Bone "LeftFoot_IK_Target"
+      }
+      AnimSrcNodeIK2BoneTarget "{6110AA5C0CE2FC8B}" {
+       IkTarget "RFoot"
+       Bone "RightFoot_IK_Target"
+      }
+     }
+    }
+    AnimSrcNodeBlend "Blend 18096" {
+     EditorPos -6.2 -27.8
+     BlendWeight "1"
+     Child0 "IK2 Target 25416"
+     Child1 "AimSpaceFront_Src"
+     IkTargets "Keep Singular From First"
+    }
+    AnimSrcNodeIK2 "IK2 20266" {
+     EditorPos -6 -29.4
+     Child "Blend 18096"
+     Chains {
+      AnimSrcIkBinding "{6110AA5DE927C106}" {
+       IkTarget "LFoot"
+       IkChain "LeftLeg"
+      }
+      AnimSrcIkBinding "{6110AA5DE894216D}" {
+       IkTarget "RFoot"
+       IkChain "RightLeg"
+      }
+     }
+     Solver AnimSrcNodeIK2TwoBoneSolver "{6110AA5DEC046065}" {
+      AllowStretching 0
+     }
+     Version 1
+    }
+    AnimSrcNodePose "Pose 28982" {
+     EditorPos -10.2 -17.9
+     Source "Gunner.Default.Transition_LeftToRight"
+     Time "0"
+    }
+    AnimSrcNodePose "Pose 32633" {
+     EditorPos -4.4 -18.1
+     Source "Gunner.Default.Transition_LeftToRight"
+     Time "1"
+    }
+    AnimSrcNodeSource "Unconscious_L_In_HighAnim 19952" {
+     EditorPos 5.2 -34
+     Source "Gunner.Default.Unconscious_L_In"
+    }
+    AnimSrcNodeSource Unconscious_R_In_LowAnim {
+     EditorPos 15.1 -34
+     Source "Gunner.Default.Unconscious_R_In"
+    }
+    AnimSrcNodeSource Death_L_In_LowAnim {
+     EditorPos 22.9 -34
+     Source "Gunner.Default.Unconscious_L_In"
+    }
+    AnimSrcNodeSource Death_R_In_LowAnim {
+     EditorPos 32.4 -34.2
+     Source "Gunner.Default.Unconscious_R_In"
+    }
+    AnimSrcNodeEvent "Sound Transition Steps - foley in transition arrow" {
+     EditorPos -10.2 -18.8
+     Child "Pose 28982"
+     Events {
+      AnimSrcEvent "{612C7CB40E38FCAB}" {
+       Name "Sound"
+       UserString "SOUND_CHAR_MOVEMENT_WALK.rightfoot"
+       UserInt 6111
+       InitOnly 0
+       MainPathOnly 1
+       Condition "AimX < -4"
+       Once 1
+      }
+      AnimSrcEvent "{612CE3239F096E9A}" {
+       Name "Sound"
+       UserString "SOUND_CHAR_FOOTSTEP_ONSTEP_GEAR"
+       UserInt 6111
+       InitOnly 0
+       MainPathOnly 1
+       Condition "AimX < -4"
+       Once 1
+      }
+     }
+    }
+    AnimSrcNodeEvent "Event 16765" {
+     EditorPos -4.4 -18.9
+     Child "Pose 32633"
+     Events {
+      AnimSrcEvent "{612C7CB40E38FCAB}" {
+       Name "Sound"
+       UserString "SOUND_CHAR_MOVEMENT_WALK.rightfoot"
+       UserInt 6111
+       InitOnly 0
+       MainPathOnly 1
+       Condition "AimX > 4"
+       Once 1
+      }
+      AnimSrcEvent "{612CE3239189801C}" {
+       Name "Sound"
+       UserString "SOUND_CHAR_FOOTSTEP_ONSTEP_GEAR"
+       UserInt 6111
+       InitOnly 0
+       MainPathOnly 1
+       Condition "AimX < -4"
+       Once 1
+      }
+     }
+    }
+    AnimSrcNodeEvent CanFinishEvent {
+     EditorPos -4.8 -42.4
+     Child "VehicleIK 28738"
+     Events {
+      AnimSrcEvent "{613AA95A185F42F4}" {
+       Name "Event_Vehicle_CanFinishAction"
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{55A7A65B95798A27}Assets/Weapons/Magazines/NSV/Data/Magazine_50rn_NSV_Hide.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,63 @@
+AnimSrcGraph {
+ AnimSetTemplate "{2D99E5F577A508A1}Assets/Weapons/HeavyWeapons/workspaces/AUS_M134.ast"
+ ControlTemplate AnimSrcGCT "{617CCAB7559FB7ED}" {
+  Variables {
+   AnimSrcGCTVarFloat AimY {
+    MinValue -90
+    MaxValue 90
+   }
+   AnimSrcGCTVarFloat AimX {
+    MinValue -180
+    MaxValue 180
+   }
+   AnimSrcGCTVarFloat WeaponHeight {
+    MaxValue 120
+   }
+   AnimSrcGCTVarBool Firing {
+   }
+   AnimSrcGCTVarBool VehicleFireReleased {
+   }
+   AnimSrcGCTVarBool Empty {
+   }
+  }
+  Commands {
+   AnimSrcGCTCmd CMD_Locomotion_Turn {
+   }
+  }
+  IkChains {
+   AnimSrcGCTIkChain LeftArm {
+    Joints {
+     "leftarm"
+     "leftarmtwist"
+     "leftforearm"
+     "leftforearmtwist"
+     "lefthand"
+    }
+    MiddleJoint "leftforearm"
+    ChainAxis "+y"
+   }
+   AnimSrcGCTIkChain RightArm {
+    Joints {
+     "rightarm"
+     "rightarmtwist"
+     "rightforearm"
+     "rightforearmtwist"
+     "righthand"
+    }
+    MiddleJoint "rightforearm"
+    ChainAxis "-y"
+   }
+  }
+  GlobalTags {
+   "WEAPON"
+   "TURRET"
+   "NSV"
+  }
+ }
+ Debug AnimSrcGD "{617CCAB7559FB7FE}" {
+ }
+ GraphFilesResourceNames {
+  "{10659D4FDEC3B562}Assets/Weapons/HeavyWeapons/workspaces/AUS_M134.agf"
+ }
+ DefaultRunNode "MasterControl"
+}

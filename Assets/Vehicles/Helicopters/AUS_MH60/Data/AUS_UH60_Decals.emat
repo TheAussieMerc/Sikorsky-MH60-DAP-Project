@@ -1,0 +1,12 @@
+MatPBRDecal {
+ Color 0.102 0.102 0.102 1
+ ZBias 1
+ SortBias 1
+ AlphaTest 0.001
+ AlphaMul 0.779
+ BlendMode AlphaBlend
+ RoughnessScale 1.003
+ MetalnessScale 1.522
+ OpacityMap "{88BAEBEE598EA743}Assets/Vehicles/Helicopters/AUS_MH60/Data/AUS_UH60_Decals_A.edds"
+ GBufferRoughness 1
+}

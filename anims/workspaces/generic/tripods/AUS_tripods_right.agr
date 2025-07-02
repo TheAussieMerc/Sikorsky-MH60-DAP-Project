@@ -1,0 +1,28 @@
+AnimSrcGraph {
+ AnimSetTemplate "{2F9F465C4D585119}anims/workspaces/generic/tripods/AUS_tripods_right.ast"
+ ControlTemplate AnimSrcGCT "{617AB23C68D390BD}" {
+  Variables {
+   AnimSrcGCTVarFloat Yaw {
+    MinValue -360
+    MaxValue 360
+   }
+   AnimSrcGCTVarFloat Pitch {
+    MinValue -360
+    MaxValue 360
+   }
+  }
+  BoneMasks {
+   AnimSrcGCTBoneMask Aim {
+    Bones {
+     "v_minigun_right_pivot_yaw"
+     "v_minigun_right_pivot_pitch"
+    }
+   }
+  }
+ }
+ Debug AnimSrcGD "{617AB23C68D3908D}" {
+ }
+ GraphFilesResourceNames {
+  "{12633EE6E43EECDA}anims/workspaces/generic/tripods/AUS_tripods_right.agf"
+ }
+}

@@ -1,0 +1,14 @@
+MatPBRBasic {
+ Cull none
+ SpecularMul 0
+ AlphaMul 2.722
+ BlendMode AlphaBlend
+ RoughnessScale 5
+ MetalnessScale 0
+ AOScale 0.271
+ DielectricReflectance 0.02
+ BCRMap "{826F05CF8782FE26}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/Data/AUS_DAP_Sight_Marking_BCR.edds"
+ OpacityMap "{E7D46FBDA150DD91}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/Data/AUS_DAP_Sight_Marking_A.edds"
+ NormalPower 0.68
+ NMOMap "{BAB7BE5D5EF5ACB8}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/Data/AUS_DAP_Sight_Marking_NMO.edds"
+}

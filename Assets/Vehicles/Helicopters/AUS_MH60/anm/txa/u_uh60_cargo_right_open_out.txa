@@ -1,0 +1,211 @@
+$animation "" {
+ #version 2
+ #fps 30
+ #numFrames 77
+ $node "Scene_Root" {
+  $keys t q s {
+   $frame 0 77 {
+   }
+  }
+  $node "v_root" {
+   $keys t q s {
+    $frame 0 77 {
+     #t -0.0690431 -0.0230144 0
+    }
+   }
+   $node "v_body" {
+    $keys t q s {
+     $frame 0 77 {
+      #t 0 0.5167956 0
+      #q 0.70710683 0.70710683 0 0
+     }
+    }
+    $node "v_door_R_03" {
+     $keys t q s {
+      $frame 0 23 {
+       #t 0.7670133 1.3234932 -0.0077956
+       #q -0.70710683 -0.00000098 -0.70710671 0.00019369
+      }
+      $frame 24 {
+       #t 0.7670133 1.3234932 0.001357
+      }
+      $frame 25 {
+       #t 0.7670133 1.3234932 0.0277687
+      }
+      $frame 26 {
+       #t 0.7670133 1.3234932 0.0698705
+      }
+      $frame 27 {
+       #t 0.7670133 1.3234932 0.1260934
+      }
+      $frame 28 {
+       #t 0.7670133 1.3234932 0.1948684
+      }
+      $frame 29 {
+       #t 0.7670133 1.3234932 0.2746265
+      }
+      $frame 30 {
+       #t 0.7670133 1.3234932 0.3637986
+      }
+      $frame 31 {
+       #t 0.7670133 1.3234932 0.4608159
+      }
+      $frame 32 {
+       #t 0.7670133 1.3234932 0.5641091
+      }
+      $frame 33 {
+       #t 0.7670133 1.3234932 0.6721094
+      }
+      $frame 34 {
+       #t 0.7670133 1.3234932 0.7832478
+      }
+      $frame 35 {
+       #t 0.7670133 1.3234932 0.8959551
+      }
+      $frame 36 {
+       #t 0.7670133 1.3234932 1.0086626
+      }
+      $frame 37 {
+       #t 0.7670133 1.3234932 1.1198008
+      }
+      $frame 38 {
+       #t 0.7670133 1.3234932 1.2278012
+      }
+      $frame 39 {
+       #t 0.7670133 1.3234932 1.3310944
+      }
+      $frame 40 {
+       #t 0.7670134 1.3234931 1.4281116
+      }
+      $frame 41 {
+       #t 0.7670134 1.3234931 1.5172838
+      }
+      $frame 42 {
+       #t 0.7670134 1.3234931 1.5970418
+      }
+      $frame 43 {
+       #t 0.7670134 1.3234931 1.6658169
+      }
+      $frame 44 {
+       #t 0.7670134 1.3234931 1.7220398
+      }
+      $frame 45 {
+       #t 0.7670134 1.3234931 1.7641417
+      }
+      $frame 46 {
+       #t 0.7670134 1.3234931 1.7905532
+      }
+      $frame 47 77 {
+       #t 0.7670133 1.3234932 1.7997057
+      }
+     }
+     $node "v_door_R03_handle" {
+      $keys t q s {
+       $frame 0 23 {
+        #t -0.7117678 0.0001701 -0.0866245
+        #q 0.49643642 -0.50340176 0.50340486 0.49671045
+       }
+       $frame 24 {
+        #t -0.7117677 0.0001701 -0.0866246
+       }
+       $frame 25 {
+       }
+       $frame 26 {
+        #t -0.7117677 0.0001702 -0.0866245
+       }
+       $frame 27 {
+       }
+       $frame 28 {
+        #t -0.7117678 0.0001702 -0.0866244
+       }
+       $frame 29 {
+       }
+       $frame 30 34 {
+        #t -0.7117678 0.0001702 -0.0866246
+       }
+       $frame 35 45 {
+       }
+       $frame 46 {
+        #t -0.7117678 0.0001702 -0.0866245
+       }
+       $frame 47 77 {
+        #t -0.7117677 0.0001702 -0.0866245
+       }
+      }
+     }
+     $node "v_door_R03_handle_interior_lock" {
+      $keys t q s {
+       $frame 0 27 {
+        #t -0.411615 0.0379181 -0.0464647
+        #q -0.47353572 0.48017952 0.52558994 0.51860082
+       }
+       $frame 28 {
+        #t -0.411615 0.0379182 -0.0464646
+       }
+       $frame 29 30 {
+       }
+       $frame 31 {
+        #t -0.411615 0.0379182 -0.0464647
+       }
+       $frame 32 {
+        #t -0.411615 0.0379181 -0.0464646
+       }
+       $frame 33 40 {
+       }
+       $frame 41 46 {
+        #t -0.411615 0.0379181 -0.0464646
+       }
+       $frame 47 77 {
+        #t -0.411615 0.0379182 -0.0464646
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ $events {
+  #event 25 "Event_Vehicle_OpeningDoor_03" "AnimSrcEventGeneric \"{6560B44A94D85583}\" {
+ Name \"Event_Vehicle_OpeningDoor_03\"
+ Comment \"\"
+ MainPathOnly 0
+ UserString \"\"
+ UserInt -1
+}" 0 23 "" 0
+  #event 29 "Sound" "AnimSrcEventGeneric \"{6560B44A94D8553C}\" {
+ Name \"Sound\"
+ Comment \"\"
+ MainPathOnly 0
+ UserString \"SOUND_CARGODOOR_OPEN_START.v_door_R03_handle\"
+ UserInt -1
+}" 0 0 "" 0
+  #event 31 "Sound" "AnimSrcEventGeneric \"{6560B44A94D8551B}\" {
+ Name \"Sound\"
+ Comment \"\"
+ MainPathOnly 0
+ UserString \"SOUND_CARGODOOR_OPEN_MOVEMENT.v_door_R03_handle\"
+ UserInt -1
+}" 0 0 "" 0
+  #event 36 "Event_Vehicle_AllowDoorAnimFinish" "AnimSrcEventGeneric \"{6560B44A94D85578}\" {
+ Name \"Event_Vehicle_AllowDoorAnimFinish\"
+ Comment \"\"
+ MainPathOnly 0
+ UserString \"\"
+ UserInt 0
+}" 0 0 "" 0
+  #event 48 "Sound" "AnimSrcEventGeneric \"{6560B44A94D85546}\" {
+ Name \"Sound\"
+ Comment \"\"
+ MainPathOnly 0
+ UserString \"SOUND_CARGODOOR_OPEN_FINISH.v_door_R03_handle\"
+ UserInt -1
+}" 0 0 "" 0
+  #event 65 "Event_Vehicle_CanFinishAction" "AnimSrcEventGeneric \"{6560B44A94D85556}\" {
+ Name \"Event_Vehicle_CanFinishAction\"
+ Comment \"\"
+ MainPathOnly 1
+ UserString \"\"
+ UserInt 3
+}" 0 0 "" 1
+ }
+}

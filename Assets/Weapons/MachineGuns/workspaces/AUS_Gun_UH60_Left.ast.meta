@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{07232255F2FF343F}Assets/Weapons/MachineGuns/workspaces/AUS_Gun_UH60_Left.ast"
+ Configurations {
+  AnimSetTemplateResourceClass PC {
+  }
+  AnimSetTemplateResourceClass XBOX_ONE : PC {
+  }
+  AnimSetTemplateResourceClass XBOX_SERIES : PC {
+  }
+  AnimSetTemplateResourceClass PS4 : PC {
+  }
+  AnimSetTemplateResourceClass PS5 : PC {
+  }
+  AnimSetTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

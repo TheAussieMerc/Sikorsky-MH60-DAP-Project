@@ -1,0 +1,16 @@
+GenericEntity : "{88F4780C41A2DF1F}Prefabs/Vehicles/Helicopters/UH1H/VehParts/Glass/UH1H_window_base.et" {
+ ID "54ACA4E7EDB33945"
+ components {
+  MeshObject "{54ACA4E7F43678F8}" {
+   Object "{6E8E013066E13089}Assets/Vehicles/Helicopters/AUS_MH60/Glass/AUS_UH60_Glass_CargoRight1.xob"
+  }
+  SCR_DamageManagerComponent "{54ACA4E7F4367947}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone Window {
+     MaxHealth 600
+    }
+   }
+  }
+ }
+ coords 1159.281 39 2361.588
+}

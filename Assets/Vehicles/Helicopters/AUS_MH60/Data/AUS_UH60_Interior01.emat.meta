@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{FF59449E42181564}Assets/Vehicles/Helicopters/AUS_MH60/Data/AUS_UH60_Interior01.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

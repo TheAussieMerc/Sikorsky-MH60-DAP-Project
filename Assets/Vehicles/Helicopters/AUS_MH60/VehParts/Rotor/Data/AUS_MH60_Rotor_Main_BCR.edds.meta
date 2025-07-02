@@ -1,0 +1,35 @@
+MetaFileClass {
+ Name "{1E1E078E33CA1CF9}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Rotor/Data/AUS_MH60_Rotor_Main_BCR.edds"
+ Configurations {
+  TIFFResourceClass PC : "{EAB5DE3219F9CBA8}Configs/System/ResourceTypes/PC/TextureColorMap.conf" {
+   FormatCompress Best
+   CompressTreshold 100
+   ConversionQuality 1
+  }
+  TIFFResourceClass XBOX_ONE : "{91D862F89991BFBE}Configs/System/ResourceTypes/XBOX_ONE/TextureColorMap.conf" {
+   FormatCompress Best
+   CompressTreshold 100
+   ConversionQuality 1
+  }
+  TIFFResourceClass XBOX_SERIES : "{5FEAED1642ECE679}Configs/System/ResourceTypes/XBOX_SERIES/TextureColorMap.conf" {
+   FormatCompress Best
+   CompressTreshold 100
+   ConversionQuality 1
+  }
+  TIFFResourceClass PS4 : "{12273E1A0928F0C4}Configs/System/ResourceTypes/PS4/TextureColorMap.conf" {
+   FormatCompress Best
+   CompressTreshold 100
+   ConversionQuality 1
+  }
+  TIFFResourceClass PS5 : "{531A0D167B1ABD97}configs/ResourceTypes/PS5/TextureColorMap.conf" {
+   FormatCompress Best
+   CompressTreshold 100
+   ConversionQuality 1
+  }
+  TIFFResourceClass HEADLESS : "{BEAF5CD0C438676E}Configs/System/ResourceTypes/HEADLESS/TextureColorMap.conf" {
+   FormatCompress Best
+   CompressTreshold 100
+   ConversionQuality 1
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{61AEBDBE5D049678}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Rotor/Data/AUS_MH60_Main_Rotor_Head.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

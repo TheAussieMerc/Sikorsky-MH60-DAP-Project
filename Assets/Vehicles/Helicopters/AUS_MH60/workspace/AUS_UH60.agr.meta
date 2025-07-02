@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{580E97F0A513DE24}Assets/Vehicles/Helicopters/AUS_MH60/workspace/AUS_UH60.agr"
+ Configurations {
+  AnimGraphResourceClass PC {
+  }
+  AnimGraphResourceClass XBOX_ONE : PC {
+  }
+  AnimGraphResourceClass XBOX_SERIES : PC {
+  }
+  AnimGraphResourceClass PS4 : PC {
+  }
+  AnimGraphResourceClass PS5 : PC {
+  }
+  AnimGraphResourceClass HEADLESS : PC {
+  }
+ }
+}

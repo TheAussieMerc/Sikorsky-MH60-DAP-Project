@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D5E74F37A0C6FD0B}Prefabs/Vehicles/Helicopters/UH1H/CargoCompartment_UH60_Left.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F89A17F08DC763E4}anims/proc/Blackhawk/mh60_flir.pap"
+ Configurations {
+  ProcAnimProjectResourceClass PC {
+  }
+  ProcAnimProjectResourceClass XBOX_ONE : PC {
+  }
+  ProcAnimProjectResourceClass XBOX_SERIES : PC {
+  }
+  ProcAnimProjectResourceClass PS4 : PC {
+  }
+  ProcAnimProjectResourceClass PS5 : PC {
+  }
+  ProcAnimProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

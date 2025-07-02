@@ -1,0 +1,109 @@
+AnimSetTemplateSource {
+ Groups {
+  AnimSetTemplateSource_AnimationGroup "{50E8F1787238E636}" {
+   Name "Gunner"
+   Animations {
+    "Aimspace"
+    "AimspaceFront"
+    "AimspaceFrontToLeft"
+    "AimspaceFrontToRight"
+    "AimspaceLeft"
+    "AimspaceLeft02"
+    "AimspaceLeft02ToLeft"
+    "AimspaceLeftToFront"
+    "AimspaceLeftToLeft02"
+    "AimspaceRight"
+    "AimspaceRight02"
+    "AimspaceRight02ToRight"
+    "AimspaceRightToFront"
+    "AimspaceRightToRight02"
+    "Idle"
+    "IdleFront"
+    "IdleLeft"
+    "IdleLeft02"
+    "IdleRight"
+    "IdleRight02"
+    "TransitionFrontToLeft"
+    "TransitionFrontToRight"
+    "TransitionLeft02ToLeft"
+    "TransitionLeftToFront"
+    "TransitionLeftToLeft02"
+    "TransitionRight02ToRight"
+    "TransitionRightToFront"
+    "TransitionRightToRight02"
+   }
+   Columns {
+    "Default"
+   }
+  }
+  AnimSetTemplateSource_AnimationGroup "{50B29CACB38CA177}" {
+   Name "Vehicle"
+   Animations {
+    "AccelerationSpine"
+    "Aim"
+    "AimIdle"
+    "ClimbOut"
+    "ClimbOutL"
+    "ClimbOutR"
+    "CrawlOut"
+    "CrawlOutL"
+    "CrawlOutR"
+    "Death"
+    "GetIn"
+    "GetInL"
+    "GetInR"
+    "GetOut"
+    "GetOutL"
+    "GetOutR"
+    "HeadLook"
+    "Idle"
+    "Idle01"
+    "Idle02"
+    "Idle03"
+    "Idle04"
+    "Idle05"
+    "Idle2Stick"
+    "IdleStick"
+    "JumpOut"
+    "JumpOutL"
+    "JumpOutR"
+    "SpineBrakeHard"
+    "SpineBrakeSoft"
+    "Stick2Idle"
+    "SwitchIn"
+    "SwitchOut"
+    "UnconsciousDeath"
+    "UnconsciousIdle"
+    "UnconsciousIn"
+    "UnconsciousOut"
+    "Wobble"
+   }
+   Columns {
+    "Copilot"
+    "Gunner"
+    "PassengerL"
+    "PassengerR"
+    "Pilot"
+    "UniqueSeat"
+   }
+  }
+  AnimSetTemplateSource_AnimationGroup "{50B29CACB38CA2C7}" {
+   Name "VehicleActions"
+   Animations {
+    "Brake"
+    "Collective"
+    "EngineStartIn"
+    "EngineStartLoop"
+    "EngineStartOut"
+    "EngineStop"
+    "LightsOff"
+    "LightsOn"
+    "Pedals"
+    "SteeringMain"
+   }
+   Columns {
+    "Veh/Play"
+   }
+  }
+ }
+}

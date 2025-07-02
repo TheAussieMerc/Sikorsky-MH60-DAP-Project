@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{269357E466B8AC73}Assets/Vehicles/Helicopters/AUS_MH60/Data/AUS_UH60_OverheadPanel.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

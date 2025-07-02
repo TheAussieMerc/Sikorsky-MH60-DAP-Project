@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CA6694B17EA43A7B}Assets/Weapons/HeavyWeapons/AUS_M134Minigun/Data/AUS_MH60_DoorGun.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

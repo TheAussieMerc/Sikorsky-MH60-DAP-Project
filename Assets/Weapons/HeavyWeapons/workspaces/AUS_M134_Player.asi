@@ -1,0 +1,58 @@
+AnimSetInstanceSource "{617CCAB7558862C0}" {
+ Template "{2D99E5F577A508A1}Assets/Weapons/HeavyWeapons/workspaces/AUS_M134.ast"
+ Lines {
+  AnimSetInstanceSource_Line "Gunner.120.Aimspace" {
+   Resource "{8348844E36E47A8D}Assets/Weapons/HeavyWeapons/NSV/Anims/anm/Tripod/p_NSV_aimspace_front_120.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.50.Aimspace" {
+   Resource "{C047EE481477DF2A}Assets/Weapons/HeavyWeapons/NSV/Anims/anm/Tripod/p_NSV_aimspace_front_tripod_50.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Ground.Aimspace" {
+   Resource "{C78D38DC06366EBD}Assets/Weapons/HeavyWeapons/NSV/Anims/anm/Tripod/p_NSV_aimspace_front_tripod_ground.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.120.TurnL_High" {
+   Resource "{3DD09BA028ED71D4}Assets/Weapons/HeavyWeapons/NSV/Anims/anm/Tripod/p_NSV_turnL_high_tripod_120.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.50.TurnL_High" {
+   Resource "{3106D4BFBB020754}Assets/Weapons/HeavyWeapons/NSV/Anims/anm/Tripod/p_NSV_turnL_high_tripod_50.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.120.TurnL_Low" {
+   Resource "{D33E90397A1DE55D}Assets/Weapons/HeavyWeapons/NSV/Anims/anm/Tripod/p_NSV_turnL_low_tripod_120.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.50.TurnL_Low" {
+   Resource "{D2CFAE80341C54C5}Assets/Weapons/HeavyWeapons/NSV/Anims/anm/Tripod/p_NSV_turnL_low_tripod_50.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.120.TurnR_High" {
+   Resource "{5460E5F504FB8944}Assets/Weapons/HeavyWeapons/NSV/Anims/anm/Tripod/p_NSV_turnR_high_tripod_120.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.50.TurnR_High" {
+   Resource "{5DA24E98CBF779B3}Assets/Weapons/HeavyWeapons/NSV/Anims/anm/Tripod/p_NSV_turnR_high_tripod_50.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.120.TurnR_Low" {
+   Resource "{BF9A0A1E0AE89BBA}Assets/Weapons/HeavyWeapons/NSV/Anims/anm/Tripod/p_NSV_turnR_low_tripod_120.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.50.TurnR_Low" {
+   Resource "{A41F9A34946A7995}Assets/Weapons/HeavyWeapons/NSV/Anims/anm/Tripod/p_NSV_turnR_low_tripod_50.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.120.Turn_Aimspace_High" {
+   Resource "{D5D830457FD793C0}Assets/Weapons/HeavyWeapons/NSV/Anims/anm/Tripod/p_NSV_turn_aimspace_high_tripod_120.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.50.Turn_Aimspace_High" {
+   Resource "{6E4EA0E647C7497C}Assets/Weapons/HeavyWeapons/NSV/Anims/anm/Tripod/p_NSV_turn_aimspace_high_tripod_50.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.120.Turn_Aimspace_Low" {
+   Resource "{8C76E46086D8AB75}Assets/Weapons/HeavyWeapons/NSV/Anims/anm/Tripod/p_NSV_turn_aimspace_low_tripod_120.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.50.Turn_Aimspace_Low" {
+   Resource "{6DD01F105EC4781F}Assets/Weapons/HeavyWeapons/NSV/Anims/anm/Tripod/p_NSV_turn_aimspace_low_tripod_50.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.120.Turn_Aimspace_Mid" {
+   Resource "{5D38A70C8F227175}Assets/Weapons/HeavyWeapons/NSV/Anims/anm/Tripod/p_NSV_turn_aimspace_mid_tripod_120.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.50.Turn_Aimspace_Mid" {
+   Resource "{6D01515332CD82C5}Assets/Weapons/HeavyWeapons/NSV/Anims/anm/Tripod/p_NSV_turn_aimspace_mid_tripod_50.anm"
+  }
+ }
+ RBF AnimSetInstanceSourceRBFArray "{617CCAB755919C18}" {
+ }
+}

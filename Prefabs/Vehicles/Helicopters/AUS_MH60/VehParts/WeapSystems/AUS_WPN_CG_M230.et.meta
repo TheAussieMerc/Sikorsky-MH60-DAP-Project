@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4B0709D2F81673E7}Prefabs/Vehicles/Helicopters/AUS_MH60/VehParts/WeapSystems/AUS_WPN_CG_M230.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

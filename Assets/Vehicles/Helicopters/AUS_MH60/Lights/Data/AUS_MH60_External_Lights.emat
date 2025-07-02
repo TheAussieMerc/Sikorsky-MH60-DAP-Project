@@ -1,0 +1,9 @@
+MatPBRBasic {
+ Emissive 1 1 1 0
+ EmissiveLV 8.065
+ ApplyAlbedoToEmissive 1
+ Cull none
+ EmissiveMap "{F56BCE9CF1B413F0}Assets/Vehicles/Helicopters/AUS_MH60/Data/AUS_MH60_External_Lights_EM.edds"
+ BCRMap "{A889C59019FAB668}Assets/Vehicles/Helicopters/AUS_MH60/Data/AUS_MH60_External_Lights_BCR.edds"
+ NMOMap "{90517E02C08DE4F6}Assets/Vehicles/Helicopters/AUS_MH60/Data/AUS_MH60_External_Lights_NMO.edds"
+}

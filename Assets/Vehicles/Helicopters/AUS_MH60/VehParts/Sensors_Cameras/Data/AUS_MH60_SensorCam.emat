@@ -1,0 +1,7 @@
+MatPBRBasic {
+ AlphaMul 1.09
+ BlendMode AlphaBlend
+ BCRMap "{D5A38AECA9549F0E}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Sensors_Cameras/Data/AUS_MH60_Sensor-Cam_BCR.edds"
+ OpacityMap "{15682125C8357F18}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Sensors_Cameras/Data/AUS_MH60_Sensor-Cam_A.edds"
+ NMOMap "{ED7B317E7023CD90}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Sensors_Cameras/Data/AUS_MH60_Sensor-Cam_NMO.edds"
+}

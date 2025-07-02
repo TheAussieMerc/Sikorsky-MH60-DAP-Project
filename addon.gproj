@@ -1,0 +1,22 @@
+GameProject {
+ ID "SikorskyMH60DAPProject"
+ GUID "60ED3CC6E7E40221"
+ TITLE "Sikorsky MH60 DAP Project"
+ Dependencies {
+  "58D0FB3206B6F859" "6276E6E3CC97A22B" "629B2BA37EFFD577"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

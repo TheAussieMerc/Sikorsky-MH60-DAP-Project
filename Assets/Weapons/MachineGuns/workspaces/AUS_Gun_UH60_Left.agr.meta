@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{15D14455C53AE0CC}Assets/Weapons/MachineGuns/workspaces/AUS_Gun_UH60_Left.agr"
+ Configurations {
+  AnimGraphResourceClass PC {
+  }
+  AnimGraphResourceClass XBOX_ONE : PC {
+  }
+  AnimGraphResourceClass XBOX_SERIES : PC {
+  }
+  AnimGraphResourceClass PS4 : PC {
+  }
+  AnimGraphResourceClass PS5 : PC {
+  }
+  AnimGraphResourceClass HEADLESS : PC {
+  }
+ }
+}

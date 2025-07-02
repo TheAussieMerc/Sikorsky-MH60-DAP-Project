@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{DD3158F3D3906BBF}Sounds/Weapons/HeavyWeapons/M2/AUS_SFX_HeavyWeapons_M230_Shot.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass PS5 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{3D170E7025ED6963}Assets/Vehicles/Helicopters/AUS_MH60/Data/AUS_UH60_OverheadPanel_BCR.edds"
+ NMOMap "{05CFB5E2FC9A3BFD}Assets/Vehicles/Helicopters/AUS_MH60/Data/AUS_UH60_OverheadPanel_NMO.edds"
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A44B8EC8F5A62D12}Prefabs/Vehicles/Helicopters/AUS_MH60/VehParts/Glass/AUS_MH60_Glass_Bubble_Right.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

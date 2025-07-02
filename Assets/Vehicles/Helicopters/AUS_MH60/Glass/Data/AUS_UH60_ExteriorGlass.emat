@@ -1,0 +1,14 @@
+MatPBRBasicGlass {
+ Color 0.137 0.137 0.137 1
+ AlphaMul 0.087
+ RoughnessScale 0.519
+ MetalnessScale 0.554
+ AOScale 0.484
+ DielectricReflectance 0.088
+ BCRMap "{8AE673587A0D92DD}Assets/_SharedData/Glass/ST_Glass_Streaks_Dirty_01_BCR.edds"
+ GlobalMapsUVTransform MatUVTransform "{655A16877863DC1D}" {
+ }
+ FresnelPower 0.48
+ FresnelBias 0.18
+ Backscatterig 0.07
+}

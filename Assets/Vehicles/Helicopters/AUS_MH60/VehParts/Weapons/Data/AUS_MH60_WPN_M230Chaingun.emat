@@ -1,0 +1,6 @@
+MatPBRBasic {
+ DielectricReflectance 0.02
+ BCRMap "{FCA14C50352DFD97}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/Data/AUS_MH60_WPN_M230Chaingun_BCR.edds"
+ NormalPower 0.757
+ NMOMap "{C479F7C2EC5AAF09}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/Data/AUS_MH60_WPN_M230Chaingun_NMO.edds"
+}

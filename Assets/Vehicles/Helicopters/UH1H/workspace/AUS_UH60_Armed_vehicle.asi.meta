@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{2195EC1B1CE38F82}Assets/Vehicles/Helicopters/UH1H/workspace/AUS_UH60_Armed_vehicle.asi"
+ Configurations {
+  AnimSetInstanceResourceClass PC {
+  }
+  AnimSetInstanceResourceClass XBOX_ONE : PC {
+  }
+  AnimSetInstanceResourceClass XBOX_SERIES : PC {
+  }
+  AnimSetInstanceResourceClass PS4 : PC {
+  }
+  AnimSetInstanceResourceClass PS5 : PC {
+  }
+  AnimSetInstanceResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C0EE91B44A3B02CB}Assets/Vehicles/Helicopters/AUS_MH60/workspace/AUS_MH60M_vehicle.asi"
+ Configurations {
+  AnimSetInstanceResourceClass PC {
+  }
+  AnimSetInstanceResourceClass XBOX_ONE : PC {
+  }
+  AnimSetInstanceResourceClass XBOX_SERIES : PC {
+  }
+  AnimSetInstanceResourceClass PS4 : PC {
+  }
+  AnimSetInstanceResourceClass PS5 : PC {
+  }
+  AnimSetInstanceResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,53 @@
+MetaFileClass {
+ Name "{547D7402348AAE46}Assets/Vehicles/Helicopters/AUS_MH60/Glass/AUS_UH60_Glass_LeftNose.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{655A168D8AEDD67D}" {
+     SourceMaterial "AUS_UH60_ExteriorGlass"
+     AssignedMaterial "{FD7995A8E24FBD3A}Assets/Vehicles/Helicopters/AUS_MH60/Glass/Data/AUS_UH60_ExteriorGlass.emat"
+    }
+    MaterialAssignClass "{655A168D8AEDD64E}" {
+     SourceMaterial "AUS_UH60_InternalGlass"
+     AssignedMaterial "{482746F2C470DBDF}Assets/Vehicles/Helicopters/AUS_MH60/Glass/Data/AUS_UH60_InternalGlass.emat"
+    }
+   }
+   MeshParams {
+    MeshParam uh60_leftnose_window {
+    }
+   }
+   GeometryParams {
+    GeometryParam UCX_uh60_leftnose_window {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{1AE7CAD77E3B62D7}Common/Materials/Game/plexiglass.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{655A168D8AE530B2}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{655A168D8AE53222}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{655A168D8AE53261}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{655A168D8AE53253}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{655A168D8AE53284}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{655A168D8AE532F4}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C475550A48EFFE20}Sounds/Vehicles/Rotary/Vehicles_AUS_UH60_Dampers.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass PS5 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

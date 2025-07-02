@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{56D06F011E1E4FEC}Assets/Vehicles/Helicopters/AUS_MH60/workspace/AUS_UH60_Medevac_player.asi"
+ Configurations {
+  AnimSetInstanceResourceClass PC {
+  }
+  AnimSetInstanceResourceClass XBOX_ONE : PC {
+  }
+  AnimSetInstanceResourceClass XBOX_SERIES : PC {
+  }
+  AnimSetInstanceResourceClass PS4 : PC {
+  }
+  AnimSetInstanceResourceClass PS5 : PC {
+  }
+  AnimSetInstanceResourceClass HEADLESS : PC {
+  }
+ }
+}

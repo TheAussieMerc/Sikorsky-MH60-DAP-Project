@@ -1,0 +1,15 @@
+Vehicle UH1H_armed_gunship_HE1 : "{21E9A875C0A3C409}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HE.et" {
+ coords 152.323 1 125.324
+}
+GenericEntity : "{34061D40BE3AC345}Prefabs/Weapons/AircraftWeapons/RocketPods/Pod_M260_Loaded_HE_M229.et" {
+ coords 129.043 1.59 131.671
+}
+Turret : "{5CA1E8FBCC5240C2}Prefabs/Vehicles/Helicopters/UH1H/VehParts/WeapSystems/M260Carrier/UH1H_M260_Carrier_combined_HE.et" {
+ coords 129.067 0.996 128.834
+}
+Vehicle AUS_MH60_DAP_FFAR1 : "{651ED68285C35E99}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_MH60_DAP_FFAR.et" {
+ coords 123.771 1 121.384
+}
+GenericEntity : "{F0882305A15A9F36}Prefabs/Vehicles/Helicopters/AUS_MH60/VehParts/WeapSystems/AUS_WPN_RKT_HYDRA.et" {
+ coords 128.074 1.517 131.3
+}

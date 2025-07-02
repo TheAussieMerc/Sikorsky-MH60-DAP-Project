@@ -1,0 +1,327 @@
+MetaFileClass {
+ Name "{4B5EC76DD5A0F110}Assets/Vehicles/Helicopters/AUS_MH60/AUS_UH60_Base.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MergeMeshes 0
+   ExportSkinning 1
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{64F4494498ED0BE3}" {
+     SourceMaterial "AUS_UH60_Exterior"
+     AssignedMaterial "{C51CF8E61EA1A08F}Assets/Vehicles/Helicopters/AUS_MH60/Data/AUS_UH60_Exterior.emat"
+    }
+    MaterialAssignClass "{64F4494498ED0BC7}" {
+     SourceMaterial "AUS_UH60_Interior02"
+     AssignedMaterial "{A1B16DDDFD959B6B}Assets/Vehicles/Helicopters/AUS_MH60/Data/AUS_UH60_Interior02.emat"
+    }
+    MaterialAssignClass "{64F4494498ED0BDF}" {
+     SourceMaterial "AUS_UH60_Interior01"
+     AssignedMaterial "{FF59449E42181564}Assets/Vehicles/Helicopters/AUS_MH60/Data/AUS_UH60_Interior01.emat"
+    }
+    MaterialAssignClass "{64F4494498ED0BDB}" {
+     SourceMaterial "AUS_UH60_Decals"
+     AssignedMaterial "{EFB161F40233D447}Assets/Vehicles/Helicopters/AUS_MH60/Data/AUS_UH60_Decals.emat"
+    }
+    MaterialAssignClass "{64F4494498ED0BD5}" {
+     SourceMaterial "AUS_UH60_Interior03"
+     AssignedMaterial "{55B92A45F048F31F}Assets/Vehicles/Helicopters/AUS_MH60/Data/AUS_UH60_Interior03.emat"
+    }
+    MaterialAssignClass "{64F4494498ED0BD3}" {
+     SourceMaterial "AUS_UH60_ExteriorGlass"
+     AssignedMaterial "{FD7995A8E24FBD3A}Assets/Vehicles/Helicopters/AUS_MH60/Glass/Data/AUS_UH60_ExteriorGlass.emat"
+    }
+    MaterialAssignClass "{64F4494498ED0A29}" {
+     SourceMaterial "AUS_UH60_Emissive"
+     AssignedMaterial "{8B64256C3147A9B7}Assets/Vehicles/Helicopters/AUS_MH60/Data/AUS_UH60_Emissive.emat"
+    }
+    MaterialAssignClass "{64F4494498ED0A25}" {
+     SourceMaterial "AUS_UH60_Tires"
+     AssignedMaterial "{54734914BE8F8F65}Assets/Vehicles/Helicopters/AUS_MH60/Data/AUS_UH60_Tires.emat"
+    }
+    MaterialAssignClass "{655830F6936BEF03}" {
+     SourceMaterial "AUS_UH60_DialsandFuses"
+     AssignedMaterial "{A023E02F21EC7548}Assets/Vehicles/Helicopters/AUS_MH60/Data/AUS_UH60_DialsandFuses.emat"
+    }
+    MaterialAssignClass "{655830F29F282092}" {
+     SourceMaterial "AUS_UH60_FuseDecals"
+     AssignedMaterial "{6EDCBB11A6C132A6}Assets/Vehicles/Helicopters/AUS_MH60/Data/AUS_UH60_FuseDecals.emat"
+    }
+    MaterialAssignClass "{655830AECD8DCB83}" {
+     SourceMaterial "AUS_UH60_OverheadPanel"
+     AssignedMaterial "{269357E466B8AC73}Assets/Vehicles/Helicopters/AUS_MH60/Data/AUS_UH60_OverheadPanel.emat"
+    }
+    MaterialAssignClass "{655830AECD8DCBEE}" {
+     SourceMaterial "AUS_UH60_OverheadPanel_Decals"
+     AssignedMaterial "{AA9E484D3150FF87}Assets/Vehicles/Helicopters/AUS_MH60/Data/AUS_UH60_OverheadPanel_Decals.emat"
+    }
+   }
+   MeshParams {
+    MeshParam uh60_a {
+    }
+    MeshParam uh60_a_copilot_breakers {
+    }
+    MeshParam uh60_a_pilot_breakers {
+    }
+    MeshParam uh60_a_overhead_switchpanel {
+    }
+   }
+   MergeTriMeshes 0
+   GeometryParams {
+    GeometryParam UBX_FG_Gearbox {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{427C6C77966E41CB}Common/Materials/Game/VehicleParts/differential.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_VC_Stabilator {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{BF7032579F3C450F}Common/Materials/Game/Metal/metal_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_VS_Stabilator {
+     LayerPreset "VehicleSimple"
+     SurfaceProperties {
+      "{BF7032579F3C450F}Common/Materials/Game/Metal/metal_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_VS_tailEnd {
+     LayerPreset "VehicleSimple"
+     SurfaceProperties {
+      "{BF7032579F3C450F}Common/Materials/Game/Metal/metal_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCS_FG_Driveshaft_01 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{BAD01E74E21D5031}Common/Materials/Game/VehicleParts/drive_shaft.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCS_FG_Driveshaft_02 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{BAD01E74E21D5031}Common/Materials/Game/VehicleParts/drive_shaft.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCS_FG_Engine_01 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{0B9EB7B9C8DCC6A5}Common/Materials/Game/VehicleParts/engine.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCS_FG_Engine_02 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{0B9EB7B9C8DCC6A5}Common/Materials/Game/VehicleParts/engine.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_IT_Door_CoPilot {
+     LayerPreset "Interaction"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_IT_Door_Pilot {
+     LayerPreset "Interaction"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_IT_SlideDoorL {
+     LayerPreset "Interaction"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_IT_SlideDoorR {
+     LayerPreset "Interaction"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_VC_body01 {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{BF7032579F3C450F}Common/Materials/Game/Metal/metal_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_VC_Tail_End {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{BF7032579F3C450F}Common/Materials/Game/Metal/metal_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_VC_tail_main {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{BF7032579F3C450F}Common/Materials/Game/Metal/metal_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_VS_body {
+     LayerPreset "VehicleSimple"
+     SurfaceProperties {
+      "{BF7032579F3C450F}Common/Materials/Game/Metal/metal_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_VS_tailMain {
+     LayerPreset "VehicleSimple"
+     SurfaceProperties {
+      "{BF7032579F3C450F}Common/Materials/Game/Metal/metal_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCL_MTC_UH60_base_WheelTire_L01 {
+     LayerPreset "MineTriggerComplex"
+     SurfaceProperties {
+      "{C2BF4F9689827271}Common/Materials/Game/RubberTire/rubber_tire_4mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCL_MTC_UH60_base_WheelTire_R01 {
+     LayerPreset "MineTriggerComplex"
+     SurfaceProperties {
+      "{C2BF4F9689827271}Common/Materials/Game/RubberTire/rubber_tire_4mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCL_MTC_UH60_base_WheelTire_Rear {
+     LayerPreset "MineTriggerComplex"
+     SurfaceProperties {
+      "{C2BF4F9689827271}Common/Materials/Game/RubberTire/rubber_tire_4mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FG_DoorBackSlidingLeft {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{BF7032579F3C450F}Common/Materials/Game/Metal/metal_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FG_DoorBackSlidingRight {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{BF7032579F3C450F}Common/Materials/Game/Metal/metal_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FG_DoorCockpitLeft {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{BF7032579F3C450F}Common/Materials/Game/Metal/metal_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FG_DoorCockpitRight {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{BF7032579F3C450F}Common/Materials/Game/Metal/metal_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FG_Exterior {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{CCB8BAE847CF1561}Common/Materials/Game/Metal/metal_5mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FG_Fueltank_01 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{2E934203697527B6}Common/Materials/Game/VehicleParts/fuel_tank.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FG_Fueltank_02 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{2E934203697527B6}Common/Materials/Game/VehicleParts/fuel_tank.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_VC_Door_CoPilot {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{BF7032579F3C450F}Common/Materials/Game/Metal/metal_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_VC_Door_Pilot {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{BF7032579F3C450F}Common/Materials/Game/Metal/metal_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{64F4494495275AB0}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{64F4494495275D5E}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{64F4494495275DB8}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{64F4494495275D92}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{64F4494495275DF4}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{64F4494495275DDB}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

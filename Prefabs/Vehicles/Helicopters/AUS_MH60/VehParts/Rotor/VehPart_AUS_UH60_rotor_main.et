@@ -1,0 +1,32 @@
+VehiclePartRotor : "{41856118CDACCFFD}Prefabs/Vehicles/Helicopters/UH1H/VehParts/Rotor/VehPart_UH1H_rotor_main_base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{88E119A661FA0159}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Rotor/AUS_MH60_Main_Rotor.xob"
+  }
+  RigidBody "{4B42E71692C2FB79}" {
+   CenterOfMass 0.031 3.469 2.531
+  }
+  SCR_RotorDamageManagerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_RotorHitZone RotorMain_Shaft {
+     ColliderNames {
+      "UTM_FG_MH60_Rotor_Main_Axial"
+     }
+    }
+    SCR_RotorHitZone RotorMain {
+     m_sDestructionParticle "{0FD5AF013128E961}Particles/Vehicle/Helicopter/Helicopter_MI8_rotor_destruction.ptc"
+     m_RotorPointInfo PointInfo "{5E213396A773CEEC}" {
+      Offset 0 0.6773 0
+      Angles 0 -180 0
+     }
+     m_fRotorRadius 7.88
+     m_fRotorThickness 0.42
+     m_fBladeWidth 0.1
+     m_iBladeCount 4
+    }
+   }
+  }
+ }
+ coords 159.273 1 132.458
+}

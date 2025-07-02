@@ -1,0 +1,8 @@
+GameEntity : "{5947E5D1BDE734A9}Prefabs/Vehicles/Helicopters/UH1H/VehParts/Lights/MH60_ES_light_base.et" {
+ ID "54DEF484EE00449D"
+ components {
+  MeshObject "{54DEF48745980A1F}" {
+   Object "{60BFDE0B663D6356}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/AUS_MH60_Medical_Equipment_CabLight_Rear.xob"
+  }
+ }
+}

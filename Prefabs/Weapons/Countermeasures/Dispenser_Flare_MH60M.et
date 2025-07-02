@@ -1,0 +1,18 @@
+GenericEntity : "{965A4B9E952DD752}Prefabs/Weapons/Countermeasures/Dispenser_Flare_Cobra.et" {
+ ID "62A8D6FA317E0E04"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{80FBA0CCB938EC6F}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/AUS_MH60M_Flare_Launcher.xob"
+  }
+  WCS_Armament_FlareDispenserComponent "{62CB5D8E013B1EF4}" {
+   m_FirePosition PointInfo "{62E81A5F391EE57B}" {
+    Offset 0.0361 0.2432 0.115
+    Angles 37.1352 0 0
+   }
+   m_iNumProjectiles 26
+   m_iFireIntervalMS 500
+   m_iShakeAmount 0
+  }
+ }
+ coords 1146.053 39 2329.668
+}

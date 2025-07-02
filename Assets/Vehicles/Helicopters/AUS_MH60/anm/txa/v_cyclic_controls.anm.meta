@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{AE2623E17EBCF603}Assets/Vehicles/Helicopters/AUS_MH60/anm/txa/v_cyclic_controls.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

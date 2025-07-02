@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{594520B603E1F2F7}Assets/Vehicles/Helicopters/AUS_MH60/anm/v_aus_uh60_copilot_getin.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

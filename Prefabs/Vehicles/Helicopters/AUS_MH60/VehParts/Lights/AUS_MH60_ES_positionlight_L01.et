@@ -1,0 +1,8 @@
+GameEntity : "{9E17D9BDB140BD9F}Prefabs/Vehicles/Helicopters/UH1H/VehParts/Lights/UH1H_ES_positionlight_L01.et" {
+ ID "54DEF484EE00449D"
+ components {
+  MeshObject "{54DEF48745980A1F}" {
+   Object "{628CE6797BA5FE23}Assets/Vehicles/Helicopters/AUS_MH60/Lights/AUS_MH60_Light_NavigationLeft.xob"
+  }
+ }
+}

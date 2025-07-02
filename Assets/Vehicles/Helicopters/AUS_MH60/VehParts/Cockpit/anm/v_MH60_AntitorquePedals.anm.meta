@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{125869D8992F29B7}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Cockpit/anm/v_MH60_AntitorquePedals.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

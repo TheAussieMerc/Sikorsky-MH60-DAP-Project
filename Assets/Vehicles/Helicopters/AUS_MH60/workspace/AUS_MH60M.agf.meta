@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F261FC5D4A6054EC}Assets/Vehicles/Helicopters/AUS_MH60/workspace/AUS_MH60M.agf"
+ Configurations {
+  AnimGraphFileResourceClass PC {
+  }
+  AnimGraphFileResourceClass XBOX_ONE : PC {
+  }
+  AnimGraphFileResourceClass XBOX_SERIES : PC {
+  }
+  AnimGraphFileResourceClass PS4 : PC {
+  }
+  AnimGraphFileResourceClass PS5 : PC {
+  }
+  AnimGraphFileResourceClass HEADLESS : PC {
+  }
+ }
+}

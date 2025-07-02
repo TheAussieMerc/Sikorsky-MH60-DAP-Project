@@ -1,0 +1,43 @@
+$animation "" {
+ #version 1.0
+ #fps 30
+ #numFrames 1
+ $node "Scene_Root" {
+  $keys t q {
+   $frame 0 1 {
+   }
+  }
+  $node "v_root" {
+   $keys q {
+    $frame 0 1 {
+    }
+   }
+   $node "v_body" {
+    $keys q {
+     $frame 0 1 {
+     }
+    }
+    $node "v_door_L_01" {
+     $keys q {
+      $frame 0 1 {
+      }
+     }
+     $node "v_door_L01_handle" {
+      $keys q {
+       $frame 0 1 {
+        #q -0.00000001 -0.70710683 0.00000001 0.70710683
+       }
+      }
+     }
+     $node "v_door_L01_handle_interior" {
+      $keys q {
+       $frame 0 1 {
+        #q -0.00000001 -0.70710683 0.00000001 0.70710683
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

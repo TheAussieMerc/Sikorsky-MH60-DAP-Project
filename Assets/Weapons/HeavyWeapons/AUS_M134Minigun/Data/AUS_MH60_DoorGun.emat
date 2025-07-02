@@ -1,0 +1,10 @@
+MatPBRBasic : "{CA6694B17EA43A7B}Assets/Weapons/HeavyWeapons/AUS_M134Minigun/Data/AUS_MH60_DoorGun.emat" {
+ Cull none
+ RoughnessScale 3.103
+ MetalnessScale 1.232
+ AOScale 0.714
+ DielectricReflectance 0.061
+ BCRMap "{8B1ADE7B4BBE5149}Assets/Weapons/HeavyWeapons/AUS_M134Minigun/Data/AUS_MH60_DoorGun_BCR.edds"
+ NormalPower 0.118
+ NMOMap "{B3C265E992C903D7}Assets/Weapons/HeavyWeapons/AUS_M134Minigun/Data/AUS_MH60_DoorGun_NMO.edds"
+}

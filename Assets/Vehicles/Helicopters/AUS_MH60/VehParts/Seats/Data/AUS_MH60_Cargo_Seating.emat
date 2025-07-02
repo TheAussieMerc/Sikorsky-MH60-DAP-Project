@@ -1,0 +1,12 @@
+MatPBRBasic {
+ Cull none
+ SpecularMul 0.54
+ RoughnessScale 1.45
+ MetalnessScale 0.837
+ AOScale 0.887
+ DielectricReflectance 0.053
+ CavityFromAO 0.4
+ BCRMap "{77D5C9F641096AF3}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Seats/Data/AUS_MH60_Cargo_Seating_BCR.edds"
+ NormalPower 0.83
+ NMOMap "{4F0D7264987E386D}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Seats/Data/AUS_MH60_Cargo_Seating_NMO.edds"
+}

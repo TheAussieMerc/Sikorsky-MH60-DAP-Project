@@ -1,0 +1,9 @@
+MatPBRBasic {
+ Cull none
+ SpecularMul 0.89
+ RoughnessScale 1.25
+ MetalnessScale 0.794
+ AOScale 1.171
+ BCRMap "{8AA18028E18FDFF4}Assets/Vehicles/Helicopters/AUS_MH60/Dst/Data/AUS_MH60_Tail_Rotor_Dest_BCR.edds"
+ NMOMap "{B2793BBA38F88D6A}Assets/Vehicles/Helicopters/AUS_MH60/Dst/Data/AUS_MH60_Tail_Rotor_Dest_NMO.edds"
+}

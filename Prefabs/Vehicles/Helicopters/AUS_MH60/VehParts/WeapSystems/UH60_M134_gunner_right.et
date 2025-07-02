@@ -1,0 +1,87 @@
+Turret : "{A2A1B4001EDCA44C}Prefabs/Vehicles/Helicopters/AUS_MH60/VehParts/WeapSystems/UH60_M134_gunner_left.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Object "{9BFA4A1B15F88DFA}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/AUS_Minigun_Mount_Right.xob"
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   DoorInfoList {
+    CompartmentDoorReference "{615A7AF205FFCDE6}" {
+     AnimDoorIndex 3
+    }
+    CompartmentDoorReference "{611ED2CA484717DE}" {
+    }
+   }
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     CompartmentUniqueName ""
+     CompartmentAction SCR_GetInUserAction "{5086CC2CFDD3A05A}" {
+      ParentContextList {
+       "door_gunner_r"
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D566648F37562}" {
+      ParentContextList {
+       "gunner_r"
+      }
+     }
+     SkipCharacterDoorAnimationsFromSeat 0
+     SeatType 0
+    }
+   }
+  }
+  TurretControllerComponent "{51ACD09C61C183E4}" {
+   LimitsHoriz -65 65
+  }
+  TurretComponent "{6048CB72E6432EAA}" {
+   components {
+    SightsComponent "{611EF962F1536F27}" {
+     SightsPosition PointInfo "{611EF962CB431058}" {
+      Offset 0 0.0005 0.1155
+     }
+     SightsRangesDefaultIndex 0
+    }
+   }
+   ikTargets {
+    AnimationIKTargetInfo "{6066B35C7414ADED}" {
+     PositionInfo PointInfo "{6066B35CAF0AB9BE}" {
+      PivotID "v_minigun_right_pivot_pitch"
+      Offset -0.379 -0.01 0.0721
+      Angles 0.2105 -0.0307 90
+     }
+    }
+    AnimationIKTargetInfo "{6066B35C7448F851}" {
+     PositionInfo PointInfo "{6066B35CAE71840F}" {
+      PivotID "v_minigun_right_pivot_pitch"
+      Offset -0.368 -0.0111 -0.1193
+      Angles 0 0 -90
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{60849D2737A72DFD}" {
+   Enabled 0
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset -0.1457 -0.0172 -0.0653
+    Angles 0 0 180
+    ChildPivotID "w_snap_r"
+   }
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{6048CB72E6432ED1}" {
+     Position PointInfo "{6048CB72E6429AB9}" {
+      Offset 0.0578 1.0137 -0.3336
+     }
+    }
+   }
+  }
+  BaseItemAnimationComponent "{5242E42C7B4B2CEE}" {
+   AnimGraph "{3D6D205C7A9D85EA}anims/workspaces/generic/tripods/AUS_tripods_right.agr"
+   AnimInstance "{D00775876694D704}anims/workspaces/generic/tripods/AUS_tripods_right.asi"
+  }
+ }
+ coords 1140.721 39 2372.696
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6DB4499BDA05CB74}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/Data/AUS_WPN_OpticRail.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

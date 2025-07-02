@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{413F6D5AEAD294AE}Sounds/Weapons/Machineguns/AUS_Weapons_HeavyWeapons_M134_Shot.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass PS5 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

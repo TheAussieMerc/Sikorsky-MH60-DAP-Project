@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8D3E491FEA69D420}anims/proc/Blackhawk/minigun_turret_barrel.pap"
+ Configurations {
+  ProcAnimProjectResourceClass PC {
+  }
+  ProcAnimProjectResourceClass XBOX_ONE : PC {
+  }
+  ProcAnimProjectResourceClass XBOX_SERIES : PC {
+  }
+  ProcAnimProjectResourceClass PS4 : PC {
+  }
+  ProcAnimProjectResourceClass PS5 : PC {
+  }
+  ProcAnimProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

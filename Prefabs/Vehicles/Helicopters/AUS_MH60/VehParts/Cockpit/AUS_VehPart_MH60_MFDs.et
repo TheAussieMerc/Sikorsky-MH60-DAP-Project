@@ -1,0 +1,14 @@
+GenericEntity {
+ ID "627AA1D5D4191FF0"
+ components {
+  MeshObject "{627AA1D5D4191FDA}" {
+   Object "{046D7DE5DE04E003}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Cockpit/AUS_UH60_Cockpit_MFDs.xob"
+   CastFarShadow 0
+  }
+  RplComponent "{627AA1D5D4191E26}" {
+   "Rpl State Override" Runtime
+  }
+  Hierarchy "{627AA1D5D4191E20}" {
+  }
+ }
+}

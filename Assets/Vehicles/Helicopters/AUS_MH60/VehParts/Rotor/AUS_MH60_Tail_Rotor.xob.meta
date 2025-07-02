@@ -1,0 +1,93 @@
+MetaFileClass {
+ Name "{49481C9BF1A5DFCA}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Rotor/AUS_MH60_Tail_Rotor.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MergeMeshes 0
+   ExportSkinning 1
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{614E5482DEBE1B05}" {
+     SourceMaterial "AUS_MH60_Tail_Rotor"
+     AssignedMaterial "{AEE18572DBD54A02}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Rotor/Data/AUS_MH60_Tail_Rotor.emat"
+    }
+   }
+   MeshParams {
+    MeshParam "Tail Rotor" {
+    }
+   }
+   MergeTriMeshes 0
+   GeometryParams {
+    GeometryParam UBX_VC_Tail_Hub_LOD0 {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{BF7032579F3C450F}Common/Materials/Game/Metal/metal_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_VS_Tail_Blade_01_LOD0 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{BF7032579F3C450F}Common/Materials/Game/Metal/metal_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_VS_Tail_Blade_02_LOD0 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{BF7032579F3C450F}Common/Materials/Game/Metal/metal_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_VS_Tail_Blade_03_LOD0 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{BF7032579F3C450F}Common/Materials/Game/Metal/metal_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_VS_Tail_Blade_04_LOD0 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{BF7032579F3C450F}Common/Materials/Game/Metal/metal_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FG_TailRotor_LOD0 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{BF7032579F3C450F}Common/Materials/Game/Metal/metal_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{614E5482DDBC005D}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{614E5482DDBC0363}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{614E5482DDBC03B9}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{614E5482DDBC03EB}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{614E5482DDBC03D7}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{614E5482DDBC021F}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

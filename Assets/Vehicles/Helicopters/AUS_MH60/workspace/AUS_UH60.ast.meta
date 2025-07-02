@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4AFCF1F092D60AD7}Assets/Vehicles/Helicopters/AUS_MH60/workspace/AUS_UH60.ast"
+ Configurations {
+  AnimSetTemplateResourceClass PC {
+  }
+  AnimSetTemplateResourceClass XBOX_ONE : PC {
+  }
+  AnimSetTemplateResourceClass XBOX_SERIES : PC {
+  }
+  AnimSetTemplateResourceClass PS4 : PC {
+  }
+  AnimSetTemplateResourceClass PS5 : PC {
+  }
+  AnimSetTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{61B25C9618A24D8D}Worlds/AUS_MH60_Test_World/AUS_UH60_TestBed.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

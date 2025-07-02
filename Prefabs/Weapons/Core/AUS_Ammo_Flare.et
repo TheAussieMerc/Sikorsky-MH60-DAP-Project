@@ -1,0 +1,20 @@
+Projectile : "{50DDE5D8E6BA25BC}Prefabs/Weapons/Core/Armament_Ammo_Flare.et" {
+ ID "62A900A1C763CC74"
+ components {
+  RigidBody "{62D913242A6F919A}" {
+   Mass 0.05
+   Geometries {
+    PhysicsSphereGeometry collision {
+     Mass 0.001
+    }
+   }
+  }
+  ShellMoveComponent "{62A900A1D6980045}" {
+   InitSpeed 15
+   Mass 0.005
+  }
+  WCS_Armament_FlareComponent "{62A900A361CBC379}" {
+   m_Particle "{04E83D41AE6A07E5}particles/MH60M_Flare.ptc"
+  }
+ }
+}

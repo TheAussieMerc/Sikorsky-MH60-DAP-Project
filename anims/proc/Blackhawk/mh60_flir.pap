@@ -1,0 +1,206 @@
+ProcAnimProjectClass {
+ signals {
+  SignalClass {
+   id 1028
+   name "Signal 1"
+   tl -265 267
+   res "{D0CC623C8425392E}anims/proc/Blackhawk/mh60_flir.siga"
+   inputsport {
+    1 3
+   }
+   outputsport {
+    2 4
+   }
+   inputvalues {
+    0 0
+   }
+   inputvaluesmin {
+    -360 -360
+   }
+   inputvaluesmax {
+    360 360
+   }
+  }
+ }
+ funcs {
+  RotationMakeClass {
+   id 12294
+   name "RotationMake 12294"
+   tl 77 226
+   iops {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 1028
+         port 4
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    14342
+   }
+  }
+  RotationMakeClass {
+   id 13318
+   name "RotationMake 13318"
+   tl 90 -10
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 1028
+         port 2
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    15366
+   }
+  }
+  RotationSetClass {
+   id 14342
+   name "RotationSet 14342"
+   tl 318 148
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 12294
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 16390
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  RotationSetClass {
+   id 15366
+   name "RotationSet 15366"
+   tl 346 -7
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 13318
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 17414
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  BoneClass {
+   id 16390
+   name "Bone 16390"
+   version 0
+   tl 94 123
+   outs {
+    14342
+   }
+   bone "w_camera_rot_x"
+  }
+  BoneClass {
+   id 17414
+   name "Bone 17414"
+   version 0
+   tl 70 -150
+   outs {
+    15366
+   }
+   bone "w_camera_rot_y"
+  }
+ }
+ model "{6A9DFDD6D43E68E4}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Sensors_Cameras/AUS_uh60_Camera_Radar.xob"
+ version 1
+ compiled ProcAnimCompiledClass {
+  visited {
+   641 513 129 385 1 257
+  }
+  ops {
+   ProcAnimCompiledOp {
+    data {
+     1 131072 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 196608 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 0 0 262144 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 65536 0 327680 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 131072 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 196608 0
+    }
+   }
+  }
+  version 2
+  argsize 10
+ }
+}

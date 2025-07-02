@@ -1,0 +1,53 @@
+Turret : "{67B081FF9FDD7D9D}Prefabs/Weapons/Core/AUS_MH60_Turret_Base.et" {
+ ID "51ACD0965653D003"
+ components {
+  WCS_Armament_LoadoutComponent "{658CB49B8342F46F}" {
+   m_ArmamentGroups {
+    WCS_ArmamentSlotGroup "{658CB49BBC12EBAC}" {
+    }
+    WCS_ArmamentWeaponGroup "{658CB49BA4CB6E99}" {
+     prefab "{D84372C35F445FAA}Prefabs/Weapons/AircraftWeapons/MissilePods/Pod_M299.et"
+     weaponsInfo {
+      WCS_ArmamentWeaponInfo "{658CB49B1B114EEB}" {
+       Position PointInfo "{658CB49B02C244A3}" {
+        PivotID "Scene_Root"
+        Offset -2.9294 1.6406 0.8374
+        Angles 3 0 0
+       }
+      }
+      WCS_ArmamentWeaponInfo "{658CB49627EA908A}" {
+       Position PointInfo "{658CB49627EA90E2}" {
+        PivotID "Scene_Root"
+        Offset 2.7823 1.6406 0.8374
+        Angles 3 0 0
+       }
+      }
+     }
+     fireModes {
+      WCS_Armament_WeaponSingleFireMode "{658CB494D0B456BF}" {
+      }
+     }
+    }
+   }
+   m_sPilotCompartmentUniqueName "gunner"
+  }
+  WCS_Armament_WeaponStationComponent "{658CB49BB63DC4F3}" {
+  }
+  SlotManagerComponent "{658CB494F116BB55}" {
+   Slots {
+    RegisteringComponentSlotInfo pylon {
+     Prefab "{E855470682C2389E}Prefabs/Vehicles/Helicopters/AUS_MH60/VehParts/WeapSystems/AUS_MH60_DAP_Pylons.et"
+    }
+   }
+  }
+  WeaponSlotComponent "{658CB490E16351E8}" {
+   SignalsSourceAccess SignalsSourceAccessClass "{658CB490EF7A247A}" {
+    signalsSuffix "Turret"
+   }
+   useAimingType MainTurret
+   WeaponTemplate ""
+   WeaponSlotIndex 1
+  }
+ }
+ coords 1146.152 39 2381.827
+}

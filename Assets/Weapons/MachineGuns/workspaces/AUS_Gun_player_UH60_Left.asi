@@ -1,0 +1,34 @@
+AnimSetInstanceSource "{61109D1D126A0A6C}" {
+ Template "{07232255F2FF343F}Assets/Weapons/MachineGuns/workspaces/AUS_Gun_UH60_Left.ast"
+ Lines {
+  AnimSetInstanceSource_Line "Gunner.Default.AimSpaceFront" {
+   Resource "{9A7FE13F22BAE5C0}Assets/Weapons/MachineGuns/M60D/anims/anm/p_M60D_aimspace_left_UH1H.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.Unconscious_L_Loop" {
+   Resource "{FD1D9695BD410547}Assets/Weapons/MachineGuns/M60D/anims/anm/p_gunner_left_UH1H_unconscious_L_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.Unconscious_L_Out" {
+   Resource "{10BE776535E8DACC}Assets/Weapons/MachineGuns/M60D/anims/anm/p_gunner_left_UH1H_unconscious_L_out.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.Unconscious_R_Loop" {
+   Resource "{FE9D1E2432487ED7}Assets/Weapons/MachineGuns/M60D/anims/anm/p_gunner_left_UH1H_unconscious_R_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.Unconscious_R_Out" {
+   Resource "{7C70DDB4A1BEBBA8}Assets/Weapons/MachineGuns/M60D/anims/anm/p_gunner_left_UH1H_unconscious_R_out.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.Transition_RightToLeft" {
+   Resource "{6689B0FFE3BBBFDF}Assets/Weapons/MachineGuns/M60D/anims/anm/p_M60D_left_UH1H_transition_left_to_right_up.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.Transition_LeftToRight" {
+   Resource "{10B5397B66A39F13}Assets/Weapons/MachineGuns/M60D/anims/anm/p_M60D_left_UH1H_transition_right_to_left_up.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.Unconscious_L_In" {
+   Resource "{C873EDA16283ECD1}Assets/Weapons/MachineGuns/M60D/anims/anm/p_gunner_left_UH1H_unconscious_low_L_in.anm"
+  }
+  AnimSetInstanceSource_Line "Gunner.Default.Unconscious_R_In" {
+   Resource "{725419682E94FBFE}Assets/Weapons/MachineGuns/M60D/anims/anm/p_gunner_left_UH1H_unconscious_low_R_in.anm"
+  }
+ }
+ RBF AnimSetInstanceSourceRBFArray "{61109D1D12543DE7}" {
+ }
+}

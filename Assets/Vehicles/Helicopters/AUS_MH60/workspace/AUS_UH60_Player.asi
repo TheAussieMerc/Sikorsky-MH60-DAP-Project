@@ -1,0 +1,277 @@
+AnimSetInstanceSource "{5D8E91199F5FA19E}" {
+ Template "{4AFCF1F092D60AD7}Assets/Vehicles/Helicopters/AUS_MH60/workspace/AUS_UH60.ast"
+ Lines {
+  AnimSetInstanceSource_Line "Vehicle.Pilot.UnconsciousIdle" {
+   Resource "{B8263B95B5F317CA}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_pilot_unconscious_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.Death" {
+   Resource "{EA97B1E373E1F424}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_passenger_dead.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.Idle" {
+   Resource "{0A0A3FBDDE989691}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_passenger_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.Death" {
+   Resource "{9CAC109B324A40C6}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_pilot_dead.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.Death" {
+   Resource "{EA97B1E373E1F424}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_passenger_dead.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.Idle" {
+   Resource "{0A0A3FBDDE989691}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_passenger_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.GetIn" {
+   Resource "{7A492A6D1573B98E}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_pilot_get_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.GetOut" {
+   Resource "{AABF810719FFAA58}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_pilot_get_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.GetIn" {
+   Resource "{60A1FB765C9B29DE}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_copilot_get_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.GetIn" {
+   Resource "{60A1FB765C9B29DE}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_copilot_get_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetIn" {
+   Resource "{4E37ABE545438F54}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_pilot_getin.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.GetOut" {
+   Resource "{33D4EDEC2EDFCB2F}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_copilot_get_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.Idle" {
+   Resource "{329EE4507C368019}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_copilot_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.UnconsciousOut" {
+   Resource "{61C9FEA2CB12CC47}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_pilot_unconscious_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.Idle" {
+   Resource "{A584C717C27565B0}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_flight_engineer_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.Idle" {
+   Resource "{A584C717C27565B0}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_flight_engineer_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.Idle" {
+   Resource "{C1C31DD07182C7AF}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_pilot_idle.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Collective" {
+   Resource "{A6EC0F3344AEABEF}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_pilot_collective.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.SwitchIn" {
+   Resource "{2FC1F9B7C3CF2816}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi-8MT_copilot_switch_in_relaxed.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.SwitchOut" {
+   Resource "{67DC8E4AE1D4FEF9}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi-8MT_copilot_switch_out_relaxed.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.SwitchIn" {
+   Resource "{2F483C1EF6193C41}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_passenger_switch_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.SwitchIn" {
+   Resource "{2F483C1EF6193C41}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_passenger_switch_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.SwitchOut" {
+   Resource "{1C520FA0AE5F1BD4}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_passenger_switch_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.SwitchOut" {
+   Resource "{1C520FA0AE5F1BD4}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_passenger_switch_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.SwitchIn" {
+   Resource "{90AA6BEBEB675991}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_pilot_switch_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.SwitchOut" {
+   Resource "{BEFC1E8EF4D35FFC}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_pilot_switch_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.GetOut" {
+   Resource "{671C535FFF0821E4}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_copilot_getout.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.HeadLook" {
+   Resource "{0A793F4ADA000847}anims/anm/player/layered/look/p_headlook.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.HeadLook" {
+   Resource "{0A793F4ADA000847}anims/anm/player/layered/look/p_headlook.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.HeadLook" {
+   Resource "{0A793F4ADA000847}anims/anm/player/layered/look/p_headlook.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.HeadLook" {
+   Resource "{0A793F4ADA000847}anims/anm/player/layered/look/p_headlook.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.HeadLook" {
+   Resource "{0A793F4ADA000847}anims/anm/player/layered/look/p_headlook.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.HeadLook" {
+   Resource "{0A793F4ADA000847}anims/anm/player/layered/look/p_headlook.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.SteeringMain" {
+   Resource "{6766A945AE7CB73E}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_pilot_stick.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetOut" {
+   Resource "{374AE61296A912B6}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_pilot_getout.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.Death" {
+   Resource "{D316EC5676E32E1D}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_flight_engineer_dead.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.Death" {
+   Resource "{D316EC5676E32E1D}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_flight_engineer_dead.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.SwitchIn" {
+   Resource "{1C091665204FCAB0}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_flight_engineer_switch_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.SwitchIn" {
+   Resource "{1C091665204FCAB0}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_flight_engineer_switch_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.SwitchOut" {
+   Resource "{302EDF4AB3B53F50}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_flight_engineer_switch_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.SwitchOut" {
+   Resource "{302EDF4AB3B53F50}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_flight_engineer_switch_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.IdleStick" {
+   Resource "{7B3665A1C6798158}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_copilot_stick.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.UnconsciousIn" {
+   Resource "{2E77570E1FD59BA0}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_pilot_unconscious_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.AccelerationSpine" {
+   Resource "{1F901E6E374D5598}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_driver_acceleration_spine.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.AccelerationSpine" {
+   Resource "{B689A116D1AA0FA9}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_codriver_acceleration_spine.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.AccelerationSpine" {
+   Resource "{9D9890375D84D11C}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_passenger_acceleration_spine.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.AccelerationSpine" {
+   Resource "{9D9890375D84D11C}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_passenger_acceleration_spine.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.AccelerationSpine" {
+   Resource "{9D9890375D84D11C}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_passenger_acceleration_spine.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.AccelerationSpine" {
+   Resource "{9D9890375D84D11C}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_passenger_acceleration_spine.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Pedals" {
+   Resource "{D4B366DC53CD90A2}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_pilot_antitorque_pedal.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.IdleStick" {
+   Resource "{6766A945AE7CB73E}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_pilot_stick.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetOutL" {
+   Resource "{374AE61296A912B6}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_pilot_getout.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetOutR" {
+   Resource "{374AE61296A912B6}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_pilot_getout.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetInL" {
+   Resource "{4E37ABE545438F54}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_pilot_getin.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetInR" {
+   Resource "{4E37ABE545438F54}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_pilot_getin.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.UnconsciousIn" {
+   Resource "{854157B0953EDE65}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi-8MT_copilot_unconscious_in_relaxed.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.UnconsciousIdle" {
+   Resource "{7356DAF0AF39D642}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_copilot_unconscious_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.UnconsciousOut" {
+   Resource "{CA75927E03824672}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi-8MT_copilot_unconscious_out_relaxed.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.UnconsciousIn" {
+   Resource "{07AA52604BC9C0E4}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_passenger_unconscious_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.UnconsciousIdle" {
+   Resource "{3F9BF7237CE787BB}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_passenger_unconscious_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.UnconsciousOut" {
+   Resource "{A0204C6843E56CB4}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_passenger_unconscious_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.UnconsciousIdle" {
+   Resource "{3F9BF7237CE787BB}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_passenger_unconscious_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.UnconsciousIn" {
+   Resource "{07AA52604BC9C0E4}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_passenger_unconscious_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.UnconsciousOut" {
+   Resource "{A0204C6843E56CB4}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_passenger_unconscious_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.GetOut" {
+   Resource "{335D1AA2B7DFF1A1}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_getout_R_cut.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.Wobble" {
+   Resource "{2273F9A13A6A257D}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_driver_wobbling.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.GetOut" {
+   Resource "{5F93B073238990C5}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_getout_L_cut.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.Death" {
+   Resource "{9CAC109B324A40C6}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_pilot_dead.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.GetIn" {
+   Resource "{651B91382C453B44}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_getin_R_cut.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.GetIn" {
+   Resource "{09D53BE9B8135A20}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_getin_L_cut.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.UnconsciousIdle" {
+   Resource "{D316EC5676E32E1D}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_flight_engineer_dead.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.UnconsciousIdle" {
+   Resource "{FF659CF6919E563F}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi-8MT_flight_egineer_unconscious_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.UnconsciousIn" {
+   Resource "{D316EC5676E32E1D}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_flight_engineer_dead.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.UnconsciousIn" {
+   Resource "{D316EC5676E32E1D}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_flight_engineer_dead.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.UnconsciousOut" {
+   Resource "{A0204C6843E56CB4}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_passenger_unconscious_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.UnconsciousOut" {
+   Resource "{938DE4A8AA4309B0}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi-8MT_flight_egineer_unconscious_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.Idle01" {
+   Resource "{D957A972A3AFF4EC}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_passenger_idle01.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.Idle01" {
+   Resource "{D957A972A3AFF4EC}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_passenger_idle01.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.Idle02" {
+   Resource "{404910EBBE48C57C}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_passenger_idle02.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.Idle02" {
+   Resource "{404910EBBE48C57C}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_passenger_idle02.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.Idle03" {
+   Resource "{374378634AEA2A0C}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_passenger_idle03.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.Idle03" {
+   Resource "{374378634AEA2A0C}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_passenger_idle03.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.Idle04" {
+   Resource "{308482322C6C90CF}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_passenger_idle04.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.Idle04" {
+   Resource "{308482322C6C90CF}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_passenger_idle04.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.Idle05" {
+   Resource "{478EEABAD8CE7FBF}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_passenger_idle05.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.Idle05" {
+   Resource "{478EEABAD8CE7FBF}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_passenger_idle05.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.Idle2Stick" {
+   Resource "{3DC29AB7FD764C14}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_copilot_idle_to_stick.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.Idle2Stick" {
+   Resource "{C4206613EE22540B}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_pilot_idle_to_stick.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.Stick2Idle" {
+   Resource "{2529F7E57FCEBDFE}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_pilot_stick_to_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.Stick2Idle" {
+   Resource "{DCCB0B416C9AA5E1}Assets/Vehicles/Helicopters/Mi8/anm/p_Mi8MT_copilot_stick_to_idle.anm"
+  }
+ }
+ RBF AnimSetInstanceSourceRBFArray "{5C8E9BFCEA2F6813}" {
+ }
+}

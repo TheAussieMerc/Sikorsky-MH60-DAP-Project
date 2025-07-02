@@ -1,0 +1,119 @@
+$animation "" {
+ #version 1.0
+ #fps 30
+ #numFrames 10
+ $node "Scene_Root" {
+  $keys t q {
+   $frame 0 10 {
+   }
+  }
+  $node "v_root" {
+   $keys t q {
+    $frame 0 10 {
+     #t 0 -0.0635926 0.0117608
+    }
+   }
+   $node "v_body" {
+    $keys t q {
+     $frame 0 10 {
+      #t -0 0.5747608 -3.0057468
+     }
+    }
+    $node "v_landing" {
+     $keys t q {
+      $frame 0 10 {
+       #t 0 -0.1040065 3.9175887
+       #q 0.00028321 0.00028321 -0.70710671 0.70710677
+      }
+     }
+     $node "v_interior" {
+      $keys t q {
+       $frame 0 10 {
+        #t -1.0070467 -0.0060158 2.0812511
+        #q -0.00252812 -0.00252812 0.70710224 0.7071023
+       }
+      }
+      $node "v_collective_control_L" {
+       $keys t q {
+        $frame 0 10 {
+         #t -0.9546245 -0.4168228 -0.1555157
+         #q -0.27023414 0.65343213 -0.27023414 0.65343213
+        }
+       }
+       $node "v_throttle_L" {
+        $keys t q {
+         $frame 0 10 {
+          #t -0.3749561 -0.023629 0.0082591
+         }
+        }
+        $node "v_throttle_L_upper_button" {
+         $keys t q {
+          $frame 0 10 {
+           #t 3.0886574 1.351698 0.9523811
+           #q 0.27230737 -0.65257084 0.27230737 0.65257084
+          }
+         }
+        }
+        $node "v_throttle_L_upper_main_button" {
+         $keys t q {
+          $frame 0 10 {
+           #t 3.0886574 1.351698 0.9523811
+           #q 0.27230737 -0.65257084 0.27230737 0.65257084
+          }
+         }
+        }
+        $node "v_throttle_L_side_button" {
+         $keys t q {
+          $frame 0 10 {
+           #t 3.0886574 1.351698 0.9523811
+           #q 0.27230737 -0.65257084 0.27230737 0.65257084
+          }
+         }
+        }
+       }
+      }
+      $node "v_collective_control_R" {
+       $keys t q {
+        $frame 0 10 {
+         #t 0.3167313 -0.4168228 -0.1555157
+         #q -0.27023414 0.65343213 -0.27023414 0.65343213
+        }
+       }
+       $node "v_throttle_R" {
+        $keys t q {
+         $frame 0 10 {
+          #t -0.3749561 -0.023629 0.0082591
+         }
+        }
+        $node "v_throttle_R_upper_button" {
+         $keys t q {
+          $frame 0 10 {
+           #t -0.0781913 0.025316 0.0246143
+           #q 0.99998641 0.00523588 0 0
+          }
+         }
+        }
+        $node "v_throttle_R_upper_main_button" {
+         $keys t q {
+          $frame 0 10 {
+           #t -0.0748246 0.0251812 -0.0141613
+           #q 0.99998641 0.00523588 0 0
+          }
+         }
+        }
+        $node "v_throttle_R_side_button" {
+         $keys t q {
+          $frame 0 10 {
+           #t 3.0886574 1.351698 -0.3189745
+           #q 0.27230737 -0.65257084 0.27230737 0.65257084
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

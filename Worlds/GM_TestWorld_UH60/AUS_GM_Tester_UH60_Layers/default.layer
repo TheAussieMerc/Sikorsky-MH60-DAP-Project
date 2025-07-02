@@ -1,0 +1,150 @@
+GenericEntity {
+ coords 1137.541 39 2346.443
+}
+GenericEntity : "{1126AD9D919F82FF}Prefabs/Weapons/Warheads/Warhead_Explosive_HE.et" {
+ coords 1139.171 39 2353.814
+}
+GameEntity : "{13C291FFBD47EE64}Prefabs/Vehicles/Helicopters/AUS_MH60/VehParts/Lights/AUS_MH60_ES_positionlight_tail_01.et" {
+ coords 1147.784 39 2378.817
+}
+GenericEntity : "{1CADE82F037C921C}Prefabs/Weapons/Magazines/Box_30x113_M230_1250rnd_4AP_1HEDP.et" {
+ coords 1119.157 39.515 2354.713
+}
+Turret : "{6499146E0654AB68}Prefabs/Vehicles/Helicopters/AUS_MH60/VehParts/WeapSystems/AUS_MH60_DAP_GroundHunter.et" {
+ coords 1148.627 39 2379.255
+}
+Vehicle AUS_MH60_DAP_FFAR1 : "{651ED68285C35E99}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_MH60_DAP_GroundHunter.et" {
+ coords 1133.842 39.296 2385.132
+ angleY 154.442
+}
+GenericEntity : "{8DFF9D80FAA03F0F}Prefabs/Weapons/Core/AUS_MH60_RocketPod_Base.et" {
+ coords 1138.084 39.439 2349.769
+}
+$grp TracerProjectile : "{9584DF129F3517E8}Prefabs/Weapons/Ammo/AUS_Ammo_M230_30x113_HEDP.et" {
+ {
+  coords 1097.59 39.288 2378.061
+ }
+ {
+  coords 1098.112 39 2380.912
+ }
+ {
+  coords 1099.896 39.203 2373.588
+ }
+}
+$grp SCR_ChimeraCharacter : "{98EB9CDD85B8C92C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Unarmed.et" {
+ {
+  coords 1358.819 29.552 3171.359
+ }
+ {
+  coords 1361.49 29.913 3171.359
+ }
+ {
+  coords 1363.857 30.209 3171.359
+ }
+ {
+  coords 1355.998 29.133 3171.359
+ }
+ {
+  coords 1357.041 29.496 3167.548
+ }
+ {
+  coords 1360.032 30.066 3165.004
+ }
+ {
+  coords 1363.263 30.626 3163.015
+ }
+ {
+  coords 1367.017 31.021 3164.188
+ }
+ {
+  coords 1364.046 30.685 3163.629
+ }
+ {
+  coords 1343.454 27.515 3161.014
+ }
+ {
+  coords 1341.676 27.458 3157.203
+ }
+ {
+  coords 1340.633 27.096 3161.014
+ }
+ {
+  coords 1347.898 28.589 3152.67
+ }
+ {
+  coords 1344.667 28.029 3154.659
+ }
+ {
+  coords 1351.652 28.984 3153.842
+ }
+ {
+  coords 1348.681 28.648 3153.284
+ }
+ {
+  coords 1346.125 27.876 3161.014
+ }
+ {
+  coords 1348.492 28.172 3161.014
+ }
+ {
+  coords 1362.797 31.755 3143.604
+ }
+ {
+  coords 1361.019 31.699 3139.793
+ }
+ {
+  coords 1359.976 31.337 3143.604
+ }
+ {
+  coords 1367.241 32.83 3135.26
+ }
+ {
+  coords 1364.01 32.27 3137.249
+ }
+ {
+  coords 1370.995 33.225 3136.432
+ }
+ {
+  coords 1368.024 32.889 3135.874
+ }
+ {
+  coords 1365.468 32.117 3143.604
+ }
+ {
+  coords 1367.835 32.413 3143.604
+ }
+}
+Vehicle Mi8MT_base1 : "{AFF6067A5CE8A853}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_base.et" {
+ coords 1196.866 39 2382.896
+}
+GenericEntity : "{B0CBA2767063D795}Prefabs/Weapons/Warheads/AUS_Warhead_HEDP_M230.et" {
+ coords 1137.545 39 2353.198
+}
+GameEntity : "{BABE76A7E4B2DF07}Prefabs/Vehicles/Helicopters/UH1H/VehParts/Lights/MH60_ES_light_cabin_front.et" {
+ coords 1112.597 39 2404.972
+}
+$grp TracerProjectile : "{CC835B53814A50FD}Prefabs/Weapons/Ammo/AUS_Ammo_M134_762x51_APT.et" {
+ {
+  coords 1139.002 39.103 2386.466
+ }
+ {
+  coords 1139.536 39.194 2372.415
+ }
+}
+$grp GenericEntity : "{D58FC2B7F6237D34}Prefabs/Weapons/Magazines/Box_30x113_M230_1250rnd_4AP_1HEDP.et" {
+ {
+  coords 1098.847 39 2374.908
+ }
+ {
+  coords 1115.408 39 2354.107
+ }
+}
+GenericEntity : "{E855470682C2389E}Prefabs/Vehicles/Helicopters/AUS_MH60/VehParts/WeapSystems/AUS_MH60_DAP_Pylons.et" {
+ coords 1147.061 39 2388.882
+}
+TracerProjectile : "{EED90D6F407E4B42}Prefabs/Weapons/Ammo/AUS_Ammo_M230_30x113_T.et" {
+ coords 1097.478 39.079 2377.951
+}
+Vehicle AUS_UH60_armed1 : "{F503F71C08BE3F7D}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_armed.et" {
+ coords 1165.555 39.285 2363.735
+}

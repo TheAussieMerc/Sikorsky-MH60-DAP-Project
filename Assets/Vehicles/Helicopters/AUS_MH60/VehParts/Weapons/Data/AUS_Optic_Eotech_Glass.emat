@@ -1,0 +1,16 @@
+MatPBRBasic {
+ Emissive 1 0 0 0
+ EmissiveLV 6.681
+ Cull none
+ Sort translucent
+ SpecularMul 0.89
+ AlphaMul 1.865
+ BlendMode AlphaBlend
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ EmissiveMap "{06607792ABED90B0}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/Data/AUS_Optic_Eotech_Glass_EM.edds"
+ BCRMap "{E29987239C3B760E}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/Data/AUS_Optic_Eotech_Glass_BCR.edds"
+ OpacityMap "{DE119E16A68BAFA0}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/Data/AUS_Optic_Eotech_Glass_A.edds"
+ NormalPower 0
+ NMOMap "{DA413CB1454C2490}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/Data/AUS_Optic_Eotech_Glass_NMO.edds"
+}

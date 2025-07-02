@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Cull none
+ BCRMap "{259043536EA43DC4}Assets/Vehicles/Helicopters/AUS_MH60/Data/AUS_UH60_Exterior_BCR.edds"
+ NMOMap "{1D48F8C1B7D36F5A}Assets/Vehicles/Helicopters/AUS_MH60/Data/AUS_UH60_Exterior_NMO.edds"
+}

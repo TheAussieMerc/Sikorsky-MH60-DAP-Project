@@ -1,0 +1,167 @@
+Vehicle : "{F503F71C08BE3F7D}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_armed.et" {
+ ID "0000000000000001"
+ components {
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{60F8D2B4A57BB87E}" {
+     OpenDoorAction SCR_OpenVehicleDoorUserAction "{60B8C998D577B72E}" {
+      ParentContextList {
+      }
+     }
+     CloseDoorAction SCR_CloseVehicleDoorUserAction "{60B8C998F02D67D1}" {
+      ParentContextList {
+      }
+     }
+     GetInTeleport 0
+     AlignDuringGetOut 0
+     GetOutAligningTeleport 0
+     GetInSeatAligningOnEvent 0
+     FakeDoor 1
+    }
+    CompartmentDoorInfo "{60F8D2B4B6C9A956}" {
+     OpenDoorAction SCR_OpenVehicleDoorUserAction "{60B8C998D577B72E}" {
+      ParentContextList {
+      }
+      m_bAnimateCharacter 0
+     }
+     CloseDoorAction SCR_CloseVehicleDoorUserAction "{60B8C998F02D67D1}" {
+      ParentContextList {
+      }
+      m_bAnimateCharacter 0
+     }
+     GetInTeleport 0
+     AlignDuringGetOut 0
+     GetOutAligningTeleport 0
+     GetInSeatAligningOnEvent 0
+     FakeDoor 1
+    }
+   }
+   CompartmentSlots {
+    PilotCompartmentSlot CopilotCompartment {
+     CompartmentAction SCR_GetInUserAction "{5086DB209BDE8253}" {
+      ParentContextList {
+      }
+     }
+     GetOutAction SCR_GetOutAction "{509D56667AFC4BD5}" {
+      ParentContextList {
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56667885A8DC}" {
+      ParentContextList {
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{A1CB25848A3D93A8}" {
+      Enabled 0
+     }
+     DoorInfoList {
+     }
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "MH60 DAP Blackhawk - FFAR"
+    m_Image "{24D20B6C5A7C68EF}UI/AUS_MH60_DAP_FFAR.edds"
+    m_aAuthoredLabels {
+     3 51 25 21
+    }
+    m_aAutoLabels +{
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 2000
+     }
+     SCR_EntityBudgetValue "{5EF07CE9B4A73374}" {
+      m_BudgetType RANK_LIEUTENANT
+     }
+    }
+   }
+  }
+  VehicleHelicopterSimulation "{51FAEE57F7DA270E}" {
+   Animation VehicleAnimation "{5D9CEE8599E9D9BA}" {
+   }
+  }
+  BaseVehicleNodeComponent "{57DA667544C3090A}" {
+   components {
+    BaseHUDComponent "{50F09A38B4352300}" {
+     InfoDisplays {
+      SCR_InfoDisplay "{5E16CDD43EBA9D74}" {
+       InfoDisplays {
+        SCR_HZInfoRotorRear "{5E1F131340EA7471}" {
+         m_bShowGhost 1
+        }
+       }
+       m_sContentWidget "rootFrame"
+      }
+      WCS_Armament_WeaponInfoVehicle "{62CEE7E7CACC9CBE}" {
+       m_bIsEnabled 1
+      }
+      SCR_WeaponInfo_MultiWeaponTurret "{646EB6A3C2DA06F1}" {
+       m_sTurretSlot "M261PylonVirtual"
+      }
+     }
+    }
+    BaseWeaponManagerComponent "{57DA667544C3550C}" {
+     DefaultWeaponIndex -1
+    }
+   }
+  }
+  WCS_Armament_AircraftRadarComponent "{658AC941C2AED1E9}" {
+   m_aCompartmentsNames {
+    "pilot" "gunner"
+   }
+  }
+  WCS_Armament_DispenserManagerComponent "{63249D9112E72E1C}" {
+   m_FlareInfo WCS_Armament_DispenserFlareInfo "{63249D9111DA677D}" {
+    m_aActionEnabledCompartments {
+     "pilot" "gunner"
+    }
+   }
+  }
+  WCS_Armament_MWSComponent "{62DEE63BEA26FBED}" {
+   m_aEnabledCompartments {
+    "pilot" "gunner"
+   }
+  }
+  WCS_Armament_RadarInfoComponent "{658AC9414ACEF024}" {
+   m_aCompartmentsNames {
+    "pilot" "gunner"
+   }
+  }
+  WCS_Armament_RadarReflectorComponent "{62DF1E77862863F8}" {
+   m_vPosition 0 1.284 7.349
+  }
+  WCS_Armament_VehicleWeaponStationComponent "{658AC94114FEB1C4}" {
+   Enabled 0
+   components {
+    WCS_Armament_InfraredMissileWeaponStationModuleComponent "{658AC9411C049F52}" {
+     Enabled 0
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Seat_Gunners {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Seat_Cargo {
+     Enabled 0
+    }
+    WCS_Armament_DispenserSlotInfo Flares_Left {
+     Prefab "{9D6418DEED6A2682}Prefabs/Weapons/Countermeasures/Dispenser_Flare_MH60M.et"
+    }
+    RegisteringComponentSlotInfo GunnerLeft {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo GunnerRight {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo TurretCamera {
+     Enabled 1
+     Prefab "{6499146E0654AB68}Prefabs/Vehicles/Helicopters/AUS_MH60/VehParts/WeapSystems/AUS_MH60_DAP_GroundHunter.et"
+    }
+   }
+  }
+ }
+ coords 1133.842 39.296 2385.132
+}

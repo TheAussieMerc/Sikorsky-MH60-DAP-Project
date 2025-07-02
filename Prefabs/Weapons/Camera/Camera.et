@@ -1,0 +1,38 @@
+GenericEntity : "{E471FB3713727B86}Prefabs/Weapons/HeavyWeapons/M134/M134_Weapon_Base.et" {
+ ID "629D584AB4B5971F"
+ components {
+  MeshObject "{629D584A9761CFD4}" {
+   Materials {
+    MaterialAssignClass "{658B3D55E312686B}" {
+     SourceMaterial "Machine_Gun"
+     AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+    }
+   }
+  }
+  SCR_WeaponAttachmentsStorageComponent "{631F0482536F5451}" {
+   Attributes SCR_ItemAttributeCollection "{631F0482FE22D8E1}" {
+    ItemDisplayName WeaponUIInfo "{6484D73172C45959}" {
+     Name "UH-60 Camera"
+     Description "Camera"
+    }
+   }
+  }
+  WeaponComponent "{629D584A845F8B28}" {
+   components {
+    MuzzleComponent "{629D584A80C39F75}" {
+     UIInfo MuzzleUIInfo "{6484BA28C5F61F4A}" {
+      m_sCaliber ""
+     }
+     MagazineTemplate ""
+    }
+   }
+   UIInfo WeaponUIInfo "{648423C17C0DA5C2}" {
+    Name "UH-60 Camera"
+    Description ""
+    m_MagIndicator SCR_MagazineIndicatorConfiguration "{648423C14EE1EEBB}" {
+     m_bProgressBar 0
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,6 @@
+MatPBRBasic {
+ Color 0.439 0.439 0.439 1
+ Cull none
+ BCRMap "{EC04ADD6BD89E108}Assets/Vehicles/Helicopters/AUS_MH60/Data/AUS_UH60_Interior01_BCR.edds"
+ NMOMap "{D4DC164464FEB396}Assets/Vehicles/Helicopters/AUS_MH60/Data/AUS_UH60_Interior01_NMO.edds"
+}

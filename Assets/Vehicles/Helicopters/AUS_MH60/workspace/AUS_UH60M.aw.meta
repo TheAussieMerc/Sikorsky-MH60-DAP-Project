@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E28C09E3A84E5248}Assets/Vehicles/Helicopters/AUS_MH60/workspace/AUS_UH60M.aw"
+ Configurations {
+  AnimWorkspaceResourceClass PC {
+  }
+  AnimWorkspaceResourceClass XBOX_ONE : PC {
+  }
+  AnimWorkspaceResourceClass XBOX_SERIES : PC {
+  }
+  AnimWorkspaceResourceClass PS4 : PC {
+  }
+  AnimWorkspaceResourceClass PS5 : PC {
+  }
+  AnimWorkspaceResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,675 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ {
+  RTTextureWidgetClass "{627AA1C0C0C7B330}" {
+   Name "RTTexture0"
+   Slot FrameWidgetSlot "{627AA1C0C0C7B3ED}" {
+    OffsetLeft 0
+    OffsetTop 0
+    SizeX 764
+    OffsetRight -764
+    SizeY 512
+    OffsetBottom -512
+   }
+   format LDR
+   allowAlpha 1
+   useDepth lowQuality
+   {
+    FrameWidgetClass "{627AA1CE57C61CE8}" {
+     Name "Frame0"
+     Slot FrameWidgetSlot "{627AA1CE57C61CCB}" {
+      OffsetLeft 0
+      OffsetTop 0
+      SizeX 764
+      OffsetRight -764
+      SizeY 512
+      OffsetBottom -512
+     }
+     {
+      ImageWidgetClass "{627AA1CE7D05CB03}" {
+       Name "Background"
+       Slot FrameWidgetSlot "{627AA1CE7D05CB65}" {
+        PositionX 0
+        OffsetLeft 0
+        PositionY 0
+        OffsetTop 0
+        SizeX 764
+        OffsetRight -764
+        SizeY 512
+        OffsetBottom -512
+       }
+       Color 0 0 0 1
+       Size 125 64
+      }
+      ImageWidgetClass "{627AA1CE22CD2A8F}" {
+       Name "TQOVRDBG"
+       Slot FrameWidgetSlot "{627AA1CE22CD2A90}" {
+        PositionX 16
+        OffsetLeft 16
+        PositionY 95.8
+        OffsetTop 95.8
+        SizeX 85.4
+        OffsetRight -101.4
+        SizeY 55.8
+        OffsetBottom -151.6
+       }
+       Color 0 0 0 1
+       "Shadow Size Increase" 1 1
+       "Shadow Color" 0.259 0.686 0.686 1
+      }
+      ImageWidgetClass "{627AA1CF9FDB006F}" {
+       Name "TQOVRDTextBG"
+       Slot FrameWidgetSlot "{627AA1CF9FDB004B}" {
+        PositionX 43.2
+        OffsetLeft 43.2
+        PositionY 82.7
+        OffsetTop 82.7
+        SizeX 28.3
+        OffsetRight -71.5
+        SizeY 18.4
+        OffsetBottom -101.1
+       }
+       Color 0 0 0 1
+      }
+      RichTextWidgetClass "{627AA1CF6018440A}" {
+       Name "TQOVRDLabel"
+       Slot FrameWidgetSlot "{627AA1CF6018446F}" {
+        PositionX 32
+        OffsetLeft 32
+        PositionY 80
+        OffsetTop 80
+        SizeX 50
+        OffsetRight -82
+        SizeY 24
+        OffsetBottom -104
+       }
+       Text "TQ"
+       "Font Size" 20
+       "Min Font Size" 15
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+       "No Localization" 1
+       FontProperties FontProperties "{627AA1CF3E9E4467}" {
+        Font "{E2CBA6F76AAA42AF}UI/Fonts/Roboto/Roboto_Regular.fnt"
+        ShadowSize 13
+       }
+       "Shadow Size Increase" 4
+      }
+      RichTextWidgetClass "{627AA1CCCDB33E55}" {
+       Name "TQOVRDAvail"
+       Slot FrameWidgetSlot "{627AA1CF6018446F}" {
+        PositionX 22.1
+        OffsetLeft 22.1
+        PositionY 121.1
+        OffsetTop 121.1
+        SizeX 29.7
+        OffsetRight -51.8
+        SizeY 24
+        OffsetBottom -145.1
+       }
+       Text "100"
+       "Font Size" 15
+       "Min Font Size" 15
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+       "No Localization" 1
+       FontProperties FontProperties "{627AA1CF3E9E4467}" {
+        Font "{E2CBA6F76AAA42AF}UI/Fonts/Roboto/Roboto_Regular.fnt"
+        ShadowSize 13
+       }
+       "Shadow Size Increase" 4
+      }
+      RichTextWidgetClass "{627AA1CC9A5DE965}" {
+       Name "TQOVRDLabelValues"
+       Slot FrameWidgetSlot "{627AA1CF6018446F}" {
+        PositionX 18.4
+        OffsetLeft 18.4
+        PositionY 102.8
+        OffsetTop 102.8
+        SizeX 76.7
+        OffsetRight -95.1
+        SizeY 24
+        OffsetBottom -126.8
+       }
+       Color 0.157 0.624 0.624 1
+       Text "AVL  REQ"
+       "Font Size" 15
+       "Min Font Size" 15
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+       "No Localization" 1
+       FontProperties FontProperties "{627AA1CF3E9E4467}" {
+        Font "{E2CBA6F76AAA42AF}UI/Fonts/Roboto/Roboto_Regular.fnt"
+        ShadowSize 13
+       }
+       "Shadow Size Increase" 4
+      }
+      RichTextWidgetClass "{627AA1CC460F1CB6}" {
+       Name "TQOVRDReq"
+       Slot FrameWidgetSlot "{627AA1CF6018446F}" {
+        PositionX 62.5
+        OffsetLeft 62.5
+        PositionY 121.1
+        OffsetTop 121.1
+        SizeX 29.6
+        OffsetRight -92.1
+        SizeY 24
+        OffsetBottom -145.1
+       }
+       Text "61"
+       "Font Size" 15
+       "Min Font Size" 15
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+       "No Localization" 1
+       FontProperties FontProperties "{627AA1CF3E9E4467}" {
+        Font "{E2CBA6F76AAA42AF}UI/Fonts/Roboto/Roboto_Regular.fnt"
+        ShadowSize 13
+       }
+       "Shadow Size Increase" 4
+      }
+      RichTextWidgetClass "{627AA1CC14C14019}" {
+       Name "TQ1Text"
+       Slot FrameWidgetSlot "{627AA1CF6018446F}" {
+        PositionX 102.5
+        OffsetLeft 102.5
+        PositionY 44.6
+        OffsetTop 44.6
+        SizeX 50
+        OffsetRight -152.5
+        SizeY 24
+        OffsetBottom -68.6
+       }
+       Text "100"
+       "Font Size" 15
+       "Min Font Size" 15
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+       "No Localization" 1
+       FontProperties FontProperties "{627AA1CF3E9E4467}" {
+        Font "{E2CBA6F76AAA42AF}UI/Fonts/Roboto/Roboto_Regular.fnt"
+       }
+      }
+      RichTextWidgetClass "{627AA1CC20EBD0F4}" {
+       Name "TQ2Text"
+       Slot FrameWidgetSlot "{627AA1CF6018446F}" {
+        PositionX 134.7
+        OffsetLeft 134.7
+        PositionY 43.7
+        OffsetTop 43.7
+        SizeX 50
+        OffsetRight -184.7
+        SizeY 24
+        OffsetBottom -67.7
+       }
+       Text "100"
+       "Font Size" 15
+       "Min Font Size" 15
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+       "No Localization" 1
+       FontProperties FontProperties "{627AA1CF3E9E4467}" {
+        Font "{E2CBA6F76AAA42AF}UI/Fonts/Roboto/Roboto_Regular.fnt"
+       }
+      }
+      RichTextWidgetClass "{627AA1CDFDB78F25}" {
+       Name "PTITText"
+       Slot FrameWidgetSlot "{627AA1CF6018446F}" {
+        PositionX 186.7
+        OffsetLeft 186.7
+        PositionY 43.9
+        OffsetTop 43.9
+        SizeX 75
+        OffsetRight -261.7
+        SizeY 24
+        OffsetBottom -67.9
+       }
+       Text "1 PTIT 2"
+       "Font Size" 15
+       "Min Font Size" 15
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+       "No Localization" 1
+       FontProperties FontProperties "{627AA1CF3E9E4467}" {
+        Font "{E2CBA6F76AAA42AF}UI/Fonts/Roboto/Roboto_Regular.fnt"
+       }
+      }
+      RichTextWidgetClass "{627AA1CD9ABCA0E8}" {
+       Name "NP1Text"
+       Slot FrameWidgetSlot "{627AA1CF6018446F}" {
+        PositionX 273.1
+        OffsetLeft 273.1
+        PositionY 43.5
+        OffsetTop 43.5
+        SizeX 50
+        OffsetRight -323.1
+        SizeY 24
+        OffsetBottom -67.5
+       }
+       Text "NP1"
+       "Font Size" 15
+       "Min Font Size" 15
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+       "No Localization" 1
+       FontProperties FontProperties "{627AA1CF3E9E4467}" {
+        Font "{E2CBA6F76AAA42AF}UI/Fonts/Roboto/Roboto_Regular.fnt"
+       }
+      }
+      RichTextWidgetClass "{627AA1CDA5F02A5E}" {
+       Name "NRText"
+       Slot FrameWidgetSlot "{627AA1CF6018446F}" {
+        PositionX 324.6
+        OffsetLeft 324.6
+        PositionY 43.9
+        OffsetTop 43.9
+        SizeX 50
+        OffsetRight -374.6
+        SizeY 24
+        OffsetBottom -67.9
+       }
+       Text "NR"
+       "Font Size" 15
+       "Min Font Size" 15
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+       "No Localization" 1
+       FontProperties FontProperties "{627AA1CF3E9E4467}" {
+        Font "{E2CBA6F76AAA42AF}UI/Fonts/Roboto/Roboto_Regular.fnt"
+       }
+      }
+      RichTextWidgetClass "{627AA1C849296A06}" {
+       Name "NP2Text"
+       Slot FrameWidgetSlot "{627AA1CF6018446F}" {
+        PositionX 379.6
+        OffsetLeft 379.6
+        PositionY 43.7
+        OffsetTop 43.7
+        SizeX 50
+        OffsetRight -429.6
+        SizeY 24
+        OffsetBottom -67.7
+       }
+       Text "NP2"
+       "Font Size" 15
+       "Min Font Size" 15
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+       "No Localization" 1
+       FontProperties FontProperties "{627AA1CF3E9E4467}" {
+        Font "{E2CBA6F76AAA42AF}UI/Fonts/Roboto/Roboto_Regular.fnt"
+       }
+      }
+      HorizontalLayoutWidgetClass "{627AA1C81CE6C3A7}" {
+       Name "Tapes"
+       Slot FrameWidgetSlot "{627AA1C81CE6C38E}" {
+        PositionX 110.1
+        OffsetLeft 110.1
+        PositionY 66
+        OffsetTop 66
+        SizeX 320
+        OffsetRight -430.1
+        SizeY 256
+        OffsetBottom -322
+       }
+       {
+        ProgressBarWidgetClass "{627AA1C82A224424}" {
+         Name "TQ1"
+         Slot LayoutSlot "{627AA1C82A224400}" {
+          Padding 10 0 10 0
+          SizeMode Fill
+         }
+         Color 0.071 0.561 0.192 1
+         Current 10
+         Vertical 1
+         Flipped 1
+        }
+        ProgressBarWidgetClass "{627AA1C9FFD94C0C}" {
+         Name "TQ2"
+         Slot LayoutSlot "{627AA1C82A224400}" {
+          Padding 10 0 15 0
+          SizeMode Fill
+         }
+         Color 0.071 0.561 0.192 1
+         Current 10
+         Vertical 1
+         Flipped 1
+        }
+        ProgressBarWidgetClass "{627AA1C99DBEEF3C}" {
+         Name "PTIT1"
+         Slot LayoutSlot "{627AA1C82A224400}" {
+          Padding 20 0 10 0
+          SizeMode Fill
+         }
+         Color 0.071 0.561 0.192 1
+         Current 10
+         Vertical 1
+         Flipped 1
+        }
+        ProgressBarWidgetClass "{627AA1C9A4114C1A}" {
+         Name "PTIT2"
+         Slot LayoutSlot "{627AA1C82A224400}" {
+          Padding 10 0 20 0
+          SizeMode Fill
+         }
+         Color 0.071 0.561 0.192 1
+         Current 10
+         Vertical 1
+         Flipped 1
+        }
+        ProgressBarWidgetClass "{627AA1C98D08D9B0}" {
+         Name "NP1"
+         Slot LayoutSlot "{627AA1C82A224400}" {
+          Padding 20 0 20 0
+          SizeMode Fill
+         }
+         Color 0.071 0.561 0.192 1
+         Current 10
+         Vertical 1
+         Flipped 1
+        }
+        ProgressBarWidgetClass "{627AA1C9523FF5E1}" {
+         Name "NR"
+         Slot LayoutSlot "{627AA1C82A224400}" {
+          Padding 20 0 20 0
+          SizeMode Fill
+         }
+         Color 0.071 0.561 0.192 1
+         Current 10
+         Vertical 1
+         Flipped 1
+        }
+        ProgressBarWidgetClass "{627AA1C947491302}" {
+         Name "NP2"
+         Slot LayoutSlot "{627AA1C82A224400}" {
+          Padding 20 0 20 0
+          SizeMode Fill
+         }
+         Color 0.071 0.561 0.192 1
+         Current 10
+         Vertical 1
+         Flipped 1
+        }
+       }
+      }
+      HorizontalLayoutWidgetClass "{627AA1C97600C461}" {
+       Name "TapeLabels"
+       Slot FrameWidgetSlot "{627AA1C81CE6C38E}" {
+        PositionX 110.1
+        OffsetLeft 110.1
+        PositionY 16
+        OffsetTop 16
+        SizeX 320
+        OffsetRight -430.1
+        SizeY 30
+        OffsetBottom -46
+       }
+       {
+        RichTextWidgetClass "{627AA1C97600C460}" {
+         Name "TQ1Label"
+         Slot LayoutSlot "{627AA1C82A224400}" {
+          Padding 5 0 0 0
+         }
+         Text "TQ1"
+         "Font Size" 15
+         "Min Font Size" 15
+         "Horizontal Alignment" Center
+         "Vertical Alignment" Center
+         "No Localization" 1
+         FontProperties FontProperties "{627AA1C930EA77EF}" {
+          Font "{CD2634D279AB011A}UI/Fonts/Roboto/Roboto_Bold.fnt"
+         }
+        }
+        RichTextWidgetClass "{627AA1C97600C462}" {
+         Name "TQ2Label"
+         Slot LayoutSlot "{627AA1C82A224400}" {
+          Padding 8 0 0 0
+         }
+         Text "TQ2"
+         "Font Size" 15
+         "Min Font Size" 15
+         "Horizontal Alignment" Center
+         "Vertical Alignment" Center
+         "No Localization" 1
+         FontProperties FontProperties "{627AA1D6C536A46B}" {
+          Font "{CD2634D279AB011A}UI/Fonts/Roboto/Roboto_Bold.fnt"
+         }
+        }
+        RichTextWidgetClass "{627AA1C97600C47D}" {
+         Name "PTIT1Label"
+         Slot LayoutSlot "{627AA1C82A224400}" {
+          Padding 20 0 0 0
+         }
+         Text "1 PTIT 2"
+         "Font Size" 15
+         "Min Font Size" 15
+         "Horizontal Alignment" Center
+         "Vertical Alignment" Center
+         "No Localization" 1
+         FontProperties FontProperties "{627AA1D6E9D8901D}" {
+          Font "{CD2634D279AB011A}UI/Fonts/Roboto/Roboto_Bold.fnt"
+         }
+        }
+        RichTextWidgetClass "{627AA1C97600C47C}" {
+         Name "NP1Label"
+         Slot LayoutSlot "{627AA1C82A224400}" {
+          Padding 26 0 0 0
+         }
+         Text "NP1"
+         "Font Size" 15
+         "Min Font Size" 15
+         "Vertical Alignment" Center
+         "No Localization" 1
+         FontProperties FontProperties "{627AA1D6ACC19A19}" {
+          Font "{CD2634D279AB011A}UI/Fonts/Roboto/Roboto_Bold.fnt"
+         }
+        }
+        RichTextWidgetClass "{627AA1C97600C47F}" {
+         Name "NRLabel"
+         Slot LayoutSlot "{627AA1C82A224400}" {
+          Padding 32 0 0 0
+         }
+         Text "NR"
+         "Font Size" 15
+         "Min Font Size" 15
+         "Vertical Alignment" Center
+         "No Localization" 1
+         FontProperties FontProperties "{627AA1D679C4F93B}" {
+          Font "{CD2634D279AB011A}UI/Fonts/Roboto/Roboto_Bold.fnt"
+         }
+        }
+        RichTextWidgetClass "{627AA1C97600C47E}" {
+         Name "NP2Label"
+         Slot LayoutSlot "{627AA1C82A224400}" {
+          Padding 32 0 0 0
+         }
+         Text "NP2"
+         "Font Size" 15
+         "Min Font Size" 15
+         "Vertical Alignment" Center
+         "No Localization" 1
+         FontProperties FontProperties "{627AA1D630AEEE27}" {
+          Font "{CD2634D279AB011A}UI/Fonts/Roboto/Roboto_Bold.fnt"
+         }
+        }
+       }
+      }
+      FrameWidgetClass "{6292A4177101DBCB}" {
+       Name "Pylons"
+       Slot FrameWidgetSlot "{627AA1C81CE6C38E}" {
+        PositionX 352
+        OffsetLeft 352
+        PositionY 0
+        OffsetTop 0
+        SizeX 500
+        OffsetRight -852
+        SizeY 500
+        OffsetBottom -500
+       }
+       {
+        ImageWidgetClass "{6292A417233EAC51}" {
+         Name "PylonUI"
+         Slot FrameWidgetSlot "{6292A410D89E1AAB}" {
+          PositionX 48
+          OffsetLeft 48
+          PositionY 40
+          OffsetTop 40
+          SizeX 400
+          OffsetRight -448
+          SizeY 400
+          OffsetBottom -440
+          Alignment 0 0
+         }
+         Texture "{818EB3FFD6A005AA}UI/layouts/MFDWPNPylons_UI.edds"
+         Size 512 512
+        }
+        RichTextWidgetClass "{628EDAD864A657F6}" {
+         Name "Pod1AmmoText"
+         Slot FrameWidgetSlot "{6292A410D89E1A5A}" {
+          PositionX 56
+          OffsetLeft 56
+          PositionY 272
+          OffsetTop 272
+          SizeX 100
+          OffsetRight -156
+          SizeY 30
+          OffsetBottom -302
+         }
+         Text "P1"
+         "Font Size" 22
+         "Min Font Size" 22
+         "Horizontal Alignment" Center
+         "Vertical Alignment" Center
+         FontProperties FontProperties "{628EDADB9AC28550}" {
+          Font "{CD2634D279AB011A}UI/Fonts/Roboto/Roboto_Bold.fnt"
+         }
+        }
+        RichTextWidgetClass "{628EDAD29281E9EE}" {
+         Name "Pod2AmmoText"
+         Slot FrameWidgetSlot "{6292A410D89E1A44}" {
+          PositionX 328
+          OffsetLeft 328
+          PositionY 272
+          OffsetTop 272
+          SizeX 100
+          OffsetRight -428
+          SizeY 30
+          OffsetBottom -302
+         }
+         Text "P2"
+         "Font Size" 22
+         "Min Font Size" 22
+         "Horizontal Alignment" Center
+         "Vertical Alignment" Center
+         FontProperties FontProperties "{628EDAD813AB03E4}" {
+          Font "{CD2634D279AB011A}UI/Fonts/Roboto/Roboto_Bold.fnt"
+         }
+        }
+        RichTextWidgetClass "{6292A409FC7FFE00}" {
+         Name "Gun2AmmoText"
+         Slot FrameWidgetSlot "{6292A410D89E1A44}" {
+          PositionX 272
+          OffsetLeft 272
+          PositionY 352
+          OffsetTop 352
+          SizeX 100
+          OffsetRight -372
+          SizeY 30
+          OffsetBottom -382
+         }
+         Text "G2"
+         "Font Size" 22
+         "Min Font Size" 22
+         "Horizontal Alignment" Center
+         "Vertical Alignment" Center
+         FontProperties FontProperties "{628EDAD813AB03E4}" {
+          Font "{CD2634D279AB011A}UI/Fonts/Roboto/Roboto_Bold.fnt"
+         }
+        }
+        RichTextWidgetClass "{6292A409E3F69806}" {
+         Name "Gun1AmmoText"
+         Slot FrameWidgetSlot "{6292A410D89E1A5A}" {
+          PositionX 120
+          OffsetLeft 120
+          PositionY 352
+          OffsetTop 352
+          SizeX 100
+          OffsetRight -220
+          SizeY 30
+          OffsetBottom -382
+         }
+         Text "G1"
+         "Font Size" 22
+         "Min Font Size" 22
+         "Horizontal Alignment" Center
+         "Vertical Alignment" Center
+         FontProperties FontProperties "{628EDADB9AC28550}" {
+          Font "{CD2634D279AB011A}UI/Fonts/Roboto/Roboto_Bold.fnt"
+         }
+        }
+        ImageWidgetClass "{6296276E5A1E7780}" {
+         Name "InnerPylonFillL"
+         Slot FrameWidgetSlot "{6296276E5A1E77E7}" {
+          PositionX 176
+          OffsetLeft 176
+          PositionY 136
+          OffsetTop 136
+          SizeX 14.9
+          OffsetRight -190.9
+          SizeY 52
+          OffsetBottom -188
+         }
+         "Is Visible" 0
+         Color 0.233 0.714 0.148 1
+        }
+        ImageWidgetClass "{6296276E31489F3B}" {
+         Name "InnerPylonFillR"
+         Slot FrameWidgetSlot "{6296276E5A1E77E7}" {
+          PositionX 300.8
+          OffsetLeft 300.8
+          PositionY 136
+          OffsetTop 136
+          SizeX 14
+          OffsetRight -314.8
+          SizeY 52
+          OffsetBottom -188
+         }
+         "Is Visible" 0
+         Color 0.233 0.714 0.148 1
+        }
+        ImageWidgetClass "{6296276DDCD833FD}" {
+         Name "OuterPylonFillL"
+         Slot FrameWidgetSlot "{6296276E5A1E77E7}" {
+          PositionX 136
+          OffsetLeft 136
+          PositionY 136
+          OffsetTop 136
+          SizeX 14.9
+          OffsetRight -150.9
+          SizeY 52
+          OffsetBottom -188
+         }
+         Color 0.233 0.714 0.148 1
+        }
+        ImageWidgetClass "{6296276DDCC785E9}" {
+         Name "OuterPylonFillR"
+         Slot FrameWidgetSlot "{6296276E5A1E77E7}" {
+          PositionX 336
+          OffsetLeft 336
+          PositionY 136
+          OffsetTop 136
+          SizeX 14
+          OffsetRight -350
+          SizeY 52
+          OffsetBottom -188
+         }
+         Color 0.233 0.714 0.148 1
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

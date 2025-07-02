@@ -1,0 +1,36 @@
+AnimSrcGraphFile {
+ Sheets {
+  AnimSrcGraphSheet Master {
+   Nodes {
+    AnimSrcNodeBindPose "AIM BEGIN" {
+     EditorPos 379.8 540.1
+     BoneMask "Aim"
+    }
+    AnimSrcNodeProcTransform "Aiming Fn" {
+     EditorPos 379.8 538.7
+     Child "AIM BEGIN"
+     Expression "1"
+     Bones {
+      AnimSrcNodeProcTrBoneItem "{608497494B35A92D}" {
+       Bone "v_minigun_left_pivot_yaw"
+       Axis Y
+       Op Rotate
+       Amount "rad(Yaw) * -1"
+      }
+      AnimSrcNodeProcTrBoneItem "{608497494B55E311}" {
+       Bone "v_minigun_left_pivot_pitch"
+       Axis Z
+       Op Rotate
+       Amount "rad(Pitch)"
+      }
+     }
+    }
+    AnimSrcNodeSleep aim_sleep_out {
+     EditorPos 379.7 537.5
+     Child "Aiming Fn"
+     AwakeExpr "1"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,11 @@
+MatPBRBasic {
+ Color 0.737 0.737 0.737 1
+ Cull none
+ SpecularMul 0.5
+ RoughnessScale 1.055
+ MetalnessScale 2.042
+ AOScale 0.796
+ DielectricReflectance 0.032
+ BCRMap "{ECB81F67977539D0}Assets/Vehicles/Helicopters/AUS_MH60/Data/AUS_UH60_DialsandFuses_BCR.edds"
+ NMOMap "{D460A4F54E026B4E}Assets/Vehicles/Helicopters/AUS_MH60/Data/AUS_UH60_DialsandFuses_NMO.edds"
+}

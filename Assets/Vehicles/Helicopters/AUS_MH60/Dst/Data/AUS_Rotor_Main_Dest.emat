@@ -1,0 +1,11 @@
+MatPBRBasic {
+ Cull none
+ SpecularMul 0.54
+ RoughnessScale 1.27
+ MetalnessScale 3.155
+ AOScale 0.853
+ DielectricReflectance 0.031
+ BCRMap "{C7FA9736DE91BF7B}Assets/Vehicles/Helicopters/AUS_MH60/Dst/Data/AUS_Rotor_Main_Dest_BCR.edds"
+ NormalPower 0.794
+ NMOMap "{FF222CA407E6EDE5}Assets/Vehicles/Helicopters/AUS_MH60/Dst/Data/AUS_Rotor_Main_Dest_NMO.edds"
+}

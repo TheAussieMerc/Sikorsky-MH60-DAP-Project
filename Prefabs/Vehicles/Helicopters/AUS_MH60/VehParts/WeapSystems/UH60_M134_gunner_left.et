@@ -1,0 +1,135 @@
+Turret : "{273A9AE09880628E}Prefabs/Vehicles/Helicopters/UH1H/VehParts/WeapSystems/UH1H_M60D_gunner_left.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Object "{95D186D2D42256FA}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/AUS_Minigun_Mount_Left.xob"
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   DoorInfoList {
+    CompartmentDoorReference "{615A7AF205FFCDE6}" {
+     OpenCloseDoorAnimGraph "{B63E2B9ABFF11012}Assets/Vehicles/Helicopters/UH1H/workspace/AUS_UH60_Armed.agr"
+    }
+    CompartmentDoorReference "{611ED2CA484717DE}" {
+    }
+   }
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     CompartmentUniqueName ""
+     CompartmentAction SCR_GetInUserAction "{5086CC2CFDD3A05A}" {
+      ParentContextList {
+       "gunner"
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D566648F37562}" {
+      ParentContextList {
+       "gunner_l"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D56867A46DBE769}" {
+      }
+      SCR_RemoveCasualtyUserAction "{61089D59F48D7BD2}" {
+       ParentContextList {
+        "door_l03"
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
+      Offset 0 -0.0671 -0.2417
+     }
+     SeatType 0
+     m_DefaultOccupantData SCR_DefaultOccupantData "{6048CB72E6432E80}" {
+      m_sDefaultOccupantPrefab "{15CD521098748195}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliCrew.et"
+     }
+    }
+   }
+  }
+  SCR_DamageManagerComponent "{51ACD09C524A7924}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone Turret {
+     m_pDestructionHandler SCR_DestructionBaseHandler "{5584FE5A9F48BA15}" {
+      m_bAllowHideWreck 1
+     }
+    }
+   }
+  }
+  TurretControllerComponent "{51ACD09C61C183E4}" {
+   LimitsHoriz -65 65
+   LimitsVert -45 12
+  }
+  TurretComponent "{6048CB72E6432EAA}" {
+   components {
+    SightsComponent "{611EF962F1536F27}" {
+     SightsPosition PointInfo "{611EF962CB431058}" {
+      PivotID "eye"
+      Offset 0.0008 -0.0052 0.1155
+      Angles 0 0 0
+     }
+     SightsFOVInfo SCR_BaseVariableSightsFOVInfo "{6278C3FB8673A99D}" {
+     }
+     SightsPointFront PointInfo "{6278C3FBCD1A2204}" {
+      PivotID "eye"
+      Offset 0 0 0.4482
+     }
+     SightsPointRear PointInfo "{6278C3FBF67A7F61}" {
+      PivotID "eye"
+      Offset 0 0 0.3289
+     }
+    }
+   }
+   ikTargets {
+    AnimationIKTargetInfo "{6066B35C7414ADED}" {
+     PositionInfo PointInfo "{6066B35CAF0AB9BE}" {
+      PivotID "v_minigun_left_pivot_pitch"
+      Offset 0.3876 -0.0111 -0.2161
+      Angles -0.2105 179.9693 90
+     }
+    }
+    AnimationIKTargetInfo "{6066B35C7448F851}" {
+     PositionInfo PointInfo "{6066B35CAE71840F}" {
+      PivotID "v_minigun_left_pivot_pitch"
+      Offset 0.3837 -0.0102 0.0094
+      Angles 0 180 -90
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{60849D2737A72DFD}" {
+   Enabled 0
+   Slots {
+    RegisteringComponentSlotInfo M60D_dummy_mag {
+     Enabled 0
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    PivotID "w_slot"
+    Offset 0.1083 0.0169 0.0021
+    Angles 0 0 0
+    ChildPivotID "w_snap_l"
+   }
+   WeaponTemplate "{BAF8DE53DF87E443}Prefabs/Weapons/HeavyWeapons/M134_Minigun/AUS_MG_M134.et"
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{51ACFBB064390C6E}" {
+     Position PointInfo "{51ACFBB061993925}" {
+      PivotID "v_left_minigun_slot"
+      Offset 0.2949 0.9216 -0.4532
+     }
+    }
+    UserActionContext "{6048CB72E6432ED1}" {
+     Position PointInfo "{6048CB72E6429AB9}" {
+      Offset -0.0294 0.9985 -0.3098
+     }
+    }
+   }
+  }
+  BaseItemAnimationComponent "{5242E42C7B4B2CEE}" {
+   AnimGraph "{7F1CB96B3005FFC5}anims/workspaces/generic/tripods/AUS_tripods.agr"
+   AnimInstance "{9276ECB02C0CAD2B}anims/workspaces/generic/tripods/AUS_tripods.asi"
+  }
+ }
+ coords 1141.644 39 2372.796
+}

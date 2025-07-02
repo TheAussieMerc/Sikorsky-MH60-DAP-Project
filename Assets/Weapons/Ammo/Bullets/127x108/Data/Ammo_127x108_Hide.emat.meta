@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C8FCACB5897F0D35}Assets/Weapons/Ammo/Bullets/127x108/Data/Ammo_127x108.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

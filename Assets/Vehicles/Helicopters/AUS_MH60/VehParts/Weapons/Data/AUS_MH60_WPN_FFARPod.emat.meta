@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{014CA7B6D9CC2275}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/Data/AUS_MH60_WPN_FFARPod.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

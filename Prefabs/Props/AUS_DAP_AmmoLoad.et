@@ -1,0 +1,90 @@
+GenericEntity : "{54986385A6AF77B2}Prefabs/Props/Military/Arsenal/ArsenalBoxes/ArsenalBox_Base.et" {
+ ID "56F2C6D6F7C6DAFA"
+ components {
+  MeshObject "{56F2C6D1431AD85A}" {
+   Object "{5172A6E151032216}Assets/Props/Military/AmmoBox/EquipmentBoxStack/EquipmentBoxStack_01_V1.xob"
+   ClutterOccluder 1
+  }
+  RigidBody "{56F2C6D1431AD9DF}" {
+   Enabled 0
+  }
+  SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+   Enabled 0
+  }
+  SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+   Enabled 0
+   "faction affiliation" "US"
+  }
+  SCR_ResourceComponent "{5D7D07D2F7A252D2}" {
+   Enabled 0
+  }
+  SCR_ResupplySupportStationComponent "{5E2CE1BAE058CADC}" {
+   Enabled 0
+  }
+  SCR_ServicePointComponent "{5C7489C20C7B5D4B}" {
+   Enabled 0
+  }
+  SCR_SlotCompositionComponent "{56F2C6D1431AD9A6}" {
+   Enabled 1
+  }
+  SCR_SoundDataComponent "{5C533B76540FC6EE}" {
+   Enabled 0
+  }
+  UniversalInventoryStorageComponent "{56F2C6D15FE6C4CE}" {
+   Enabled 0
+  }
+  SCR_ArsenalInventoryStorageManagerComponent "{56F2C6D1431ADBA8}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{56F2C6D1431ADB12}" {
+   Enabled 0
+  }
+ }
+ coords 1114.647 39 2360.62
+ Flags 1025
+ {
+  GenericEntity : "{620E2BD5E8C26FAB}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/US/EquipmentBoxStack_US_01_V6_covered.et" {
+   ID "62962739413240E3"
+   components {
+    RigidBody "{5872F0EB7DFB5A9D}" {
+     Enabled 0
+    }
+   }
+   coords -1.132 0 -0.057
+   angleY 89.179
+   Flags 1025
+   {
+    GenericEntity {
+     ID "56B6871A1414CB69"
+     components {
+      RigidBody "{5872F0EB7DFB5A9D}" {
+       Enabled 0
+      }
+     }
+     Flags 1025
+    }
+   }
+  }
+  GenericEntity : "{9DD476816836FFED}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/US/EquipmentBoxStack_US_01_V5_covered.et" {
+   ID "62962739413240E7"
+   components {
+    RigidBody "{5872F0EB7DFB5A9D}" {
+     Enabled 0
+    }
+   }
+   coords 0.036 0 -1.064
+   angleY 177.707
+   Flags 1025
+   {
+    GenericEntity {
+     ID "56B6871A278AB642"
+     components {
+      RigidBody "{5872F0EB7DFB5A9D}" {
+       Enabled 0
+      }
+     }
+    }
+   }
+  }
+ }
+}

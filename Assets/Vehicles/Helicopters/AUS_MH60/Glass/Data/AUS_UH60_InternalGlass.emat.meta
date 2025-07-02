@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{482746F2C470DBDF}Assets/Vehicles/Helicopters/AUS_MH60/Glass/Data/AUS_UH60_InternalGlass.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

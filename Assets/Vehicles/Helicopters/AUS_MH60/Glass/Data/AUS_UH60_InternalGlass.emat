@@ -1,0 +1,8 @@
+MatPBRBasicGlass {
+ Color 0.247 0.247 0.247 1
+ AlphaMul 0.329
+ RoughnessScale 1.488
+ MetalnessScale 0.692
+ AOScale 0.502
+ CavityFromAO 0
+}

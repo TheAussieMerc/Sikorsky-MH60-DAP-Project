@@ -1,0 +1,6 @@
+MatPBRBasic {
+ AlphaMul 0
+ BlendMode AlphaBlend
+ BCRMap "{D7BC66CE59F38DD3}Assets/Weapons/Ammo/Bullets/127x108/Data/Ammo_127x108_BCR.edds"
+ NMOMap "{EF64DD5C8084DF4D}Assets/Weapons/Ammo/Bullets/127x108/Data/Ammo_127x108_NMO.edds"
+}

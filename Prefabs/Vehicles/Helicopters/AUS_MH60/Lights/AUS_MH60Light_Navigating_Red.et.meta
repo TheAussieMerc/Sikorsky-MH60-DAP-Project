@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0A71FB4312EE8498}Prefabs/Vehicles/Helicopters/UH1H/Lights/AUS_MH60Light_Navigating_Red.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

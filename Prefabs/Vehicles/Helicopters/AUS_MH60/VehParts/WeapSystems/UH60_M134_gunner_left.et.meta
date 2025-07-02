@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A2A1B4001EDCA44C}Prefabs/Vehicles/Helicopters/AUS_MH60/VehParts/WeapSystems/UH60_M134_gunner_left.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

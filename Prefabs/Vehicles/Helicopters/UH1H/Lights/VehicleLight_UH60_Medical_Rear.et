@@ -1,0 +1,13 @@
+LightEntity : "{514247A2E06364D6}Prefabs/Vehicles/Helicopters/UH1H/Lights/VehicleLight_UH1H_Cabin_Bright.et" {
+ ID "514ED7499ABC27FE"
+ coords 1108.299 40.173 2406.753
+ Color 0 0.502 0.125 1
+ LV 5.92
+ CastShadow 1
+ Type Spot
+ Radius 1.577
+ NearPlane 0.18
+ SpotAngle 143.11
+ SpotAngleAttenuation 0.16
+ DistanceAttenuation 2.28
+}

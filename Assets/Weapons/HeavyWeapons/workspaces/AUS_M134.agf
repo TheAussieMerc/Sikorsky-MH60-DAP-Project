@@ -1,0 +1,294 @@
+AnimSrcGraphFile {
+ Sheets {
+  AnimSrcGraphSheet Master {
+   Nodes {
+    AnimSrcNodeBlend TurnRAimspace_HighB {
+     EditorPos 405.45 118.3
+     BlendWeight "1"
+     Child0 "TurnRHeightB"
+     Child1 "TurnRAimspace_High"
+    }
+    AnimSrcNodeSource TurnLLowAnim {
+     EditorPos 397.45 121.5
+     Source "Gunner.TurnL_Low"
+    }
+    AnimSrcNodeBlendN "Blend N 1_1" {
+     EditorPos 396.1 116
+     BlendWeight "AimY"
+     Thresholds {
+      -25 0 60
+     }
+     Children {
+      "TurnRAimspace_HighB_1" "TurnRAimspace_MidB_1" "TurnRAimspace_LowB_1"
+     }
+    }
+    AnimSrcNodePose2 AnimNodePose20 {
+     EditorPos 401 116.2
+     Source "Gunner.Aimspace"
+     ValueX "AimX"
+     ValueY "AimY"
+     Table "Y(-14):   X(-20) = 4, X(-10) = 3, X(0) = 2, X(10) = 1, X(20) = 0"\
+     "Y(0):       X(-20) = 9, X(-10) = 8, X(0) = 7, X(10) = 6, X(20) = 5"\
+     "Y(18):     X(-20) = 14, X(-10) = 13, X(0) = 12, X(10) = 11, X(20) = 10"
+    }
+    AnimSrcNodePose2 TurnRAimspace_Mid_1 {
+     EditorPos 397.75 119.4
+     Source "Gunner.Turn_Aimspace_Mid"
+     ValueX "AimX"
+     ValueY "AimY"
+     Table "Y(0):   X(-20) = 2, X(-15) = 1, X(-10) = 0"\
+     ""
+    }
+    AnimSrcNodeSource TurnLHighAnim {
+     EditorPos 395.2 121.502
+     Source "Gunner.TurnL_High"
+    }
+    AnimSrcNodeBlend TurnRHeightB {
+     EditorPos 405.15 120.6
+     BlendWeight "normalize(AimY, 0, 60)"
+     Child0 "TurnRHighAnim"
+     Child1 "TurnRLowAnim"
+    }
+    AnimSrcNodePose2 TurnLAimspace_High_1 {
+     EditorPos 393 119.5
+     Source "Gunner.Turn_Aimspace_High"
+     ValueX "AimX"
+     ValueY "AimY"
+     Table "Y(-14):   X(-20) = 2, X(-15) = 1, X(-10) = 0"\
+     ""
+    }
+    AnimSrcNodeBlendN "Blend N 1" {
+     EditorPos 405.45 116.2
+     BlendWeight "AimY"
+     Thresholds {
+      -25 0 60
+     }
+     Children {
+      "TurnRAimspace_HighB" "TurnRAimspace_MidB" "TurnRAimspace_LowB"
+     }
+    }
+    AnimSrcNodeStateMachine "State Machine 1" {
+     EditorPos 401 113.4
+     states {
+      AnimSrcNodeState AimIdle {
+       EditorPos 401.05 114.6
+       Child "AnimNodePose20"
+      }
+      AnimSrcNodeState TurnR {
+       Tags {
+        "TagTurn"
+       }
+       EditorPos 405.25 114.6
+       Child "Blend N 1"
+       TimeStorage "Real Time"
+      }
+      AnimSrcNodeState TurnL {
+       Tags {
+        "TagTurn"
+       }
+       EditorPos 396.1 114.6
+       Child "Blend N 1_1"
+       TimeStorage "Real Time"
+      }
+     }
+     transitions {
+      AnimSrcNodeTransition "{617CCAB7559FA780}" {
+       FromState "AimIdle"
+       ToState "TurnR"
+       Duration "0.2"
+       Condition "IsCommand(CMD_Locomotion_Turn) && GetCommandI(CMD_Locomotion_Turn) > 0"
+      }
+      AnimSrcNodeTransition "{617CCAB7559FA798}" {
+       FromState "TurnR"
+       ToState "AimIdle"
+       Duration "0.2"
+       Condition "RemainingTimeLess(0.1)"
+       PostEval 1
+      }
+      AnimSrcNodeTransition "{617CCAB7559FA797}" {
+       FromState "AimIdle"
+       ToState "TurnL"
+       Duration "0.2"
+       Condition "IsCommand(CMD_Locomotion_Turn) && GetCommandI(CMD_Locomotion_Turn) < 0"
+      }
+      AnimSrcNodeTransition "{617CCAB7559FA791}" {
+       FromState "TurnL"
+       ToState "AimIdle"
+       Duration "0.2"
+       Condition "RemainingTimeLess(0.1)"
+       PostEval 1
+      }
+     }
+    }
+    AnimSrcNodeBlend TurnRAimspace_MidB {
+     EditorPos 408.35 118.2
+     BlendWeight "1"
+     Child0 "TurnRHeightB"
+     Child1 "TurnRAimspace_Mid"
+    }
+    AnimSrcNodeBlend TurnRAimspace_LowB_1 {
+     EditorPos 399.55 117.7
+     BlendWeight "1"
+     Child0 "TurnLHeightB"
+     Child1 "TurnRAimspace_Low_1"
+    }
+    AnimSrcNodeQueue "Queue 1" {
+     EditorPos 399.15 108
+     Child "AnimNodePose20_1"
+     QueueItems {
+      AnimSrcNodeQueueItem "{617CCAB7559FA7EE}" {
+       Child "HeightB"
+       StartExpr "WeaponHeight >= 50"
+       InterruptExpr "WeaponHeight < 50"
+       IsReentrant 1
+      }
+     }
+    }
+    AnimSrcNodePose2 TurnRAimspace_Low {
+     EditorPos 413.15 119.8
+     Source "Gunner.Turn_Aimspace_Low"
+     ValueX "AimX"
+     ValueY "AimY"
+     Table "Y(18):   X(10) = 2, X(15) = 1, X(20) = 0"\
+     ""
+    }
+    AnimSrcNodeSource TurnRHighAnim {
+     EditorPos 404.05 121.9
+     Source "Gunner.TurnR_High"
+    }
+    AnimSrcNodeBlend TurnLHeightB {
+     EditorPos 396.25 120.2
+     BlendWeight "normalize(AimY, 0, 60)"
+     Child0 "TurnLHighAnim"
+     Child1 "TurnLLowAnim"
+    }
+    AnimSrcNodeGroupSelect "50HeightG" {
+     EditorPos 399.75 110.9
+     Child "State Machine 1"
+     Group "Gunner"
+     Column "50"
+    }
+    AnimSrcNodeSource TurnRLowAnim {
+     EditorPos 406.35 121.9
+     Source "Gunner.TurnR_Low"
+    }
+    AnimSrcNodeBlend TurnRAimspace_LowB {
+     EditorPos 411.95 118.3
+     BlendWeight "1"
+     Child0 "TurnRHeightB"
+     Child1 "TurnRAimspace_Low"
+    }
+    AnimSrcNodeGroupSelect "120HeightG" {
+     EditorPos 402.15 110.9
+     Child "State Machine 1"
+     Group "Gunner"
+     Column "120"
+    }
+    AnimSrcNodePose2 TurnRAimspace_Low_1 {
+     EditorPos 400.75 119.2
+     Source "Gunner.Turn_Aimspace_Low"
+     ValueX "AimX"
+     ValueY "AimY"
+     Table "Y(18):   X(-20) = 2, X(-15) = 1, X(-10) = 0"\
+     ""
+    }
+    AnimSrcNodePose2 TurnRAimspace_Mid {
+     EditorPos 410.15 120
+     Source "Gunner.Turn_Aimspace_Mid"
+     ValueX "AimX"
+     ValueY "AimY"
+     Table "Y(0):   X(10) = 2, X(15) = 1, X(20) = 0"\
+     ""
+    }
+    AnimSrcNodeBlend TurnRAimspace_MidB_1 {
+     EditorPos 396.1 117.6
+     BlendWeight "1"
+     Child0 "TurnLHeightB"
+     Child1 "TurnRAimspace_Mid_1"
+    }
+    AnimSrcNodePose2 TurnRAimspace_High {
+     EditorPos 407.15 120
+     Source "Gunner.Turn_Aimspace_High"
+     ValueX "AimX"
+     ValueY "AimY"
+     Table "Y(-14):   X(10) = 2, X(15) = 1, X(20) = 0"\
+     ""
+    }
+    AnimSrcNodeBlend TurnRAimspace_HighB_1 {
+     EditorPos 393 117.702
+     BlendWeight "1"
+     Child0 "TurnLHeightB"
+     Child1 "TurnLAimspace_High_1"
+    }
+    AnimSrcNodePose2 AnimNodePose20_1 {
+     EditorPos 397.9 109.4
+     Source "Gunner.Ground.Aimspace"
+     ValueX "AimX"
+     ValueY "AimY"
+     Table "Y(-14):   X(-20) = 4, X(-10) = 3, X(0) = 2, X(10) = 1, X(20) = 0"\
+     "Y(0):       X(-20) = 9, X(-10) = 8, X(0) = 7, X(10) = 6, X(20) = 5"\
+     "Y(15):     X(-20) = 14, X(-10) = 13, X(0) = 12, X(10) = 11, X(20) = 10"
+    }
+    AnimSrcNodeBlend HeightB {
+     EditorPos 400.8 109.5
+     BlendWeight "normalize(WeaponHeight, 50, 120)"
+     Child0 "50HeightG"
+     Child1 "120HeightG"
+     SelectMainPath 1
+    }
+    AnimSrcNodeIK2 MasterControl {
+     EditorPos 399.2 106.7
+     Child "Queue 1"
+     Chains {
+      AnimSrcIkBinding "{617CCAB7559FA7FE}" {
+       IkTarget "LHandIKTarget"
+       IkChain "LeftArm"
+      }
+      AnimSrcIkBinding "{617CCAB7559FA7F8}" {
+       IkTarget "RHandIKTarget"
+       IkChain "RightArm"
+      }
+     }
+     Solver AnimSrcNodeIK2TwoBoneSolver "{617CCAB7559FA7F4}" {
+      SnapRotation 1
+      AllowStretching 1
+     }
+     Version 1
+    }
+    AnimSrcNodeStateMachine WeaponMasterControl {
+     EditorPos 388.9 108.3
+     states {
+      AnimSrcNodeState WeaponState {
+       EditorPos 388.8 109.7
+       Child "Queue 21406"
+      }
+     }
+    }
+    AnimSrcNodeQueue "Queue 21406" {
+     EditorPos 388.8 111.3
+     Child "Pose 42736"
+     QueueItems {
+      AnimSrcNodeQueueItem "{617CCAB7559FA7F2}" {
+       Child "Source 40572"
+       StartExpr "Firing"
+       InterruptExpr ""
+       BlendInTime 0
+       BlendOutTime 0
+       InterruptOthers 1
+       IsReentrant 1
+      }
+     }
+    }
+    AnimSrcNodePose "Pose 42736" {
+     EditorPos 387.1 112.9
+     Source "Gunner.Ground.Fire"
+     Time "0.0"
+    }
+    AnimSrcNodeSource "Source 40572" {
+     EditorPos 390.5 113
+     Source "Gunner.Ground.Fire"
+    }
+   }
+  }
+ }
+}

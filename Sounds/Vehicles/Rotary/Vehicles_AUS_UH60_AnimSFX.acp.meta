@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{BB84D1CDBB8FC70D}Sounds/Vehicles/Rotary/Vehicles_AUS_UH60_AnimSFX.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass PS5 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

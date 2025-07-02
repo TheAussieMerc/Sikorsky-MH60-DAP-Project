@@ -1,0 +1,32 @@
+TracerProjectile : "{158CA8519769A66F}Prefabs/Weapons/Ammo/Ammo_127x108_API_B32.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  CollisionTriggerComponent "{6277358BDD4BF2BA}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{6277358BC7B3F723}" {
+     EffectPrefab "{2AFA85C078E1FBB1}Prefabs/Weapons/Warheads/AUS_Warhead_30mm_HEI.et"
+     ParticleEffect "{5592BC9B67C60D16}Particles/Weapon/Explosion_RGD5.ptc"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+   }
+  }
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   Mass 0.0566
+   ProjectileEffects {
+    ExplosionEffect "{85DB664DDCA5D5B0}" {
+     ParticleEffect "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+    }
+    HitSoundEffect "{2FC22748C7ABD466}" {
+     Filename "{7400F00B53115F5C}Sounds/Weapons/Grenades/Weapons_Grenade_Generic_NoShrapnell.acp"
+    }
+   }
+   BallisticTableConfig "{903F878295F2957E}Configs/Weapons/AIBallisiticTables/AIBT_127x108_API_BS.conf"
+   AirDrag 0.000031
+   PenetrationDepth 12.5
+   PenetrationSpeed 790
+  }
+ }
+ ProjectileModel "{D807332FCA58B894}Assets/Weapons/Ammo/Tracers/Tracer_red.xob"
+ "Tracer Burn Start After" 0.15
+ "Tracer Burn Time" 10
+}

@@ -1,0 +1,123 @@
+ProcAnimProjectClass {
+ signals {
+  SignalClass {
+   id 7172
+   name "Signal 7"
+   tl -485.777 133.666
+   res "{0F1381E0D674887C}anims/proc/Blackhawk/minigun_turret_barrel.siga"
+   inputsport {
+    3
+   }
+   outputsport {
+    4
+   }
+   inputvalues {
+    0
+   }
+   inputvaluesmin {
+    0
+   }
+   inputvaluesmax {
+    1
+   }
+  }
+ }
+ funcs {
+  BoneClass {
+   id 1030
+   name "w_barrel"
+   version 0
+   tl -2 32
+   outs {
+    3078
+   }
+   bone "w_barrel"
+  }
+  RotationMakeClass {
+   id 2054
+   name "Barrel Rotate Value"
+   tl 0.667 140
+   iops {
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 7172
+         port 4
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    3078
+   }
+  }
+  RotationSetClass {
+   id 3078
+   name "RotationSet 3078"
+   tl 263.444 49.778
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 2054
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 1030
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+   UpdateCollider 1
+  }
+ }
+ model "{3B55266522CA33E3}Assets/Weapons/HeavyWeapons/AUS_M134Minigun/AUS_GAU-17_Minigun.xob"
+ version 1
+ compiled ProcAnimCompiledClass {
+  visited {
+   129 1 257
+  }
+  ops {
+   ProcAnimCompiledOp {
+    data {
+     1 131072 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 131072 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 65536 0 0 0
+    }
+   }
+  }
+  version 2
+  argsize 5
+ }
+}

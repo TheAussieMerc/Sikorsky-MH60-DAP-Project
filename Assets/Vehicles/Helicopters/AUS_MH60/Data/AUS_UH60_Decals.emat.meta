@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{EFB161F40233D447}Assets/Vehicles/Helicopters/AUS_MH60/Data/AUS_UH60_Decals.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

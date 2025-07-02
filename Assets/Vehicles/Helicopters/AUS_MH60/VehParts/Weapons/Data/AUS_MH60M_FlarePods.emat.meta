@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8B827074D1F3C727}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/Data/AUS_MH60M_FlarePods.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

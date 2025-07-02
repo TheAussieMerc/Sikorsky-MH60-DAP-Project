@@ -1,0 +1,14 @@
+MatPBRBasic {
+ Emissive 0 0.502 0.125 1
+ EmissiveLV 1.319
+ ApplyAlbedoToEmissive 1
+ Cull none
+ SpecularMul 0.59
+ RoughnessScale 0.811
+ MetalnessScale 1.081
+ AOScale 0.432
+ EmissiveMap "{76233F017EBFF99E}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Data/AUS_MH60_MEDEVAC_EQUIP_EM.edds"
+ BCRMap "{D1939FE3951CF710}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Data/AUS_MH60_MEDEVAC_EQUIP_BCR.edds"
+ NormalPower 0.822
+ NMOMap "{E94B24714C6BA58E}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Data/AUS_MH60_MEDEVAC_EQUIP_NMO.edds"
+}

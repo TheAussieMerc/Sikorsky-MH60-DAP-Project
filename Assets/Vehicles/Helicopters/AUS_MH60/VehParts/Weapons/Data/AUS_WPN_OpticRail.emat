@@ -1,0 +1,8 @@
+MatPBRBasic {
+ RoughnessScale 1.811
+ MetalnessScale 1.297
+ AOScale 0.892
+ DielectricReflectance 0.02
+ BCRMap "{50AF16C62B18D18C}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/Data/AUS_WPN_OpticRail_BCR.edds"
+ NMOMap "{6877AD54F26F8312}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/Data/AUS_WPN_OpticRail_NMO.edds"
+}

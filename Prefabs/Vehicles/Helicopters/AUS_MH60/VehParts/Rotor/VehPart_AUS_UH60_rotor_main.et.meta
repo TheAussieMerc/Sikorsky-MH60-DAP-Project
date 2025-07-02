@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9EC7DD023B85C1B7}Prefabs/Vehicles/Helicopters/AUS_MH60/VehParts/Rotor/VehPart_AUS_UH60_rotor_main.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

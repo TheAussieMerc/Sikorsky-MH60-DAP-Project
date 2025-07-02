@@ -1,0 +1,11 @@
+StaticModelEntity : "{CF1FFB7BAA1A0769}Prefabs/Structures/Military/Camps/HelipadImprovised_01/HelipadImprovised_US_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_CampaignBuildingObstructionExceptionComponent "{5F18D0C53C86C027}" {
+   m_aWhiteListPrefabs + {
+    "{420562B2B5D106C3}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_unarmed.et" "{793F69FB20D1CB7B}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_supplytransporter.et" "{847A4C8E73A7C186}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_Medical.et" "{F503F71C08BE3F7D}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_armed.et" "{651ED68285C35E99}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_MH60_DAP_FFAR.et" "{229994A36AD543F6}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_MH60M_SOAR_Blank.et"
+   }
+  }
+ }
+ coords 1156.664 0 2318.709
+}

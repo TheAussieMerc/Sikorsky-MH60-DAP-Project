@@ -1,0 +1,15 @@
+GameEntity : "{BCB5317179F82BAE}Prefabs/Vehicles/Helicopters/AUS_MH60/VehParts/Lights/AUS_MH60_ES_anticollision_01.et" {
+ ID "54DEF484EE00449D"
+ components {
+  MeshObject "{54DEF48745980A1F}" {
+   Object "{A8A2E8E0F6579B46}Assets/Vehicles/Helicopters/AUS_MH60/Lights/AUS_MH60_Light_Anticollision_Tail.xob"
+   Materials {
+    MaterialAssignClass "{624E0BF70B520681}" {
+     SourceMaterial "AUS_MH60_External_Lights"
+     AssignedMaterial "{6E74FEDE75D73171}Assets/Vehicles/Helicopters/AUS_MH60/Lights/Data/AUS_MH60_External_Lights.emat"
+    }
+   }
+  }
+ }
+ coords 1158.916 39.01 2385.508
+}

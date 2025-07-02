@@ -1,0 +1,283 @@
+GenericEntity : "{F54F6C453A8CB478}Prefabs/Weapons/Core/MachineGun_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{DD3158F3D3906BBF}Sounds/Weapons/HeavyWeapons/M230_Chaingun/AUS_SFX_HeavyWeapons_M230_Shot.acp" "{6616B1A0537FC180}Sounds/Vehicles/Wheeled/M151A2/Vehicles_M151A2_Turret.acp" "{EC7E8631CBC17F15}Sounds/Weapons/HeavyWeapons/M2/Weapons_HeavyWeapons_M2_Handling.acp"
+   }
+   IncludeInactive 1
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{CB43E3A002D7048B}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/AUS_MH60_WPN_M230_Chaingun.xob"
+  }
+  RigidBody "{6272B283F36DB9DE}" {
+   Mass 58
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07E1D123E9}" {
+     Name "M230 Chaingun"
+     Description ""
+     m_MagIndicator SCR_MagazineIndicatorConfiguration "{6286BA71CB378653}" {
+     }
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6272B283F36DB828}" {
+     Weight 38.1
+     SizeSetupStrategy Volume
+     ItemVolume 12000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5534BB9B9A3E369E}" {
+      CameraPreset Right
+      CameraDistanceToItem 1.7
+     }
+    }
+    m_eQuickSlotSize SLOT_1x1
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    SightsComponent "{BB23A637957CFFF8}" {
+     SightsPosition PointInfo "{BB23A63796688E69}" {
+      PivotID "eye"
+     }
+    }
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     components {
+      CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
+       ParticleEffect "{2FA34F96F9A5018B}Particles/Weapon/Casing_127x99.ptc"
+       EffectPosition EntitySlotInfo "{513A938439231378}" {
+        PivotID "w_chamber_L"
+        Offset 0 -0.1275 -0.1141
+        Angles -83 0 0
+       }
+      }
+      CaseEjectingEffectComponent "{6272B283F36DB80F}" {
+       ParticleEffect "{E7ACDE0ACCBCB07A}Particles/Weapon/Casing_Holder.ptc"
+       EffectPosition EntitySlotInfo casing_holder {
+        PivotID "w_chamber_L"
+        Offset 0 0 -0.195
+        Angles 0 90 0
+       }
+       HasSound 0
+      }
+      CaseEjectingEffectComponent "{6272B283F36DB830}" {
+       ParticleEffect "{45D764EF557E02B4}Particles/Weapon/Smoke_M2.ptc"
+       EffectPosition EntitySlotInfo "{52D4A6D19A301391}" {
+        PivotID "w_muzzle_L"
+        Offset 0 0 0.0523
+       }
+       HasSound 0
+      }
+      CaseEjectingEffectComponent "{6274B59513AA217E}" {
+       ParticleEffect "{2FA34F96F9A5018B}Particles/Weapon/Casing_127x99.ptc"
+       EffectPosition EntitySlotInfo "{6274B59507D0169B}" {
+        PivotID "w_chamber_R"
+        Offset 0 -0.1275 -0.1141
+        Angles -83 0 0
+       }
+       WaterSurface 8100
+       HasSound 0
+      }
+      CaseEjectingEffectComponent "{6274B5953D0B2E89}" {
+       ParticleEffect "{E7ACDE0ACCBCB07A}Particles/Weapon/Casing_Holder.ptc"
+       EffectPosition EntitySlotInfo "{6274B5952704B6E4}" {
+        PivotID "w_chamber_R"
+        Offset 0 0 -0.195
+        Angles 0 90 0
+       }
+       WaterSurface 8100
+       HasSound 0
+      }
+      CaseEjectingEffectComponent "{6274B596D3DAEE2B}" {
+       ParticleEffect "{45D764EF557E02B4}Particles/Weapon/Smoke_M2.ptc"
+       EffectPosition EntitySlotInfo "{6274B596DB47E832}" {
+        PivotID "w_muzzle_R"
+        Offset 0 0 0.0523
+       }
+       WaterSurface 8100
+       HasSound 0
+      }
+      SCR_MuzzleEffectComponent "{6274B596F15AF321}" {
+       ParticleEffect "{4DEF02F09203DF08}Particles/Weapon/Muzzle_Base_Medium_01.ptc"
+       EffectPosition EntitySlotInfo "{6274B596FFEF80E8}" {
+        PivotID "w_muzzle_R"
+        Offset 0 0 0.0523
+       }
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       EffectPosition EntitySlotInfo "{C9B3271BB85B5D32}" {
+        PivotID "w_muzzle_L"
+        Offset 0 0 0.0523
+       }
+      }
+     }
+     MuzzleEndPositions {
+      PointInfo "{B80A64F4B6CFB9BF}" {
+       PivotID "w_muzzle_L"
+      }
+      PointInfo "{6274B5955EAFE8F9}" {
+       PivotID "w_muzzle_R"
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{50F64C476EC435CA}" {
+       PivotID "w_chamber_L"
+      }
+      PointInfo "{6274B595441A8F73}" {
+       PivotID "w_chamber_R"
+      }
+     }
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" {
+       MaxBurst -1
+       RoundsPerMinute 625
+       UIName "FIRE"
+      }
+     }
+     MagazineWell MagazineWellAUS_M230 "{6272B283F36DB806}" {
+     }
+     DispersionDiameter 0.4
+     DispersionRange 400
+     WeaponAimModifiers {
+      SwayWeaponAimModifier "{521AE9A27BDC1E6F}" {
+       IsEnabled 0
+      }
+      RecoilWeaponAimModifier "{6272B283F36DB81E}" {
+       IsEnabled 0
+       LinearData RecoilData "{6272B283F36DB818}" {
+        "Curve X" {
+         0 0.5 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.032 0.55 0.045 0.75 0.065 0.7 0.071 0.65 0.095 0.5 0.25 0.45 0.45 0.52 0.7 0.495 1 0.5
+        }
+        "Curve Z" {
+         0 0.5 0.032 0.65 0.045 0.95 0.065 0.95 0.071 0.85 0.095 0.7 0.25 0.35 0.45 0.55 0.7 0.485 1 0.5
+        }
+        "Curve Magnitudes" 1 1 1
+        "Curve Mins" -0.001 -0.006 -0.022
+        "Curve Maxs" 0 -0.005 -0.018
+       }
+       AngularData RecoilData "{6272B283F36DB815}" {
+        "Curve X" {
+         0 0.5 0.019 0.411 0.055 0.539 0.11 0.474 0.216 0.497 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.032 0.55 0.045 0.8 0.065 0.95 0.071 0.9 0.095 0.75 0.25 0.45 0.45 0.52 0.7 0.49 1 0.5
+        }
+        "Curve Z" {
+         0 0.5 0.034 0.431 0.045 0.85 0.095 0.7 0.238 0.487 0.443 0.5 0.7 0.5 1 0.5
+        }
+        "Curve Magnitudes" 2 2 1
+        "Curve Mins" -0.001 0.3 -4
+        "Curve Maxs" 0.001 0.6 4
+       }
+       TurnOffsetData RecoilData "{6272B283F36DB816}" {
+        "Curve X" {
+         0 0.5 0.019 0.411 0.055 0.539 0.11 0.474 0.216 0.497 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.014 0.578 0.035 0.937 0.042 0.998 0.123 0.441 0.236 0.5 1 0.5
+        }
+        "Curve Magnitudes" 0.65 5 0
+        "Curve Mins" -0.5 0.3 0
+        "Base Recoil Scale" 1
+       }
+      }
+     }
+     UIInfo MuzzleUIInfo "{2FBBA72C906C627E}" {
+      Name "M230 30mm"
+      m_bShowCaliber 1
+      m_sCaliber "30x113mm HEDP"
+      m_bShowFiremode 0
+     }
+     ReloadDuration 12.5
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      PivotID "esss_m230_snap"
+      Offset 0 0 0
+     }
+     MagazineTemplate "{1CADE82F037C921C}Prefabs/Weapons/Magazines/Box_30x113_M230_1250rnd_4AP_1HEDP.et"
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     Enabled 0
+    }
+   }
+   SignalsSourceAccess SignalsSourceAccessClass "{CC7B64C6B99546FB}" {
+    signalsSuffix "Turret"
+   }
+   shouldHandleObstruction 0
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "M230 Chaingun"
+    Description ""
+    Icon ""
+    m_bShowWeaponName 1
+   }
+   WeaponSlotType "hmg"
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   ActionContexts {
+    UserActionContext "{5086F9ADF588DCA4}" {
+     ContextName "rearm_l"
+     Position PointInfo "{5086F9ADE97650DF}" {
+      PivotID "w_muzzle_L"
+     }
+     Radius 0.25
+    }
+    UserActionContext "{5956E32BAAADE657}" {
+     ContextName "rearm_r"
+     Position PointInfo "{5956E329E6B11261}" {
+      PivotID "w_muzzle_R"
+     }
+     Radius 0.25
+    }
+   }
+   additionalActions {
+    SCR_EquipWeaponAction "{51ECFC668352E6C8}" {
+     ParentContextList {
+     }
+    }
+    SCR_EquipWeaponHolsterAction "{589291C195FC57CB}" {
+     ParentContextList {
+     }
+    }
+    SCR_PickUpItemAction "{51EC842F84AD2146}" {
+     ParentContextList {
+     }
+    }
+    SCR_WeaponAction "{5956E32B11AEE106}" {
+     ParentContextList {
+     }
+    }
+    SCR_ToggleSafetyUserAction "{5A1E58F79FF7125E}" {
+     ParentContextList {
+     }
+    }
+    SCR_DetachMagazineUserAction "{5A1E58F790AF821D}" {
+     ParentContextList {
+     }
+    }
+    SCR_FireModeSwitchUserAction "{5A1E74156C2DB00D}" {
+     ParentContextList {
+     }
+    }
+    WCS_RearmWeaponAtRepairStationAction "{62773589A65C6C1B}" {
+     ParentContextList {
+      "rearm_l" "rearm_r"
+     }
+     UIInfo UIInfo "{6277358931CFE421}" {
+      Name "Rearm 30mm Guns"
+     }
+     Duration 10
+     m_bLoopAction 0
+     m_bLowerWeaponOnUse 1
+     m_eShownInVehicleState NOT_IN_VEHICLE
+     m_iSupplyCostPerRound 0.05
+    }
+   }
+  }
+ }
+ coords 1097.647 39.446 2375.882
+}

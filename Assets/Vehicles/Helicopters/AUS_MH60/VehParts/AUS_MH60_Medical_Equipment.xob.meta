@@ -1,0 +1,128 @@
+MetaFileClass {
+ Name "{7B01A59E7D54310F}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/AUS_MH60_Medical_Equipment.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MergeMeshes 0
+   ExportSkinning 1
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{6252D09A6697DA96}" {
+     SourceMaterial "AUS_MH60_Cargo_Seating"
+     AssignedMaterial "{98C80B59BFF29F94}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Seats/Data/AUS_MH60_Cargo_Seating.emat"
+    }
+    MaterialAssignClass "{6252D09A6697DAF9}" {
+     SourceMaterial "AUS_MH60_MEDEVAC_EQUIP"
+     AssignedMaterial "{17A08611A08249F8}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Data/AUS_MH60_MEDEVAC_EQUIP.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Cables {
+    }
+    MeshParam Cot_L_1 {
+    }
+    MeshParam Cot_L_2 {
+    }
+    MeshParam Cot_R_1 {
+    }
+    MeshParam Cot_R_2 {
+    }
+    MeshParam DoctorChairs {
+    }
+    MeshParam WallTraumaKit_Low {
+    }
+    MeshParam MedicalInterior {
+    }
+    MeshParam MedicalInteriorLighting {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_FG_DocSeatBack_01 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{EB67C7AAFE4FAD87}Common/Materials/Game/Fabric/fabric_3mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_FG_DocSeatBack_02 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{EB67C7AAFE4FAD87}Common/Materials/Game/Fabric/fabric_3mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_FG_DocSeatBase_01 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{EB67C7AAFE4FAD87}Common/Materials/Game/Fabric/fabric_3mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_FG_DocSeatBase_02 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{EB67C7AAFE4FAD87}Common/Materials/Game/Fabric/fabric_3mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FG_Cot_1 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{EDB153DC99889624}Common/Materials/Game/Metal/metal_3mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FG_Cot_2 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{EDB153DC99889624}Common/Materials/Game/Metal/metal_3mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FG_Cot_3 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{EDB153DC99889624}Common/Materials/Game/Metal/metal_3mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FG_Cot_4 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{EDB153DC99889624}Common/Materials/Game/Metal/metal_3mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6252D09A65781F17}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6252D09A6567CC39}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6252D09A6567CFE7}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6252D09A6567CE75}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6252D09A6567CE85}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6252D09A6567CEF2}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

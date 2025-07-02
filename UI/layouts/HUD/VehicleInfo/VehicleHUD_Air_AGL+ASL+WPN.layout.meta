@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1D5AF8FDE7B8876B}UI/layouts/HUD/VehicleInfo/VehicleHUD_Air_AGL+ASL+WPN.layout"
+ Configurations {
+  LayoutResourceClass PC {
+  }
+  LayoutResourceClass XBOX_ONE : PC {
+  }
+  LayoutResourceClass XBOX_SERIES : PC {
+  }
+  LayoutResourceClass PS4 : PC {
+  }
+  LayoutResourceClass PS5 : PC {
+  }
+  LayoutResourceClass HEADLESS : PC {
+  }
+ }
+}

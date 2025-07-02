@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4B71785E08F97C04}Prefabs/Vehicles/Helicopters/AUS_MH60/VehParts/Extras/AUS_MH60M_SOAR_Subsystems_61.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

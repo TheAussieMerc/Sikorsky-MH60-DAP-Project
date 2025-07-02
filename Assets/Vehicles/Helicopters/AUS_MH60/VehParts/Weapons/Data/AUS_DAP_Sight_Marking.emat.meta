@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C5BEF095DD61B7DB}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/Data/AUS_DAP_Sight_Marking.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{42EF67A44E8F85A1}Assets/Vehicles/Helicopters/AUS_MH60/anm/txa/v_uh60_cargo_left_open_out.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

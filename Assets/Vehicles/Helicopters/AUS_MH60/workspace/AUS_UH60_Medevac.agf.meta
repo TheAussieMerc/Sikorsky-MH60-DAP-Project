@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F26E04A05E808FC4}Assets/Vehicles/Helicopters/AUS_MH60/workspace/AUS_UH60_Medevac.agf"
+ Configurations {
+  AnimGraphFileResourceClass PC {
+  }
+  AnimGraphFileResourceClass XBOX_ONE : PC {
+  }
+  AnimGraphFileResourceClass XBOX_SERIES : PC {
+  }
+  AnimGraphFileResourceClass PS4 : PC {
+  }
+  AnimGraphFileResourceClass PS5 : PC {
+  }
+  AnimGraphFileResourceClass HEADLESS : PC {
+  }
+ }
+}

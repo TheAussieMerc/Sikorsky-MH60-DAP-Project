@@ -1,0 +1,103 @@
+MetaFileClass {
+ Name "{9BFA4A1B15F88DFA}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/AUS_Minigun_Mount_Right.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MergeMeshes 0
+   ExportSkinning 1
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{61BADAB007B230AA}" {
+     SourceMaterial "AUS_MH60_DoorGun_Mounts"
+     AssignedMaterial "{134875ADC4B6E4EA}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/Data/AUS_MH60_DoorGun_Mounts.emat"
+    }
+    MaterialAssignClass "{6278E65CC8066D71}" {
+     SourceMaterial "AUS_Optic_Eotech512"
+     AssignedMaterial "{0B3B802E6FD28F05}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/Data/AUS_Optic_Eotech512.emat"
+    }
+    MaterialAssignClass "{6278E65CC8066D51}" {
+     SourceMaterial "AUS_Optic_Eotech_Glass"
+     AssignedMaterial "{75D2DE7B650611D8}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/Data/AUS_Optic_Eotech_Glass.emat"
+    }
+    MaterialAssignClass "{6278E65CC8066DAC}" {
+     SourceMaterial "AUS_WPN_OpticRail"
+     AssignedMaterial "{6DB4499BDA05CB74}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/Data/AUS_WPN_OpticRail.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Minigun_Right_Mount {
+    }
+    MeshParam Eotech512 {
+    }
+    MeshParam Eotech_Glass {
+    }
+    MeshParam "Optics Rail" {
+    }
+   }
+   MergeTriMeshes 0
+   GeometryParams {
+    GeometryParam UBX_FG_Mount_01 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{962A3D033BAD4606}Common/Materials/Game/Metal/metal_3mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_FG_Mount_02 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{BF7032579F3C450F}Common/Materials/Game/Metal/metal_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_VC_Minigun_R_Mount {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{BF7032579F3C450F}Common/Materials/Game/Metal/metal_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FG_Mount_base_01 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{BF7032579F3C450F}Common/Materials/Game/Metal/metal_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FG_Mount_base_02 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{EDB153DC99889624}Common/Materials/Game/Metal/metal_3mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{617AB233D4EB28C7}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{617AB233D4EB2B8B}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{617AB233D4EB2A2C}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{617AB233D4EB2A18}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{617AB233D4EB2A73}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{617AB233D4EB2AA1}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

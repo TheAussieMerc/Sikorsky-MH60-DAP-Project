@@ -1,0 +1,10 @@
+AnimSetInstanceSource "{61109D1D1264E9A1}" {
+ Template "{07232255F2FF343F}Assets/Weapons/MachineGuns/workspaces/AUS_Gun_UH60_Left.ast"
+ Lines {
+  AnimSetInstanceSource_Line "Weapon.Default.Sight" {
+   Resource "{74E6E069549F20FD}Assets/Weapons/HeavyWeapons/M2HB/anims/anm/w_m2_sight.anm"
+  }
+ }
+ RBF AnimSetInstanceSourceRBFArray "{61109D1D12551AE9}" {
+ }
+}

@@ -1,0 +1,93 @@
+AnimSrcGraph {
+ AnimSetTemplate "{07232255F2FF343F}Assets/Weapons/MachineGuns/workspaces/AUS_Gun_UH60_Left.ast"
+ ControlTemplate AnimSrcGCT "{61109D1D125689F3}" {
+  Variables {
+   AnimSrcGCTVarFloat AimX {
+    DefaultValue 0
+    MinValue -180
+    MaxValue 180
+   }
+   AnimSrcGCTVarFloat AimY {
+    MinValue -90
+    MaxValue 90
+   }
+   AnimSrcGCTVarFloat Vehicle_Wobble {
+    MaxValue 1
+    Synchronized 0
+   }
+   AnimSrcGCTVarFloat SightElevation {
+    MaxValue 1
+   }
+  }
+  Commands {
+   AnimSrcGCTCmd CMD_Unconscious {
+   }
+   AnimSrcGCTCmd CMD_Unconscious_Exit {
+   }
+   AnimSrcGCTCmd CMD_Death {
+   }
+   AnimSrcGCTCmd CMD_Vehicle_GetOut {
+   }
+   AnimSrcGCTCmd CMD_Vehicle_SwitchSeat {
+   }
+  }
+  IkChains {
+   AnimSrcGCTIkChain LeftArm {
+    Joints {
+     "leftarm"
+     "leftarmtwist"
+     "leftforearm"
+     "leftforearmtwist"
+     "lefthand"
+    }
+    MiddleJoint "leftforearm"
+    ChainAxis "+y"
+   }
+   AnimSrcGCTIkChain RightArm {
+    Joints {
+     "rightarm"
+     "rightarmtwist"
+     "rightforearm"
+     "rightforearmtwist"
+     "righthand"
+    }
+    MiddleJoint "rightforearm"
+    ChainAxis "-y"
+   }
+   AnimSrcGCTIkChain LeftLeg {
+    Joints {
+     "leftleg"
+     "leftlegtwist"
+     "leftknee"
+     "leftkneetwist"
+     "leftfoot"
+    }
+    MiddleJoint "leftknee"
+    ChainAxis "+y"
+   }
+   AnimSrcGCTIkChain RightLeg {
+    Joints {
+     "rightleg"
+     "rightlegtwist"
+     "rightknee"
+     "rightkneetwist"
+     "rightfoot"
+    }
+    MiddleJoint "rightknee"
+    ChainAxis "-y"
+   }
+  }
+  GlobalTags {
+   "VEHICLE"
+   "TURRET"
+   "M998"
+   "M2HB"
+  }
+ }
+ Debug AnimSrcGD "{61109D1D12568900}" {
+ }
+ GraphFilesResourceNames {
+  "{3ADF5AEF5B9989FC}Assets/Weapons/MachineGuns/workspaces/AUS_Gun_UH60_Left.agf"
+ }
+ DefaultRunNode "MasterControl"
+}

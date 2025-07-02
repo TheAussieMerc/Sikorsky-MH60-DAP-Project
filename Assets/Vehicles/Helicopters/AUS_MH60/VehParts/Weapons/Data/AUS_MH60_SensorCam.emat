@@ -1,0 +1,10 @@
+MatPBRBasic {
+ Cull none
+ SpecularMul 0.81
+ RoughnessScale 1.459
+ MetalnessScale 1.027
+ AOScale 1.892
+ BCRMap "{4DB9489E06836925}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/Data/AUS_MH60_Sensor-Cam_BCR.edds"
+ NormalPower 1.254
+ NMOMap "{7561F30CDFF43BBB}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/Data/AUS_MH60_Sensor-Cam_NMO.edds"
+}

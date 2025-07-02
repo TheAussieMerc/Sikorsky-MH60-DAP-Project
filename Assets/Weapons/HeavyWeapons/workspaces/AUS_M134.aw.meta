@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{63AAF5A4D0E19195}Assets/Weapons/HeavyWeapons/workspaces/AUS_M134.aw"
+ Configurations {
+  AnimWorkspaceResourceClass PC {
+  }
+  AnimWorkspaceResourceClass XBOX_ONE : PC {
+  }
+  AnimWorkspaceResourceClass XBOX_SERIES : PC {
+  }
+  AnimWorkspaceResourceClass PS4 : PC {
+  }
+  AnimWorkspaceResourceClass PS5 : PC {
+  }
+  AnimWorkspaceResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6039F0A7E0359E70}Prefabs/Vehicles/Helicopters/UH1H/Lights/VehicleLight_UH60_Medical_Rear.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

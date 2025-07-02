@@ -1,0 +1,15 @@
+MatPBRDecal {
+ ZBias 1
+ SortBias 1
+ AlphaTest 0.001
+ AlphaMul 1.246
+ BlendMode AlphaBlend
+ RoughnessScale 0.692
+ MetalnessScale 1.315
+ BCRMap "{ECB81F67977539D0}Assets/Vehicles/Helicopters/AUS_MH60/Data/AUS_UH60_DialsandFuses_BCR.edds"
+ OpacityMap "{BDE0329C1901145C}Assets/Vehicles/Helicopters/AUS_MH60/Data/AUS_UH60_DialsandFuses_A.edds"
+ NMOMap "{D460A4F54E026B4E}Assets/Vehicles/Helicopters/AUS_MH60/Data/AUS_UH60_DialsandFuses_NMO.edds"
+ GBufferNormal 1
+ GBufferRoughness 1
+ GBufferMetalness 1
+}

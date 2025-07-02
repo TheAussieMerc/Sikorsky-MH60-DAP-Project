@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{85D6B09118050260}Prefabs/Vehicles/Helicopters/AUS_MH60/VehParts/Lights/AUS_MH60_ES_FormationLights.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

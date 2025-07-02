@@ -1,0 +1,8 @@
+GameEntity : "{E0D3BE81FFE18371}Prefabs/Vehicles/Helicopters/UH1H/VehParts/Lights/UH1H_ES_anticollision_01.et" {
+ ID "54DEF484EE00449D"
+ components {
+  MeshObject "{54DEF48745980A1F}" {
+   Object "{6A82EC31FCE2B2D4}Assets/Vehicles/Helicopters/AUS_MH60/Lights/AUS_MH60_Light_Anticollision_Belly.xob"
+  }
+ }
+}

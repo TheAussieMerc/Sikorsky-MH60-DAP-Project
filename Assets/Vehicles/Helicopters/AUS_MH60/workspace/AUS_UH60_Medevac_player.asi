@@ -1,0 +1,334 @@
+AnimSetInstanceSource "{62962733438BB6CF}" {
+ Template "{CF927C1AF7E63207}Assets/Vehicles/Helicopters/AUS_MH60/workspace/AUS_UH60_Medevac.ast"
+ Lines {
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.SteeringMain" {
+   Resource "{F45A3631EDB0C9B2}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_pilot_stick.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Pedals" {
+   Resource "{1AA53C3148C7FF7A}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_pilot_pedals.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.SwitchIn" {
+   Resource "{DD00A79FAEE3735C}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_switch_in_L.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.SwitchOut" {
+   Resource "{26FD7AEA09B4C405}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_switch_out_L.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.SwitchOut" {
+   Resource "{62F71DB27536DC03}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_copilot_switch_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.SwitchIn" {
+   Resource "{4DA5073CD95A2EC1}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_copilot_switch_in.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Collective" {
+   Resource "{E07588D01B055987}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_pilot_collective.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.GetIn" {
+   Resource "{7A492A6D1573B98E}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_pilot_get_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.GetIn" {
+   Resource "{60A1FB765C9B29DE}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_copilot_get_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.GetOut" {
+   Resource "{33D4EDEC2EDFCB2F}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_copilot_get_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.GetOut" {
+   Resource "{AABF810719FFAA58}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_pilot_get_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.HeadLook" {
+   Resource "{0A793F4ADA000847}anims/anm/player/layered/look/p_headlook.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.HeadLook" {
+   Resource "{0A793F4ADA000847}anims/anm/player/layered/look/p_headlook.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.HeadLook" {
+   Resource "{0A793F4ADA000847}anims/anm/player/layered/look/p_headlook.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.HeadLook" {
+   Resource "{0A793F4ADA000847}anims/anm/player/layered/look/p_headlook.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.HeadLook" {
+   Resource "{0A793F4ADA000847}anims/anm/player/layered/look/p_headlook.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.HeadLook" {
+   Resource "{0A793F4ADA000847}anims/anm/player/layered/look/p_headlook.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.GetIn" {
+   Resource "{7A492A6D1573B98E}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_pilot_get_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.IdleStick" {
+   Resource "{71F53826784BBEA2}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_copilot_stick.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.IdleStick" {
+   Resource "{5A596E6CBEFD2722}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_pilot_idle_stick.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.Idle" {
+   Resource "{AE28A42921BBAC95}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_idle_01.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.GetIn" {
+   Resource "{A0E1BDD088297464}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_getin_R.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.GetOut" {
+   Resource "{E1702EB0F37356A8}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_getout_L.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.GetOut" {
+   Resource "{107B16E4802C6344}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_getout_R.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.Idle" {
+   Resource "{C86BDABCDBE56196}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.Idle" {
+   Resource "{C86BDABCDBE56196}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.Idle" {
+   Resource "{1943E886E2F1806C}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_doctor_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetIn" {
+   Resource "{51EA8584FB764188}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_getin_L.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.GetIn" {
+   Resource "{51EA8584FB764188}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_getin_L.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetOut" {
+   Resource "{E1702EB0F37356A8}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_getout_L.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetOutL" {
+   Resource "{5F93B073238990C5}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_getout_L_cut.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetOutR" {
+   Resource "{335D1AA2B7DFF1A1}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_getout_R_cut.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetInL" {
+   Resource "{09D53BE9B8135A20}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_getin_L_cut.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetInR" {
+   Resource "{651B91382C453B44}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_getin_R_cut.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.GetOut" {
+   Resource "{E1702EB0F37356A8}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_getout_L.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.SwitchIn" {
+   Resource "{DD00A79FAEE3735C}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_switch_in_L.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.SwitchIn" {
+   Resource "{DDD8222C66FD56B4}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_switch_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.SwitchIn" {
+   Resource "{DDD8222C66FD56B4}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_switch_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.SwitchIn" {
+   Resource "{DDD8222C66FD56B4}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_switch_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.SwitchOut" {
+   Resource "{8F1590323F9D5821}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_switch_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.SwitchOut" {
+   Resource "{26FD7AEA09B4C405}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_switch_out_L.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.SwitchOut" {
+   Resource "{D7F642BE7AEBF1E9}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_switch_out_R.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.SwitchOut" {
+   Resource "{8F1590323F9D5821}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_switch_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.Death" {
+   Resource "{40F474D0FD1CA03B}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_dead.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.Death" {
+   Resource "{40F474D0FD1CA03B}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_dead.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.Death" {
+   Resource "{40F474D0FD1CA03B}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_dead.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.Death" {
+   Resource "{40F474D0FD1CA03B}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_dead.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.Death" {
+   Resource "{482FDC6C5B307633}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_copilot_relaxed_dead.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.Death" {
+   Resource "{5DDF00D89ECA71DD}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_pilot_dead.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.Idle" {
+   Resource "{1540D12718F8F15A}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_copilot_relaxed_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.SitUp" {
+   Resource "{DD00A79FAEE3735C}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_switch_in_L.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.SitUp" {
+   Resource "{2C0B9FCBDDBC46B8}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_switch_in_R.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.SitUp" {
+   Resource "{6269D88A94FDCBEF}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_switchin_cut.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.SitDown" {
+   Resource "{D7F642BE7AEBF1E9}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_switch_out_R.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.SitDown" {
+   Resource "{26FD7AEA09B4C405}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_switch_out_L.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.SitDown" {
+   Resource "{D01FE066B8E648DF}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_switchout_cut.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.SitDown" {
+   Resource "{D01FE066B8E648DF}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_switchout_cut.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.SitUp" {
+   Resource "{6269D88A94FDCBEF}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_switchin_cut.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.UnconsciousIdle" {
+   Resource "{5B1E3E63EA7B869C}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_copilot_unconscious_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.UnconsciousIn" {
+   Resource "{ADA13156B4F78AE6}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_copilot_unconscious_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.UnconsciousOut" {
+   Resource "{864461F56E0FA53F}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_copilot_unconscious_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.UnconsciousIdle" {
+   Resource "{6DDA1A31A79CE3AD}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_unconscious_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.UnconsciousIn" {
+   Resource "{2FE2B6F30E8B903A}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_unconscious_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.UnconsciousOut" {
+   Resource "{B6D8E2583CF360D4}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_unconscious_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.UnconsciousIdle" {
+   Resource "{3DDB7E075F10844D}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_unconscious_loop_L.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.UnconsciousIdle" {
+   Resource "{3DDB7E075F10844D}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_unconscious_loop_L.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.UnconsciousIdle" {
+   Resource "{6DDA1A31A79CE3AD}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_unconscious_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.UnconsciousIn" {
+   Resource "{74B1CC58CFA02178}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_unconscious_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.UnconsciousIn" {
+   Resource "{74B1CC58CFA02178}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_unconscious_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.UnconsciousIn" {
+   Resource "{2FE2B6F30E8B903A}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_unconscious_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.UnconsciousOut" {
+   Resource "{B6D8E2583CF360D4}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_unconscious_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.UnconsciousOut" {
+   Resource "{B6D8E2583CF360D4}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_unconscious_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.UnconsciousOut" {
+   Resource "{B6D8E2583CF360D4}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_passenger_unconscious_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.UnconsciousIn" {
+   Resource "{BF76DAA5F77833CF}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_pilot_unconscious_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.UnconsciousIdle" {
+   Resource "{8F22BA6AD9DA2D72}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_pilot_unconscious_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.UnconsciousOut" {
+   Resource "{B273299E228364F6}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_pilot_unconscious_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.01_GetOutR_NoDoor" {
+   Resource "{E6BB8CF13F254D87}Assets/Vehicles/Helicopters/UH1H/anm/Test/p_UH-1H_passengerR_getOut_noDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.01_GetOutL_NoDoor" {
+   Resource "{906BB8459F5360D7}Assets/Vehicles/Helicopters/UH1H/anm/Test/p_UH-1H_passengerL_getOut_noDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.01_OpenDoor_Out" {
+   Resource "{3A29CDF91E893B4F}Assets/Vehicles/Helicopters/UH1H/anm/Test/p_UH-1H_passengerR_openDoor_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.01_GetIn_NoDoor" {
+   Resource "{B90D5DACDAF4E48D}Assets/Vehicles/Helicopters/UH1H/anm/Test/p_UH-1H_passengerR_getIn_noDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.01_CloseDoor_Out" {
+   Resource "{920E6261D2590F04}Assets/Vehicles/Helicopters/UH1H/anm/Test/p_UH-1H_passengerR_closeDoor_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.01_GetOut_NoDoor" {
+   Resource "{E6BB8CF13F254D87}Assets/Vehicles/Helicopters/UH1H/anm/Test/p_UH-1H_passengerR_getOut_noDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.01_GetInR_NoDoor" {
+   Resource "{B90D5DACDAF4E48D}Assets/Vehicles/Helicopters/UH1H/anm/Test/p_UH-1H_passengerR_getIn_noDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.01_GetInL_NoDoor" {
+   Resource "{850A9FBBA1F7771B}Assets/Vehicles/Helicopters/UH1H/anm/Test/p_UH-1H_passengerL_getIn_noDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.Idle01" {
+   Resource "{361481B345859E51}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_doctor_idlevar_1.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.Idle02" {
+   Resource "{AF0A382A5862AFC1}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_doctor_idlevar_2.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.Idle03" {
+   Resource "{D80050A2ACC040B1}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_doctor_idlevar_3.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.Idle04" {
+   Resource "{DFC7AAF3CA46FA72}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_doctor_idlevar_4.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.Idle" {
+   Resource "{94E7DAB2411C2EAF}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_pilot_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.Stick2Idle" {
+   Resource "{C391B166B027C4EF}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_copilot_stick_to_relaxed.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.Idle2Stick" {
+   Resource "{9645A30DC26996A1}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_copilot_relaxed_to_stick.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.Idle2Stick" {
+   Resource "{42792704F1C83D4F}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_pilot_relaxed_to_stick.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.Stick2Idle" {
+   Resource "{17AD356F83866F01}Assets/Vehicles/Helicopters/UH1H/anm/p_UH-1H_pilot_stick_to_relaxed.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.01_CloseDoor_In" {
+   Resource "{F93CFCD66B2837C7}Assets/Vehicles/Helicopters/UH1H/anm/Test/p_UH-1H_copilot_closeDoor_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.01_CloseDoor_Out" {
+   Resource "{EE82FD85C57DCC20}Assets/Vehicles/Helicopters/UH1H/anm/Test/p_UH-1H_copilot_closeDoor_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.01_GetIn_NoDoor" {
+   Resource "{F2FEA3DF9DEF17ED}Assets/Vehicles/Helicopters/UH1H/anm/Test/p_UH-1H_copilot_getIn_noDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.01_GetOut_NoDoor" {
+   Resource "{9A37131528018EA3}Assets/Vehicles/Helicopters/UH1H/anm/Test/p_UH-1H_copilot_getOut_noDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.01_OpenDoor_In" {
+   Resource "{60E3F5A83AEC64DD}Assets/Vehicles/Helicopters/UH1H/anm/Test/p_UH-1H_copilot_openDoor_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.01_OpenDoor_Out" {
+   Resource "{71DA338A5992C82F}Assets/Vehicles/Helicopters/UH1H/anm/Test/p_UH-1H_copilot_openDoor_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.01_CloseDoor_In" {
+   Resource "{12036F36C9ACCA53}Assets/Vehicles/Helicopters/UH1H/anm/Test/p_UH-1H_pilot_closeDoor_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.01_CloseDoor_Out" {
+   Resource "{64E3E5BB11A68417}Assets/Vehicles/Helicopters/UH1H/anm/Test/p_UH-1H_pilot_closeDoor_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.01_GetIn_NoDoor" {
+   Resource "{19C1303F3F6BEA79}Assets/Vehicles/Helicopters/UH1H/anm/Test/p_UH-1H_pilot_getIn_noDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.01_GetOut_NoDoor" {
+   Resource "{10560B2BFCDAC694}Assets/Vehicles/Helicopters/UH1H/anm/Test/p_UH-1H_pilot_getOut_noDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.01_OpenDoor_In" {
+   Resource "{9ED0C63C17298FA3}Assets/Vehicles/Helicopters/UH1H/anm/Test/p_UH-1H_pilot_openDoor_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.01_OpenDoor_Out" {
+   Resource "{9AE5A06AFB1635BB}Assets/Vehicles/Helicopters/UH1H/anm/Test/p_UH-1H_pilot_openDoor_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.01_CloseDoor_Out" {
+   Resource "{E4DE56D5722F2254}Assets/Vehicles/Helicopters/UH1H/anm/Test/p_UH-1H_passengerL_closeDoor_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.01_GetIn_NoDoor" {
+   Resource "{850A9FBBA1F7771B}Assets/Vehicles/Helicopters/UH1H/anm/Test/p_UH-1H_passengerL_getIn_noDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.01_GetOut_NoDoor" {
+   Resource "{906BB8459F5360D7}Assets/Vehicles/Helicopters/UH1H/anm/Test/p_UH-1H_passengerL_getOut_noDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.01_OpenDoor_Out" {
+   Resource "{062E0FEE658AA8D9}Assets/Vehicles/Helicopters/UH1H/anm/Test/p_UH-1H_passengerL_openDoor_out.anm"
+  }
+ }
+ RBF AnimSetInstanceSourceRBFArray "{625ABEB4746A9022}" {
+ }
+}

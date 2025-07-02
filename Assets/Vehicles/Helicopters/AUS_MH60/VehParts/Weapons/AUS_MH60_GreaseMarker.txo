@@ -1,0 +1,41 @@
+$object "" {
+ #version 1.0
+ #tag MergeMeshes "1"
+ #tag Coords "XZY"
+ #tag Scale "1.000000"
+ $materials {
+  $material "AUS_DAP_Sight_Marking" {
+   #UVset 0
+  }
+ }
+ $lod 0 {
+  #lodFactor 0.5
+  $mesh "DAP_Gunsight" {
+   #texCoords 1
+   $faces {
+     0 4 0 1 2 3
+   }
+   $faceVerts {
+     1 0 0
+     3 0 1
+     2 0 2
+     0 0 3
+   }
+   $verts {
+     0.721718 1.958133 5.918849 0
+     0.678113 1.958918 5.919633 0
+     0.721718 1.988977 5.888006 0
+     0.678113 1.989761 5.888791 0
+   }
+   $texCoords {
+     0.0002 0.9998
+     0.0002 0.0002
+     0.9998 0.0002
+     0.9998 0.9998
+   }
+   $normals {
+     -0.0254 -0.7069 -0.7069
+   }
+  }
+ }
+}

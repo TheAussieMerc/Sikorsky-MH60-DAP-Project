@@ -1,0 +1,25 @@
+VehiclePartRotor : "{AE7823DFF0249278}Prefabs/Vehicles/Helicopters/UH1H/VehParts/Rotor/VehPart_UH1H_rotor_tail_base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{49481C9BF1A5DFCA}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Rotor/AUS_MH60_Tail_Rotor.xob"
+   InheritSkeleton 1
+  }
+  SCR_RotorDamageManagerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_RotorHitZone RotorTail {
+     m_RotorPointInfo PointInfo "{5E21339164BABE44}" {
+      PivotID "v_rear_rotor"
+      Offset -0.0361 0 0
+      Angles 0 0 90
+     }
+     m_fRotorRadius 1.8
+     m_fRotorThickness 0.15
+     m_fBladeWidth 106.1
+     m_iBladeCount 4
+    }
+   }
+  }
+ }
+ coords 155.629 2.431 119.566
+}

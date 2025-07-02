@@ -1,0 +1,85 @@
+ProcAnimSignalResClass {
+ Inputs {
+  IOPItemInputClass {
+   id 1
+   name "steering0"
+   tl -409 128
+   children {
+    3
+   }
+   valueMin -30
+   valueMax 30
+   global 1
+  }
+  IOPInputValueClass {
+   id 4
+   name "Value 4"
+   tl -324 -74
+   children {
+    3
+   }
+   value 360
+  }
+ }
+ Ops {
+  IOPItemOpMulClass {
+   id 3
+   name "Mul 3"
+   tl -86 -22
+   children {
+    2
+   }
+   inputs {
+    ConnectionClass connection {
+     id 4
+     port 0
+    }
+    ConnectionClass connection {
+     id 1
+     port 0
+    }
+   }
+  }
+ }
+ Outputs {
+  IOPItemOutputClass {
+   id 2
+   name "TurnWheel"
+   tl 200 0
+   input 3
+  }
+ }
+ compiled IOPCompiledClass {
+  visited {
+   133 5 11 6
+  }
+  ins {
+   IOPCompiledIn {
+    data {
+     1 3
+    }
+   }
+   IOPCompiledIn {
+    data {
+     1 3
+    }
+   }
+  }
+  ops {
+   IOPCompiledOp {
+    data {
+     1 2 4 65536 0 0 0
+    }
+   }
+  }
+  outs {
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+  }
+  processed 4
+  version 2
+ }
+}

@@ -1,0 +1,13 @@
+GenericEntity : "{4B71785E08F97C04}Prefabs/Vehicles/Helicopters/AUS_MH60/VehParts/Extras/AUS_MH60M_SOAR_Subsystems_61.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{631AC703E271721C}" {
+     SourceMaterial "AUS_MH60M_SOARNumbers"
+     AssignedMaterial "{132EB7A76E5492E9}Assets/Vehicles/Helicopters/AUS_MH60/Data/AUS_MH60M_SOARNumberBlank.emat"
+    }
+   }
+  }
+ }
+}

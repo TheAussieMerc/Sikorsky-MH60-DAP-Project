@@ -1,0 +1,30 @@
+AnimSetTemplateSource {
+ Groups {
+  AnimSetTemplateSource_AnimationGroup "{61109D1D125B3B58}" {
+   Name "Gunner"
+   Animations {
+    "AimSpaceFront"
+    "Transition_LeftToRight"
+    "Transition_RightToLeft"
+    "Unconscious_L_In"
+    "Unconscious_L_Loop"
+    "Unconscious_L_Out"
+    "Unconscious_R_In"
+    "Unconscious_R_Loop"
+    "Unconscious_R_Out"
+   }
+   Columns {
+    "Default"
+   }
+  }
+  AnimSetTemplateSource_AnimationGroup "{61109D1D125B3B6F}" {
+   Name "Weapon"
+   Animations {
+    "Sight"
+   }
+   Columns {
+    "Default"
+   }
+  }
+ }
+}

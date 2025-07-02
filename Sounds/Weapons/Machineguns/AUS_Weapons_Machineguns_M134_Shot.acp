@@ -1,0 +1,268 @@
+AudioClass {
+ signals {
+  SignalClass {
+   id 12301
+   name "Signal 12"
+   tl 310 101.429
+   res "{2AE3EF6E914424AA}Sounds/Weapons/Machineguns/AUS_Weapons_Machineguns_M134_Shot.sig"
+   inputsport {
+    1
+   }
+   outputsport {
+    2
+   }
+   inputvalues {
+    0
+   }
+   inputvaluesmin {
+    0
+   }
+   inputvaluesmax {
+    1
+   }
+   path "{2AE3EF6E914424AA}Sounds/Weapons/Machineguns/AUS_Weapons_Machineguns_M134_Shot.sig"
+  }
+ }
+ sounds {
+  SoundClass {
+   id 13321
+   name "SOUND_SHOT"
+   version 5
+   tl 612.857 -82.857
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 12301
+       port 2
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 7186
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   volume_dB -3
+   outState 19467
+   outStatePort 7175
+   speedOfSoundSimulation 1
+   time 500
+  }
+  SoundClass {
+   id 14345
+   name "Sound 14"
+   version 5
+   tl 605.714 241.429
+   ins {
+    ConnectionsClass connections {
+     id 0
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 11268
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   speedOfSoundSimulation 1
+  }
+ }
+ mixers {
+  MixerClass {
+   id 19467
+   name "OutputState 19"
+   version 4
+   tl 996.25 45
+   res "{B764D803219C775E}Sounds/FinalMix.afm"
+   ins {
+    ConnectionsClass connections {
+     id 7175
+     links {
+      ConnectionClass connection {
+       id 13321
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    2 0
+   }
+   path "{B764D803219C775E}Sounds/FinalMix.afm"
+   inputs {
+    "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialogue" "Music" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb" "VON_Reverb" "Dialogue_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "UI" "ENV_AMB_3D_Reverb_Exterior" "SFX_Direct" "SFX_Reverb_Small" "SFX_Reverb_Medium" "SFX_Reverb_Large"
+   }
+  }
+ }
+ constants {
+  ConstantClass {
+   id 4108
+   name "Constant 4"
+   version 5
+   tl -234.444 283.333
+   "Constant values" {
+    IOPConstantsValueClass SpoolDelay {
+     Key "SpoolDelay"
+     Value 100
+     Port 1
+    }
+   }
+  }
+ }
+ shaders {
+  ShaderClass {
+   id 7186
+   name "Shader 7"
+   version 5
+   tl 310 -120
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 3100
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 1043
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 2069
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 6148
+       port 65
+      }
+      ConnectionClass connection {
+       id 8196
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+ }
+ amplitudes {
+  AmplitudeClass {
+   id 1043
+   name "Amplitude 1"
+   version 5
+   tl -237.917 -84.583
+   curve SCurve
+   innerRange 50
+   outerRange 1000
+  }
+ }
+ frequency {
+  FrequencyClass {
+   id 2069
+   name "Frequency 2"
+   version 5
+   tl -235.556 -4.583
+   dynamicUpdate 1
+   enableDistanceAtt 1
+   type AirAbsorption
+   filterStrength 0.8
+   terrainEffects 1
+  }
+ }
+ banks_local {
+  BankLocalClass {
+   id 6148
+   name "Bank 6"
+   version 7
+   tl 17.778 95.556
+   ins {
+    ConnectionsClass connections {
+     id 5
+     links {
+      ConnectionClass connection {
+       id 4108
+       port 1
+      }
+     }
+    }
+   }
+   pi {
+    32 0
+   }
+   Volume -9
+   "Terminate Loop" 0
+   "Termination Fade Out" 100
+   "Random start offset" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{625201B1DDDC958B}Sounds/Weapons/Samples/MinigunM134_Loop_0-4s.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 8196
+   name "Bank 8"
+   version 7
+   tl 18.095 187.937
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{FAB85DB1A5DBA137}Sounds/Weapons/Samples/MinigunM134_Start.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 11268
+   name "Bank 11"
+   version 7
+   tl 302.857 281.429
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{6FF7182BE6FC7F5D}Sounds/Weapons/Samples/MinigunM134_Stop.wav"
+    }
+   }
+  }
+ }
+ spatialities {
+  SpatialityClass {
+   id 3100
+   name "Spatiality 3"
+   version 5
+   tl -237.778 -161.111
+   spatialFactor 0.35
+  }
+ }
+ version 1
+}

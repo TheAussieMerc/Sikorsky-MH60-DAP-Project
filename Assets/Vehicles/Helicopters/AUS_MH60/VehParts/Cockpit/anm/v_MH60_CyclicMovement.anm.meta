@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5BC654A1D15F7508}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Cockpit/anm/v_MH60_CyclicMovement.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

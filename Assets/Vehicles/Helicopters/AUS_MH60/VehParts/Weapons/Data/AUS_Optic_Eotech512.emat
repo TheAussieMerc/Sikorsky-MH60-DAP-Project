@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{2813BA55966442E2}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/Data/AUS_Optic_Eotech512_BCR.edds"
+ NMOMap "{10CB01C74F13107C}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/Data/AUS_Optic_Eotech512_NMO.edds"
+}

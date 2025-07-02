@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{2CF057FA1A1390AD}Assets/Vehicles/Helicopters/AUS_MH60/anm/txa/v_pedals.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

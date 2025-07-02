@@ -1,0 +1,7 @@
+MatPBRBasic {
+ AOScale 0.725
+ CavityFromAO 0
+ BCRMap "{81915A795352733E}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/Data/AUS_MH60_DoorGun_Mounts_BCR.edds"
+ NormalPower 0.079
+ NMOMap "{B949E1EB8A2521A0}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/Data/AUS_MH60_DoorGun_Mounts_NMO.edds"
+}

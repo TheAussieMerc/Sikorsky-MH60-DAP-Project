@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7C7184F52E6BA48A}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Sensors_Cameras/Data/AUS_MH60_SensorCam.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

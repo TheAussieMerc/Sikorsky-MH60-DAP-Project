@@ -1,0 +1,49 @@
+EffectDef {
+ Version 1
+ Emitters {
+  EmitterDef unnamed {
+   ShapeType Sphere
+   ShapeSize 2 2 2000
+   ConeAngle 360 -195.7 -175.6
+   MaxNum 50
+   BirthRate 5
+   BirthRateRND 15
+   BirthRateVel 2
+   Material "{6717581547F2F2B2}Particles/_Materials/Gas/Smoke_Cloud_Anim_2.emat"
+   Prefab "{29FBEC1991810EEF}system/wbdata/ParticleEditor/defaultPrefab.et"
+   SizeMultiplier 10.1
+   SizeRND 3
+   RotMultiplier 100
+   RotRND 24.7
+   RandomRotDir 1
+   RandomAngle 1
+   RandomUFlip 1
+   Velocity 29.6
+   AirResistance 0.45
+   WindInfluence 1
+   ParentVelRelToAir 0
+   GravityMultiply -0.13
+   GravityMultiplyRND -0.716
+   Spring 0
+   AnimFPS 20
+   Lifetime 2.6
+   Color {
+    0 0.44 0.327 0.233
+   }
+   Alpha {
+    0 0 0.231 0.184 0.486 0.6 0.763 0.6 1 0
+   }
+   RotationSpeed {
+    0 1 1 0.256
+   }
+   Size {
+    0 0 0.183 0.176 0.463 0.902 1 1
+   }
+   EmittingTime 2
+   Repeat 0
+   AlphaMast {
+    0.41 0.552
+   }
+  }
+ }
+}

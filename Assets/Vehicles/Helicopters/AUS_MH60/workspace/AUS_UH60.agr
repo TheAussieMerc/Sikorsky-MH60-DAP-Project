@@ -1,0 +1,634 @@
+AnimSrcGraph {
+ AnimSetTemplate "{4AFCF1F092D60AD7}Assets/Vehicles/Helicopters/AUS_MH60/workspace/AUS_UH60.ast"
+ ControlTemplate AnimSrcGCT "{5CEEF9CB88369FFE}" {
+  Variables {
+   AnimSrcGCTVarInt IsInVehicle {
+    MaxValue 1
+   }
+   AnimSrcGCTVarInt RotorState0 {
+    MaxValue 2
+   }
+   AnimSrcGCTVarInt RotorState1 {
+    MaxValue 2
+   }
+   AnimSrcGCTVarFloat ROTOR_RPM_0 {
+    DefaultValue 0
+    MinValue 0
+    MaxValue 215
+   }
+   AnimSrcGCTVarFloat ROTOR_RPM_1 {
+    MaxValue 1280
+   }
+   AnimSrcGCTVarFloat ENGINE_RPM_0 {
+    MaxValue 21000
+   }
+   AnimSrcGCTVarFloat ENGINE_RPM_1 {
+    MaxValue 21000
+   }
+   AnimSrcGCTVarFloat POWER_IO {
+    DefaultValue 1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat FUEL {
+    MaxValue 2585
+   }
+   AnimSrcGCTVarFloat MAGNETIC_compass {
+    MinValue -180
+    MaxValue 180
+   }
+   AnimSrcGCTVarFloat VERTICAL_SPEED {
+    MinValue -30
+    MaxValue 30
+   }
+   AnimSrcGCTVarFloat SPEED {
+    DefaultValue 0
+    MaxValue 450
+   }
+   AnimSrcGCTVarFloat ALTITUDE {
+    MaxValue 7000
+   }
+   AnimSrcGCTVarFloat ALTITUDE_AGL {
+    MaxValue 700
+   }
+   AnimSrcGCTVarFloat PITCH {
+    MinValue -180
+    MaxValue 180
+   }
+   AnimSrcGCTVarFloat BANK {
+    MinValue -180
+    MaxValue 180
+   }
+   AnimSrcGCTVarFloat DEVIATION_H {
+    MinValue -30
+    MaxValue 50
+   }
+   AnimSrcGCTVarFloat DEVIATION_V {
+    MinValue -30
+    MaxValue 30
+   }
+   AnimSrcGCTVarFloat DEVIATION_POINTER {
+    MaxValue 36
+   }
+   AnimSrcGCTVarFloat DEVIATION_FLAG {
+    MaxValue 36
+   }
+   AnimSrcGCTVarFloat TURN {
+    MinValue -45
+    MaxValue 45
+   }
+   AnimSrcGCTVarFloat SLIP {
+    MinValue -12
+    MaxValue 12
+   }
+   AnimSrcGCTVarFloat COMPASS_NDB {
+    MaxValue 360
+   }
+   AnimSrcGCTVarFloat COMPASS_VOR {
+    MaxValue 360
+   }
+   AnimSrcGCTVarFloat SECONDS {
+    MaxValue 43200
+   }
+   AnimSrcGCTVarFloat SECOND_OFFSET {
+    MaxValue 43200
+   }
+   AnimSrcGCTVarFloat Wipers {
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat angle_mainRotor {
+    DefaultValue -1
+    MinValue -360
+    MaxValue 360
+   }
+   AnimSrcGCTVarFloat angle_tailRotor {
+    DefaultValue -1
+    MinValue -360
+    MaxValue 360
+   }
+   AnimSrcGCTVarFloat CyclicAside {
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat CyclicForward {
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat Collective {
+    DefaultValue 0
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat Pitch {
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat VehicleThrottle {
+    DefaultValue 0
+    MinValue 0
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat VehicleBrake {
+    DefaultValue 0
+    MinValue 0
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat VehicleAccelerationFB {
+    DefaultValue 0
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat VehicleAccelerationLR {
+    DefaultValue 0
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat steering {
+    DefaultValue 0
+    MinValue -30
+    MaxValue 30
+   }
+   AnimSrcGCTVarFloat wheel_0 {
+    MinValue -360
+    MaxValue 360
+   }
+   AnimSrcGCTVarFloat wheel_1 {
+    MinValue -360
+    MaxValue 360
+   }
+   AnimSrcGCTVarFloat wheel_2 {
+    MinValue -360
+    MaxValue 360
+   }
+   AnimSrcGCTVarFloat suspension_0 {
+    DefaultValue 0
+    MinValue 0
+    MaxValue 0.5
+   }
+   AnimSrcGCTVarFloat suspension_1 {
+    DefaultValue 0
+    MinValue 0
+    MaxValue 0.5
+   }
+   AnimSrcGCTVarFloat suspension_2 {
+    MinValue 0
+    MaxValue 0.5
+   }
+   AnimSrcGCTVarFloat LookX {
+    DefaultValue 0
+    MinValue -180
+    MaxValue 180
+   }
+   AnimSrcGCTVarFloat LookY {
+    DefaultValue 0
+    MinValue -180
+    MaxValue 180
+   }
+   AnimSrcGCTVarInt SeatPositionType {
+    DefaultValue 0
+    MinValue 0
+    MaxValue 15
+   }
+   AnimSrcGCTVarFloat AimY {
+    DefaultValue 0
+    MinValue -100
+    MaxValue 100
+   }
+   AnimSrcGCTVarFloat AimX {
+    DefaultValue 0
+    MinValue -100
+    MaxValue 100
+   }
+   AnimSrcGCTVarBool Horn {
+   }
+   AnimSrcGCTVarFloat VehicleHandBrake {
+    MaxValue 2
+   }
+   AnimSrcGCTVarBool IsDriver {
+   }
+   AnimSrcGCTVarFloat SpineAccelerationFB {
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat SpineAccelerationLR {
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat Vehicle_Wobble {
+    MaxValue 1
+    Synchronized 0
+   }
+   AnimSrcGCTVarInt MovementDirection {
+    MinValue -180
+    MaxValue 180
+   }
+   AnimSrcGCTVarFloat AntiTorque {
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat RandomIdle {
+    MaxValue 1
+   }
+   AnimSrcGCTVarInt IsPilot {
+    MaxValue 1
+   }
+  }
+  Commands {
+   AnimSrcGCTCmd CMD_Vehicle_SwitchSeat {
+   }
+   AnimSrcGCTCmd CMD_Unconscious {
+   }
+   AnimSrcGCTCmd CMD_Unconscious_Exit {
+   }
+   AnimSrcGCTCmd CMD_Death {
+   }
+   AnimSrcGCTCmd CMD_OpenDoor {
+   }
+   AnimSrcGCTCmd CMD_Wheeled_Action {
+   }
+   AnimSrcGCTCmd CMD_Lights {
+   }
+   AnimSrcGCTCmd CMD_Vehicle_GetIn {
+   }
+   AnimSrcGCTCmd CMD_Vehicle_GetOut {
+   }
+   AnimSrcGCTCmd CMD_Vehicle_GearSwitch {
+   }
+   AnimSrcGCTCmd CMD_Vehicle_Engine_StartStop {
+   }
+   AnimSrcGCTCmd CMD_HandBrake {
+   }
+   AnimSrcGCTCmd CMD_Wake {
+   }
+  }
+  IkChains {
+   AnimSrcGCTIkChain FrontRightSuspension {
+    Joints {
+     "v_right_suspension_pivot"
+    }
+    ChainAxis "+y"
+   }
+   AnimSrcGCTIkChain FrontRightSuspensionTPiston {
+    Joints {
+     "v_right_suspension_01"
+    }
+    ChainAxis "+y"
+   }
+   AnimSrcGCTIkChain FrontLeftSuspension {
+    Joints {
+     "v_left_suspension_pivot"
+    }
+    ChainAxis "-y"
+   }
+   AnimSrcGCTIkChain FrontLeftSuspensionTPiston {
+    Joints {
+     "v_left_suspension_01"
+    }
+    MiddleJoint ""
+    ChainAxis "+y"
+   }
+   AnimSrcGCTIkChain RearSuspension {
+    Joints {
+     "v_rear_suspension_01"
+    }
+    ChainAxis "+y"
+   }
+   AnimSrcGCTIkChain RearSuspension2 {
+    Joints {
+     "v_rear_suspension_02"
+    }
+    ChainAxis "+y"
+   }
+   AnimSrcGCTIkChain RearSuspensionPivot {
+    Joints {
+     "v_rear_suspension_wheel_pivot"
+    }
+    ChainAxis "+y"
+   }
+   AnimSrcGCTIkChain LeftLeg {
+    Joints {
+     "leftleg"
+     "leftlegtwist"
+     "leftknee"
+     "leftkneetwist"
+     "leftfoot"
+    }
+    MiddleJoint "leftknee"
+    ChainAxis "+y"
+   }
+   AnimSrcGCTIkChain RightLeg {
+    Joints {
+     "rightleg"
+     "rightlegtwist"
+     "rightknee"
+     "rightkneetwist"
+     "rightfoot"
+    }
+    MiddleJoint "rightknee"
+    ChainAxis "-y"
+   }
+   AnimSrcGCTIkChain LeftArm {
+    Joints {
+     "leftarm"
+     "leftarmtwist"
+     "leftforearm"
+     "leftforearmtwist"
+     "lefthand"
+    }
+    MiddleJoint "leftforearm"
+    ChainAxis "+y"
+   }
+   AnimSrcGCTIkChain RightArm {
+    Joints {
+     "rightarm"
+     "rightarmtwist"
+     "rightforearm"
+     "rightforearmtwist"
+     "righthand"
+    }
+    MiddleJoint "rightforearm"
+    ChainAxis "-y"
+   }
+   AnimSrcGCTIkChain mainRotor_tild_01 {
+    Joints {
+     "v_rotor_blade_01"
+    }
+   }
+   AnimSrcGCTIkChain mainRotor_tild_02 {
+    Joints {
+     "v_rotor_blade_02"
+    }
+   }
+   AnimSrcGCTIkChain mainRotor_tild_03 {
+    Joints {
+     "v_rotor_blade_03"
+    }
+   }
+   AnimSrcGCTIkChain mainRotor_tild_04 {
+    Joints {
+     "v_rotor_blade_04"
+    }
+   }
+   AnimSrcGCTIkChain mainRotor_bend_01 {
+    Joints {
+     "v_rotor_blade_01_bend"
+    }
+   }
+   AnimSrcGCTIkChain mainRotor_bend_02 {
+    Joints {
+     "v_rotor_blade_02_bend"
+    }
+   }
+   AnimSrcGCTIkChain mainRotor_bend_03 {
+    Joints {
+     "v_rotor_blade_03_bend"
+    }
+   }
+   AnimSrcGCTIkChain mainRotor_bend_04 {
+    Joints {
+     "v_rotor_blade_04_bend"
+    }
+   }
+   AnimSrcGCTIkChain tailRotor_BladesOrient_01 {
+    Joints {
+     "v_tail_blade_rotator_01"
+    }
+    ChainAxis "+z"
+   }
+   AnimSrcGCTIkChain tailRotor_BladesOrient_02 {
+    Joints {
+     "v_tail_blade_rotator_02"
+    }
+    ChainAxis "+z"
+   }
+   AnimSrcGCTIkChain tailRotor_BladesOrient_03 {
+    Joints {
+     "v_tail_blade_rotator_03"
+    }
+    ChainAxis "+z"
+   }
+   AnimSrcGCTIkChain tailRotor_connection_01 {
+    Joints {
+     "v_tail_hub_01"
+    }
+   }
+   AnimSrcGCTIkChain tailRotor_connection_02 {
+    Joints {
+     "v_tail_hub_02"
+    }
+   }
+   AnimSrcGCTIkChain tailRotor_connection_03 {
+    Joints {
+     "v_tail_hub_03"
+    }
+   }
+  }
+  BoneMasks {
+   AnimSrcGCTBoneMask suspension {
+    Bones {
+     "v_left_suspension_01"
+     "v_left_suspension_pivot"
+     "v_left_suspension_wheel"
+     "v_right_suspension_01"
+     "v_right_suspension_pivot"
+     "v_right_suspension_wheel"
+     "v_rear_suspension_01"
+     "v_rear_suspension_02"
+     "v_rear_suspension_wheel_pivot"
+     "v_rear_suspension_wheel"
+     "v_root"
+    }
+   }
+   AnimSrcGCTBoneMask mainRotor {
+    Bones {
+     "v_rotor"
+     "v_rotor_hub"
+     "v_rotor_blade_01_bend"
+     "v_rotor_blade_01"
+     "v_rotor_blade_02_bend"
+     "v_rotor_blade_02"
+     "v_rotor_blade_03_bend"
+     "v_rotor_blade_03"
+     "v_rotor_blade_04_bend"
+     "v_rotor_blade_04"
+    }
+   }
+   AnimSrcGCTBoneMask tailRotor {
+    Bones {
+     "v_rear_rotor"
+     "v_rear_rotor_hub"
+     "v_rear_rotor_blade_01"
+     "v_rear_rotor_blade_02"
+     "v_rear_rotor_blade_03"
+     "v_rear_rotor_blade_04"
+    }
+   }
+   AnimSrcGCTBoneMask leftDashboard {
+    Bones {
+     "v_dashboard_PowerDown_indicator_L"
+     "v_dashboard_airspeed_L"
+     "v_dashboard_altimeter_L_hundreds"
+     "v_dashboard_altimeter_L_thousands"
+     "v_dashboard_altimeter_meters_L"
+     "v_dashboard_attitude_L"
+     "v_dashboard_attitude_indicator_L"
+     "v_dashboard_button_01"
+     "v_dashboard_button_02"
+     "v_dashboard_button_03"
+     "v_dashboard_button_04"
+     "v_dashboard_button_05"
+     "v_dashboard_button_06"
+     "v_dashboard_button_07"
+     "v_dashboard_button_08"
+     "v_dashboard_button_09"
+     "v_dashboard_button_10"
+     "v_dashboard_button_11"
+     "v_dashboard_button_12"
+     "v_dashboard_compass_L_01"
+     "v_dashboard_compass_L_02"
+     "v_dashboard_compass_L_03"
+     "v_dashboard_exhaust_temp_01_L"
+     "v_dashboard_exhaust_temp_02_L"
+     "v_dashboard_exhaust_temp_03_L"
+     "v_dashboard_exhaust_temp_04_L"
+     "v_dashboard_inclinometer_L_slip"
+     "v_dashboard_inclinometer_L_turn"
+     "v_dashboard_motor_pitch_L"
+     "v_dashboard_revs_engine_percentage_L"
+     "v_dashboard_revs_percentage_L"
+     "v_dashboard_switch_01"
+     "v_dashboard_switch_02"
+     "v_dashboard_switch_03"
+     "v_dashboard_switch_04"
+     "v_dashboard_turn_01"
+     "v_dashboard_turn_02"
+     "v_dashboard_turn_03"
+     "v_dashboard_turn_04"
+     "v_dashboard_turn_05"
+     "v_dashboard_vertical_velocity_L"
+     "v_interior_hover_back"
+     "v_interior_hover_front"
+     "v_interior_hover_left"
+     "v_interior_hover_leftMain"
+     "v_interior_hover_right"
+     "v_interior_hover_left_end"
+     "v_dashboard_revs_engine_percentage_L01"
+    }
+   }
+   AnimSrcGCTBoneMask rightDashboard {
+    Bones {
+     "v_dashboard_PowerDown_indicator_R"
+     "v_dashboard_airspeed_R"
+     "v_dashboard_altimeter_R_hundreds"
+     "v_dashboard_altimeter_thousand"
+     "v_dashboard_attitude_indicator_R"
+     "v_dashboard_button_01"
+     "v_dashboard_button_02"
+     "v_dashboard_button_03"
+     "v_dashboard_button_04"
+     "v_dashboard_button_05"
+     "v_dashboard_button_06"
+     "v_dashboard_button_07"
+     "v_dashboard_button_08"
+     "v_dashboard_compass_R_01"
+     "v_dashboard_compass_R_02"
+     "v_dashboard_compass_R_03"
+     "v_dashboard_fuel_R"
+     "v_dashboard_fuel_switch_R"
+     "v_dashboard_inclinometer_R"
+     "v_dashboard_revs_engine_percentage_R"
+     "v_dashboard_revs_percentage_R"
+     "v_dashboard_right_clock_bottom"
+     "v_dashboard_right_clock_hour"
+     "v_dashboard_right_clock_minutes"
+     "v_dashboard_right_mission_clock_hour"
+     "v_dashboard_right_mission_clock_minute"
+     "v_dashboard_switch_01"
+     "v_dashboard_switch_02"
+     "v_dashboard_temperature_R"
+     "v_dashboard_turn_01"
+     "v_dashboard_vertical_velocity_R"
+     "v_dashboard_revs_engine_percentage_R01"
+    }
+   }
+   AnimSrcGCTBoneMask topDashboard {
+    Bones {
+     "v_APU_start_button"
+     "v_APU_start_switch"
+     "v_APU_stop_button"
+     "v_Engine_start_button"
+     "v_Engine_start_switch_01"
+     "v_Engine_start_switch_02"
+     "v_dashboard_circut_breaker_weapon_circle_01"
+     "v_dashboard_circut_breaker_weapon_circle_02"
+     "v_dashboard_circut_breaker_weapon_circle_03"
+     "v_dashboard_circut_breaker_weapon_circle_04"
+     "v_dashboard_circut_breaker_weapon_circle_05"
+     "v_dashboard_circut_breaker_weapon_circle_06"
+     "v_dashboard_circut_breaker_weapon_circle_07"
+     "v_dashboard_circut_breaker_weapon_circle_08"
+     "v_dashboard_circut_breaker_weapon_circle_09"
+     "v_fuel_tank_fuel_valve_on_01"
+     "v_fuel_tank_fuel_valve_on_02"
+     "v_fuel_tank_fuel_valve_on_03"
+     "v_fuel_tank_fuel_valve_on_04"
+     "v_fuel_tank_pumps_on_01"
+     "v_fuel_tank_pumps_on_02"
+     "v_fuel_tank_pumps_on_03"
+     "v_fuel_tank_pumps_on_04"
+     "v_interier_upper_left_bottles_pressure"
+     "v_interier_upper_left_breaks_pressure"
+     "v_interior_up_center_APU_EGT"
+     "v_interior_up_center_APU_air_pressure"
+     "v_interior_up_center_hydraulic_pressure"
+     "v_interior_up_center_hydraulic_reserved_pressure"
+     "v_interior_up_left_ammeter"
+     "v_interior_up_right_AC_generator"
+     "v_interior_up_right_AC_generator_01"
+     "v_interior_up_right_AC_generator_02"
+     "v_interior_up_right_AC_rectifier_01"
+     "v_interior_up_right_AC_rectifier_02"
+     "v_interior_up_right_AC_rectifier_03"
+     "v_interior_up_right_APU_generator_load"
+     "v_interior_up_right_DC_ammeter_01"
+     "v_interior_up_right_DC_ammeter_02"
+     "v_interior_up_right_DC_voltmeter"
+     "v_dashboard_circut_breaker_weapon_01"
+     "v_dashboard_circut_breaker_weapon_04"
+     "v_dashboard_circut_breaker_weapon_05"
+     "v_dashboard_circut_breaker_weapon_06"
+     "v_dashboard_circut_breaker_weapon_07"
+     "v_dashboard_circut_breaker_weapon_08"
+     "v_dashboard_circut_breaker_weapon_09"
+     "v_dashboard_circut_breaker_weapon_10"
+     "v_dashboard_circut_breaker_weapon_11"
+    }
+   }
+   AnimSrcGCTBoneMask additionals {
+    Bones {
+     "v_rotor"
+    }
+   }
+   AnimSrcGCTBoneMask mainRotor_Dst {
+    Bones {
+     "v_rotor"
+    }
+   }
+   AnimSrcGCTBoneMask tailRotor_Dst {
+    Bones {
+     "v_tail_rotor"
+    }
+   }
+   AnimSrcGCTBoneMask body {
+    Bones {
+     "v_root"
+    }
+   }
+  }
+ }
+ Debug AnimSrcGD "{5CEEF9CB88369FED}" {
+ }
+ GraphFilesResourceNames {
+  "{7700894A3BB0B714}Assets/Vehicles/Helicopters/AUS_MH60/workspace/AUS_UH60.agf"
+ }
+ DefaultRunNode "MasterControl"
+}

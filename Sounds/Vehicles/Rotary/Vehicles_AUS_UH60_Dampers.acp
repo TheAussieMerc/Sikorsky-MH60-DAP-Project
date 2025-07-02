@@ -1,0 +1,852 @@
+AudioClass {
+ signals {
+  SignalClass {
+   id 96269
+   name "Signal Occlusion"
+   tl -256 -1744
+   res "{486BCE6E22132793}Sounds/_SharedData/Signals/Vehicles/Vehicles_Occlusion_OutsideVehicleSourceNoCabinAttenuation.sig"
+   inputsport {
+    45 55 57 101 110 115
+   }
+   outputsport {
+    67
+   }
+   inputvalues {
+    0 0 0 400 1000 0
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    1 1 1 10000 10000 1
+   }
+   path "{486BCE6E22132793}Sounds/_SharedData/Signals/Vehicles/Vehicles_Occlusion_OutsideVehicleSourceNoCabinAttenuation.sig"
+  }
+  SignalClass {
+   id 109581
+   name "Signal Reverb"
+   tl 509.778 -1218.222
+   res "{76CBB40EF7F227B6}Sounds/_SharedData/Signals/Reverb/Reverb_Base.sig"
+   inputsport {
+    1 35 40 112 139
+   }
+   outputsport {
+    34 39 105 107 106 110
+   }
+   inputvalues {
+    40 1 1 16000 16000
+   }
+   inputvaluesmin {
+    0 0 0 0 0
+   }
+   inputvaluesmax {
+    100 1 1 16000 16000
+   }
+   path "{76CBB40EF7F227B6}Sounds/_SharedData/Signals/Reverb/Reverb_Base.sig"
+  }
+  SignalClass {
+   id 119821
+   name "Signal 117"
+   tl -768 -1280
+   res "{7B843F7342B3C40D}Sounds/Vehicles/Helicopters/Mi-8MT/Vehicles_Mi-8MT_Dampers.sig"
+   inputsport {
+    1 4 6 15
+   }
+   outputsport {
+    2 3 5 9 12 14 16 18
+   }
+   inputvalues {
+    0 0 0 0
+   }
+   inputvaluesmin {
+    0 0 0 0
+   }
+   inputvaluesmax {
+    1 1 1 1
+   }
+   path "{7B843F7342B3C40D}Sounds/Vehicles/Helicopters/Mi-8MT/Vehicles_Mi-8MT_Dampers.sig"
+  }
+ }
+ sounds {
+  SoundClass : "{7594E2AA8BC38C78}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Suspension_Truck_base.conf" {
+   id 70665
+   name "SOUND_TAKEOFF_REAR_RIGHT"
+   version 5
+   tl 256 -768
+   parent "{7594E2AA8BC38C78}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Suspension_Truck_base.conf"
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 119821
+       port 18
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 3
+     links {
+      ConnectionClass connection {
+       id 86025
+       port 4
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 81938
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    9 0
+   }
+   priority 35
+   outState 25611
+   outStatePort 17415
+   boneName "v_landing_gear_rear_base"
+   threshold -0.001
+   reset -0.01
+   eventType "OnStart - Stop"
+  }
+  SoundClass : "{7594E2AA8BC38C78}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Suspension_Truck_base.conf" {
+   id 75785
+   name "SOUND_TAKEOFF_REAR_LEFT"
+   version 5
+   tl 256 -896
+   parent "{7594E2AA8BC38C78}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Suspension_Truck_base.conf"
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 119821
+       port 14
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 3
+     links {
+      ConnectionClass connection {
+       id 88073
+       port 4
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 81938
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    9 0
+   }
+   outState 25611
+   outStatePort 17415
+   boneName "v_landing_gear_rear_base"
+   threshold -0.001
+   reset -0.01
+   eventType "OnStart - Stop"
+  }
+  SoundClass : "{7594E2AA8BC38C78}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Suspension_Truck_base.conf" {
+   id 78857
+   name "SOUND_TAKEOFF_FRONT_LEFT"
+   version 5
+   tl 256 -1152
+   parent "{7594E2AA8BC38C78}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Suspension_Truck_base.conf"
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 119821
+       port 9
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 3
+     links {
+      ConnectionClass connection {
+       id 87049
+       port 4
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 81938
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    9 0
+   }
+   outState 25611
+   outStatePort 17415
+   boneName "v_landing_gear_left_pivot"
+   threshold -0.01
+   reset -0.01
+   eventType "OnStart - Stop"
+  }
+  SoundClass : "{C7B4035569FDACA9}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Suspension_Car_base.conf" {
+   id 86025
+   name "SOUND_LAND_REAR_RIGHT"
+   version 5
+   tl 256 -1408
+   parent "{C7B4035569FDACA9}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Suspension_Car_base.conf"
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 119821
+       port 16
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 3
+     links {
+      ConnectionClass connection {
+       id 70665
+       port 4
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 89106
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    9 0
+   }
+   priority 35
+   outState 25611
+   outStatePort 17415
+   boneName "v_landing_gear_rear_base"
+   reset 0.001
+   eventType "OnStart - Stop"
+  }
+  SoundClass : "{C7B4035569FDACA9}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Suspension_Car_base.conf" {
+   id 87049
+   name "SOUND_LAND_FRONT_LEFT"
+   version 5
+   tl 256 -1792
+   parent "{C7B4035569FDACA9}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Suspension_Car_base.conf"
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 119821
+       port 2
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 3
+     links {
+      ConnectionClass connection {
+       id 78857
+       port 4
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 89106
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    9 0
+   }
+   priority 35
+   outState 25611
+   outStatePort 17415
+   boneName "v_landing_gear_left_pivot"
+   reset 0.001
+   eventType "OnStart - Stop"
+  }
+  SoundClass : "{C7B4035569FDACA9}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Suspension_Car_base.conf" {
+   id 88073
+   name "SOUND_LAND_REAR_LEFT"
+   version 5
+   tl 256 -1536
+   parent "{C7B4035569FDACA9}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Suspension_Car_base.conf"
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 119821
+       port 5
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 3
+     links {
+      ConnectionClass connection {
+       id 75785
+       port 4
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 89106
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    9 0
+   }
+   priority 35
+   outState 25611
+   outStatePort 17415
+   boneName "v_landing_gear_rear_base"
+   reset 0.001
+   eventType "OnStart - Stop"
+  }
+  SoundClass : "{C7B4035569FDACA9}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Suspension_Car_base.conf" {
+   id 120841
+   name "SOUND_LAND_FRONT_LEFT"
+   version 5
+   tl 256 -1664
+   parent "{C7B4035569FDACA9}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Suspension_Car_base.conf"
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 119821
+       port 3
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 3
+     links {
+      ConnectionClass connection {
+       id 121865
+       port 4
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 89106
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    9 0
+   }
+   priority 35
+   outState 25611
+   outStatePort 17415
+   boneName "v_landing_gear_left_pivot"
+   reset 0.001
+   eventType "OnStart - Stop"
+  }
+  SoundClass : "{7594E2AA8BC38C78}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Suspension_Truck_base.conf" {
+   id 121865
+   name "SOUND_TAKEOFF_FRONT_RIGHT"
+   version 5
+   tl 256 -1024
+   parent "{7594E2AA8BC38C78}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Suspension_Truck_base.conf"
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 119821
+       port 12
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 3
+     links {
+      ConnectionClass connection {
+       id 120841
+       port 4
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 81938
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    9 0
+   }
+   outState 25611
+   outStatePort 17415
+   boneName "v_landing_gear_right_pivot"
+   threshold -0.001
+   reset -0.01
+   eventType "OnStart - Stop"
+  }
+ }
+ mixers {
+  MixerClass {
+   id 25611
+   name "OutputState"
+   version 4
+   tl 509.778 -880
+   res "{B764D803219C775E}Sounds/FinalMix.afm"
+   ins {
+    ConnectionsClass connections {
+     id 17415
+     links {
+      ConnectionClass connection {
+       id 86025
+       port 65
+      }
+      ConnectionClass connection {
+       id 78857
+       port 65
+      }
+      ConnectionClass connection {
+       id 75785
+       port 65
+      }
+      ConnectionClass connection {
+       id 70665
+       port 65
+      }
+      ConnectionClass connection {
+       id 87049
+       port 65
+      }
+      ConnectionClass connection {
+       id 88073
+       port 65
+      }
+      ConnectionClass connection {
+       id 120841
+       port 65
+      }
+      ConnectionClass connection {
+       id 121865
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 152583
+     links {
+      ConnectionClass connection {
+       id 93213
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    32832 0
+   }
+   path "{B764D803219C775E}Sounds/FinalMix.afm"
+   inputs {
+    "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialog" "Music" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb" "VON_Reverb" "Dialog_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "UI" "ENV_AMB_3D_Reverb_Exterior" "SFX_Direct" "SFX_Reverb_Small" "SFX_Reverb_Medium" "SFX_Reverb_Large" "WPN_Shots_Player" "Dialog_Reverb_Small" "Dialog_Reverb_Medium" "Dialog_Reverb_Large" "WPN_TravelingProjectile" "Dialog_Delay_Exterior" "SFX_Reverb_InCabin"
+   }
+  }
+ }
+ constants {
+  ConstantClass {
+   id 68620
+   name "Constant 49"
+   version 5
+   tl -512 -944
+   "Constant values" {
+    IOPConstantsValueClass OFFSET {
+     Key "OFFSET"
+     Value 150
+     Port 1
+    }
+   }
+  }
+ }
+ shaders {
+  ShaderClass {
+   id 81938
+   name "Shader 60"
+   version 5
+   tl 16 -992
+   ctl 0 -21
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 64540
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 9235
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 100373
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 82948
+       port 65
+      }
+      ConnectionClass connection {
+       id 29700
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+  ShaderClass {
+   id 89106
+   name "Shader 60"
+   comment "+6 AMP"
+   version 5
+   tl 0 -1568
+   ctl 0 -21
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 64540
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 9235
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 100373
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 122884
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+ }
+ amplitudes {
+  AmplitudeClass : "{2D5607FF1ED3F5D3}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-35LUFS_to_-30LUFS.conf" {
+   id 9235
+   version 5
+   tl 0 -1776
+   ctl 0 -21
+   parent "{2D5607FF1ED3F5D3}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-35LUFS_to_-30LUFS.conf"
+  }
+ }
+ frequency {
+  FrequencyClass {
+   id 100373
+   name "Frequency"
+   version 5
+   tl 0 -1696
+   ins {
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 96269
+       port 67
+      }
+     }
+    }
+   }
+   pi {
+    16 0
+   }
+   enableDistanceAtt 1
+  }
+ }
+ banks_local {
+  BankLocalClass {
+   id 29700
+   name "Ural4320_Damper_Squeak"
+   version 7
+   tl -257 -1024
+   Volume -25
+   "Volume variance" 2
+   Pitch -3
+   "Pitch variance" 1
+   "Termination Fade Out" 300
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{29C00C61519A8518}Sounds/Vehicles/Wheeled/Ural4320/Samples/Dampers/Ural4320_Damper_Squeak_1.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{B0DEB5F84C7DB488}Sounds/Vehicles/Wheeled/Ural4320/Samples/Dampers/Ural4320_Damper_Squeak_2.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{C7D4DD70B8DF5BF8}Sounds/Vehicles/Wheeled/Ural4320/Samples/Dampers/Ural4320_Damper_Squeak_3.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{C0132721DE59E13B}Sounds/Vehicles/Wheeled/Ural4320/Samples/Dampers/Ural4320_Damper_Squeak_4.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{B7194FA92AFB0E4B}Sounds/Vehicles/Wheeled/Ural4320/Samples/Dampers/Ural4320_Damper_Squeak_5.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{2E07F630371C3FDB}Sounds/Vehicles/Wheeled/Ural4320/Samples/Dampers/Ural4320_Damper_Squeak_6.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{590D9EB8C3BED0AB}Sounds/Vehicles/Wheeled/Ural4320/Samples/Dampers/Ural4320_Damper_Squeak_7.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{21880292FA114A5D}Sounds/Vehicles/Wheeled/Ural4320/Samples/Dampers/Ural4320_Damper_Squeak_8.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 82948
+   name "BTR70_Dampers"
+   version 7
+   tl -256 -944
+   ins {
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 68620
+       port 1
+      }
+     }
+    }
+   }
+   pi {
+    16 0
+   }
+   Volume -5
+   "Volume variance" 2
+   Pitch 3
+   "Termination Fade Out" 150
+   "Fade in time" 50
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{747BA47C7CD2C50E}Sounds/Vehicles/Rotary/Samples/Hit_1.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{ED651DE56135F49E}Sounds/Vehicles/Rotary/Samples/Hit_2.wav"
+     Index 1
+    }
+    AudioBankSampleClass Sample {
+     Filename "{9A6F756D95971BEE}Sounds/Vehicles/Rotary/Samples/Hit_3.wav"
+     Index 2
+    }
+    AudioBankSampleClass Sample {
+     Filename "{9DA88F3CF311A12D}Sounds/Vehicles/Rotary/Samples/Hit_4.wav"
+     Index 3
+    }
+    AudioBankSampleClass Sample {
+     Filename "{EAA2E7B407B34E5D}Sounds/Vehicles/Rotary/Samples/Hit_5.wav"
+     Index 4
+    }
+    AudioBankSampleClass Sample {
+     Filename "{73BC5E2D1A547FCD}Sounds/Vehicles/Rotary/Samples/Hit_6.wav"
+     Index 5
+    }
+   }
+  }
+  BankLocalClass {
+   id 122884
+   name "UH1H Dampers"
+   version 7
+   tl -257 -1489
+   Volume -2
+   "Volume variance" 1
+   "Pitch variance" 1
+   "Termination Fade Out" 150
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{747BA47C7CD2C50E}Sounds/Vehicles/Rotary/Samples/Hit_1.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{ED651DE56135F49E}Sounds/Vehicles/Rotary/Samples/Hit_2.wav"
+     Index 1
+    }
+    AudioBankSampleClass Sample {
+     Filename "{9A6F756D95971BEE}Sounds/Vehicles/Rotary/Samples/Hit_3.wav"
+     Index 2
+    }
+    AudioBankSampleClass Sample {
+     Filename "{9DA88F3CF311A12D}Sounds/Vehicles/Rotary/Samples/Hit_4.wav"
+     Index 3
+    }
+    AudioBankSampleClass Sample {
+     Filename "{EAA2E7B407B34E5D}Sounds/Vehicles/Rotary/Samples/Hit_5.wav"
+     Index 4
+    }
+    AudioBankSampleClass Sample {
+     Filename "{73BC5E2D1A547FCD}Sounds/Vehicles/Rotary/Samples/Hit_6.wav"
+     Index 5
+    }
+   }
+  }
+ }
+ spatialities {
+  SpatialityClass {
+   id 64540
+   name "Spatiality 3D"
+   version 5
+   tl 0 -1856
+   spatialFactor 1
+  }
+ }
+ auxOuts {
+  AuxOutClass {
+   id 93213
+   name "AuxOut Reverb INT"
+   version 5
+   tl 512 -1008
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 87049
+       port 5
+      }
+      ConnectionClass connection {
+       id 88073
+       port 5
+      }
+      ConnectionClass connection {
+       id 86025
+       port 5
+      }
+      ConnectionClass connection {
+       id 78857
+       port 5
+      }
+      ConnectionClass connection {
+       id 75785
+       port 5
+      }
+      ConnectionClass connection {
+       id 70665
+       port 5
+      }
+      ConnectionClass connection {
+       id 120841
+       port 5
+      }
+      ConnectionClass connection {
+       id 121865
+       port 5
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 109581
+       port 34
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 109581
+       port 39
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+   OSPort 152583
+  }
+ }
+ version 1
+ sourcesLimit 3
+ listenerWindowModel "{4B5EC76DD5A0F110}Assets/Vehicles/Helicopters/AUS_MH60/AUS_UH60_Base.xob"
+}

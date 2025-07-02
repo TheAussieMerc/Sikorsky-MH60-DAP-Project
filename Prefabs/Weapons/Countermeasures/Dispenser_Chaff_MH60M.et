@@ -1,0 +1,14 @@
+GenericEntity : "{651FE0E24967B913}Prefabs/Weapons/Countermeasures/Dispenser_Chaff_Cobra.et" {
+ ID "62A8D6FA317E0E04"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{5AEB26346A741F26}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Weapons/AUS_MH60M_Chaff_Launcher.xob"
+  }
+  WCS_Armament_ChaffDispenserComponent "{62CB5D8E050D40DA}" {
+   m_FirePosition PointInfo "{62E81A5F2F276566}" {
+    Offset 0.0367 0.0785 0.1553
+   }
+   m_iShakeAmount 0
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9FF5F91EC0A2F33E}Prefabs/Vehicles/Helicopters/AUS_MH60/VehParts/Lights/AUS_MH60_ES_positionlight_L01.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

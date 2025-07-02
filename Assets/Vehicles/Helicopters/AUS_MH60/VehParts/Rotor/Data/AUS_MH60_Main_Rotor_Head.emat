@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{F950F8F442421D70}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Rotor/Data/AUS_MH60_Main_Rotor_Head_BCR.edds"
+ NMOMap "{C18843669B354FEE}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Rotor/Data/AUS_MH60_Main_Rotor_Head_NMO.edds"
+}

@@ -1,0 +1,21 @@
+MatPBRBasic {
+ Color 0.309 0.309 0.309 1
+ ZWrite 0
+ Cull none
+ Sort translucent
+ CastShadow 0
+ OccludeWetness 0
+ NoDecals 1
+ SpecularMul 0
+ AlphaMul 0.462
+ BlendMode AlphaBlend
+ RoughnessScale 1.52
+ MetalnessScale 2.083
+ DielectricReflectance 0.029
+ CavityFromAO 0.162
+ GlobalAOPower 0.861
+ BCRMap "{BAD6BD59559465FA}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Rotor/Data/AUS_MH60_Rotor_Blur_BCR.edds"
+ OpacityMap "{66099BE9EC99A905}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Rotor/Data/AUS_MH60_Rotor_Blur_A.edds"
+ NormalPower 0.838
+ ManualCascadesShadows 1
+}

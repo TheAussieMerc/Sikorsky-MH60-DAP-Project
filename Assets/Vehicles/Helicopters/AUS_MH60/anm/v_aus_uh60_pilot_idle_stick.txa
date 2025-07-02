@@ -1,0 +1,55 @@
+$animation "" {
+ #version 1.0
+ #fps 30
+ #numFrames 149
+ $node "Scene_Root" {
+  $keys t q {
+   $frame 0 149 {
+   }
+  }
+  $node "v_root" {
+   $keys t q {
+    $frame 0 149 {
+     #t 0 -0.0635926 0.0117608
+    }
+   }
+   $node "v_body" {
+    $keys t q {
+     $frame 0 149 {
+      #t -0 0.5747608 -3.0057468
+     }
+    }
+    $node "v_landing" {
+     $keys t q {
+      $frame 0 149 {
+       #t 0 -0.1040065 3.9175887
+       #q 0.00028321 0.00028321 -0.70710671 0.70710677
+      }
+     }
+     $node "v_interior" {
+      $keys t q {
+       $frame 0 149 {
+        #t -1.0070467 -0.0060158 2.0812509
+        #q -0.00252812 -0.00252812 0.70710224 0.7071023
+       }
+      }
+      $node "v_cyclic_control_L" {
+       $keys q {
+        $frame 0 149 {
+         #q 0.00000008 0.99999493 0.00317491 -0
+        }
+       }
+      }
+      $node "v_cyclic_control_R" {
+       $keys q {
+        $frame 0 149 {
+         #q 0.00000008 0.99999493 0.00317491 -0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

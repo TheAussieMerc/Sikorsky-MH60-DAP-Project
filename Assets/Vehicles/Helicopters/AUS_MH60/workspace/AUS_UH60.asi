@@ -1,0 +1,91 @@
+AnimSetInstanceSource "{5D8E9119705D1190}" {
+ Template "{4AFCF1F092D60AD7}Assets/Vehicles/Helicopters/AUS_MH60/workspace/AUS_UH60.ast"
+ Lines {
+  AnimSetInstanceSource_Line "Vehicle.Pilot.GetIn" {
+   Resource "{B00980977C2B257B}Assets/Vehicles/Helicopters/AUS_MH60/anm/v_aus_uh60_pilot_getin.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.GetOut" {
+   Resource "{594520B603E1F2F7}Assets/Vehicles/Helicopters/AUS_MH60/anm/v_aus_uh60_copilot_getin.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.GetIn" {
+   Resource "{66EA72F968404E85}Assets/Vehicles/Helicopters/AUS_MH60/anm/v_aus_uh60_copilot_getin2.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.GetIn" {
+   Resource "{594520B603E1F2F7}Assets/Vehicles/Helicopters/AUS_MH60/anm/v_aus_uh60_copilot_getin.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetIn" {
+   Resource "{594520B603E1F2F7}Assets/Vehicles/Helicopters/AUS_MH60/anm/v_aus_uh60_copilot_getin.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.GetOut" {
+   Resource "{594520B603E1F2F7}Assets/Vehicles/Helicopters/AUS_MH60/anm/v_aus_uh60_copilot_getin.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.GetOut" {
+   Resource "{594520B603E1F2F7}Assets/Vehicles/Helicopters/AUS_MH60/anm/v_aus_uh60_copilot_getin.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetOut" {
+   Resource "{594520B603E1F2F7}Assets/Vehicles/Helicopters/AUS_MH60/anm/v_aus_uh60_copilot_getin.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.Idle" {
+   Resource "{F20B6DD21CD7B3A7}Assets/Vehicles/Helicopters/AUS_MH60/anm/v_aus_uh60_pilot_idle_stick.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.Idle" {
+   Resource "{F20B6DD21CD7B3A7}Assets/Vehicles/Helicopters/AUS_MH60/anm/v_aus_uh60_pilot_idle_stick.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.Idle" {
+   Resource "{F20B6DD21CD7B3A7}Assets/Vehicles/Helicopters/AUS_MH60/anm/v_aus_uh60_pilot_idle_stick.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.Idle" {
+   Resource "{F20B6DD21CD7B3A7}Assets/Vehicles/Helicopters/AUS_MH60/anm/v_aus_uh60_pilot_idle_stick.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Collective" {
+   Resource "{1A8C5C9446B8D68E}Assets/Vehicles/Helicopters/AUS_MH60/anm/v_aus_uh60_collective.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.Idle" {
+   Resource "{F20B6DD21CD7B3A7}Assets/Vehicles/Helicopters/AUS_MH60/anm/v_aus_uh60_pilot_idle_stick.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.GetOut" {
+   Resource "{594520B603E1F2F7}Assets/Vehicles/Helicopters/AUS_MH60/anm/v_aus_uh60_copilot_getin.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Pilot.IdleStick" {
+   Resource "{F20B6DD21CD7B3A7}Assets/Vehicles/Helicopters/AUS_MH60/anm/v_aus_uh60_pilot_idle_stick.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.SteeringMain" {
+   Resource "{1A8C5C9446B8D68E}Assets/Vehicles/Helicopters/AUS_MH60/anm/v_aus_uh60_collective.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Pedals" {
+   Resource "{1A8C5C9446B8D68E}Assets/Vehicles/Helicopters/AUS_MH60/anm/v_aus_uh60_collective.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.GetIn" {
+   Resource "{594520B603E1F2F7}Assets/Vehicles/Helicopters/AUS_MH60/anm/v_aus_uh60_copilot_getin.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.GetIn" {
+   Resource "{594520B603E1F2F7}Assets/Vehicles/Helicopters/AUS_MH60/anm/v_aus_uh60_copilot_getin.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.GetOut" {
+   Resource "{594520B603E1F2F7}Assets/Vehicles/Helicopters/AUS_MH60/anm/v_aus_uh60_copilot_getin.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Copilot.IdleStick" {
+   Resource "{F20B6DD21CD7B3A7}Assets/Vehicles/Helicopters/AUS_MH60/anm/v_aus_uh60_pilot_idle_stick.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.SwitchIn" {
+   Resource "{594520B603E1F2F7}Assets/Vehicles/Helicopters/AUS_MH60/anm/v_aus_uh60_copilot_getin.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetInL" {
+   Resource "{594520B603E1F2F7}Assets/Vehicles/Helicopters/AUS_MH60/anm/v_aus_uh60_copilot_getin.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetInR" {
+   Resource "{594520B603E1F2F7}Assets/Vehicles/Helicopters/AUS_MH60/anm/v_aus_uh60_copilot_getin.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetOutL" {
+   Resource "{594520B603E1F2F7}Assets/Vehicles/Helicopters/AUS_MH60/anm/v_aus_uh60_copilot_getin.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetOutR" {
+   Resource "{594520B603E1F2F7}Assets/Vehicles/Helicopters/AUS_MH60/anm/v_aus_uh60_copilot_getin.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.SwitchIn" {
+   Resource "{594520B603E1F2F7}Assets/Vehicles/Helicopters/AUS_MH60/anm/v_aus_uh60_copilot_getin.anm"
+  }
+ }
+ RBF AnimSetInstanceSourceRBFArray "{5CEEF9CD73B8BAB9}" {
+ }
+}

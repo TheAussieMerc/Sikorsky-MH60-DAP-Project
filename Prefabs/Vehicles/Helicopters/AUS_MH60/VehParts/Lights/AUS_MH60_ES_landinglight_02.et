@@ -1,0 +1,8 @@
+GameEntity : "{8FD39F097166EE75}Prefabs/Vehicles/Helicopters/UH1H/VehParts/Lights/UH1H_ES_landinglight_02.et" {
+ ID "54DEF484EE00449D"
+ components {
+  MeshObject "{54DEF48745980A1F}" {
+   Object "{0143386DC4B31B5E}Assets/Vehicles/Helicopters/AUS_MH60/Lights/AUS_MH60_Light_SpotLight.xob"
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B63E2B9ABFF11012}Assets/Vehicles/Helicopters/UH1H/workspace/AUS_UH60_Armed.agr"
+ Configurations {
+  AnimGraphResourceClass PC {
+  }
+  AnimGraphResourceClass XBOX_ONE : PC {
+  }
+  AnimGraphResourceClass XBOX_SERIES : PC {
+  }
+  AnimGraphResourceClass PS4 : PC {
+  }
+  AnimGraphResourceClass PS5 : PC {
+  }
+  AnimGraphResourceClass HEADLESS : PC {
+  }
+ }
+}

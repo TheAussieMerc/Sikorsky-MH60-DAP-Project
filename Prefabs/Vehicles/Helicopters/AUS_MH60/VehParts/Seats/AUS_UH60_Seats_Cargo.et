@@ -1,0 +1,261 @@
+GenericEntity : "{205599C7074F1E02}Prefabs/Vehicles/Helicopters/UH1H/VehParts/Seats/VehPart_UH1H_seats_cargo.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{C268D23B692A36EF}Assets/Vehicles/Helicopters/AUS_MH60/VehParts/Seats/AUS_uh60_Cargo_Seats.xob"
+  }
+  SCR_BaseCompartmentManagerComponent "{2CD4A765A7D52986}" {
+   CompartmentSlots {
+    CargoCompartmentSlot Passenger_l01 : "{D5E74F37A0C6FD0B}Prefabs/Vehicles/Helicopters/AUS_MH60/CargoCompartment_UH60_Left.conf" {
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_l01"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList {
+        "passenger_l01"
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E00C44348}" {
+       ParentContextList {
+        "door_l03"
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "leftfrontforward_passenger_idle"
+      Angles 0 90 -90
+     }
+    }
+    CargoCompartmentSlot Passenger_l02 : "{D5E74F37A0C6FD0B}Prefabs/Vehicles/Helicopters/AUS_MH60/CargoCompartment_UH60_Left.conf" {
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_l02"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E00C44348}" {
+       ParentContextList {
+        "door_l03"
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "leftfrontrearward_passenger_idle"
+      Angles 0 -90 90
+     }
+     m_fFreelookAimLimitOverrideLeft -160
+     m_fFreelookAimLimitOverrideRight 160
+     m_fFreelookCameraNeckFollowTraverse 1
+    }
+    CargoCompartmentSlot Passenger_l03 : "{D5E74F37A0C6FD0B}Prefabs/Vehicles/Helicopters/AUS_MH60/CargoCompartment_UH60_Left.conf" {
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_l03"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList {
+        "passenger_l03"
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E00C44348}" {
+       ParentContextList {
+        "door_l03"
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "leftmiddlerearward_passenger_idle"
+      Angles 0 -90 90
+     }
+     m_fFreelookAimLimitOverrideLeft -160
+     m_fFreelookAimLimitOverrideRight 160
+     m_fFreelookCameraNeckFollowTraverse 1
+    }
+    CargoCompartmentSlot Passenger_r01 : "{F9B491A25858555D}Prefabs/Vehicles/Helicopters/AUS_MH60/CargoCompartment_UH60_Right.conf" {
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_r01"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList {
+        "passenger_r01"
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E00C44348}" {
+       ParentContextList +{
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "rightfrontforward_passenger_idle"
+      Angles 0 90 -90
+     }
+    }
+    CargoCompartmentSlot Passenger_r02 : "{F9B491A25858555D}Prefabs/Vehicles/Helicopters/AUS_MH60/CargoCompartment_UH60_Right.conf" {
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_r02"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList {
+        "passenger_r02"
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E00C44348}" {
+       ParentContextList +{
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "rightfrontrearward_passenger_idle"
+      Angles 0 -90 90
+     }
+    }
+    CargoCompartmentSlot Passenger_r03 : "{F9B491A25858555D}Prefabs/Vehicles/Helicopters/AUS_MH60/CargoCompartment_UH60_Right.conf" {
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_r03"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList {
+        "passenger_r03"
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "rightmiddlerearward_passenger_idle"
+      Angles 0 -90 90
+     }
+    }
+    CargoCompartmentSlot Passenger_r04 : "{F9B491A25858555D}Prefabs/Vehicles/Helicopters/AUS_MH60/CargoCompartment_UH60_Right.conf" {
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_r04"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList {
+        "passenger_r04"
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "rightrear_passenger_idle"
+      Angles 0 90 -90
+     }
+    }
+    CargoCompartmentSlot Passenger_r05 : "{F9B491A25858555D}Prefabs/Vehicles/Helicopters/AUS_MH60/CargoCompartment_UH60_Right.conf" {
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_r05"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList {
+        "passenger_r05"
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "rightrearmiddle_passenger_idle"
+      Angles 0 90 -90
+     }
+    }
+    CargoCompartmentSlot Passenger_m01 : "{ABFDDD7BBB61E9DF}Prefabs/Vehicles/Helicopters/AUS_MH60/CargoCompartment_UH60_Middle.conf" {
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_m01"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList {
+        "passenger_m01"
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E00C44348}" {
+       ParentContextList +{
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "middlefrontforward_passenger_idle"
+      Offset 0.0437 0 0.013
+      Angles 0 90 -90
+     }
+    }
+    CargoCompartmentSlot Passenger_l04 : "{D5E74F37A0C6FD0B}Prefabs/Vehicles/Helicopters/AUS_MH60/CargoCompartment_UH60_Left.conf" {
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_l04"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList {
+        "passenger_l04"
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E00C44348}" {
+       ParentContextList {
+        "door_l03"
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "leftrear_passenger_idle"
+      Angles 0 90 -90
+     }
+     m_fFreelookAimLimitOverrideLeft -160
+     m_fFreelookAimLimitOverrideRight 160
+     m_fFreelookCameraNeckFollowTraverse 1
+    }
+    CargoCompartmentSlot Passenger_l05 : "{D5E74F37A0C6FD0B}Prefabs/Vehicles/Helicopters/AUS_MH60/CargoCompartment_UH60_Left.conf" {
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_l05"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList {
+        "passenger_l05"
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E00C44348}" {
+       ParentContextList {
+        "door_l03"
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "leftrearmiddle_passenger_idle"
+      Angles 0 90 -90
+     }
+     m_fFreelookAimLimitOverrideLeft -160
+     m_fFreelookAimLimitOverrideRight 160
+     m_fFreelookCameraNeckFollowTraverse 1
+    }
+   }
+  }
+ }
+ coords 1156.383 39 2375.652
+}

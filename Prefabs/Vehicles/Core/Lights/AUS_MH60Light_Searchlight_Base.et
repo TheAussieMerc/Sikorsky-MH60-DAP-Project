@@ -1,0 +1,7 @@
+LightEntity : "{354FD1DA18DA9383}Prefabs/Vehicles/Core/Lights/VehicleLight_Searchlight_Base.et" {
+ ID "514ED7499ABC27FE"
+ NearPlane 2
+ SpotAngle 46.61
+ SpotAngleAttenuation 0.55
+ DistanceAttenuation 2.06
+}

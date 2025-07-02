@@ -1,0 +1,31 @@
+FrameWidgetClass {
+ Name "WeaponRoot"
+ {
+  FrameWidgetClass "{628A58B5FDCA241D}" {
+   Name "Frame0"
+   Slot FrameWidgetSlot "{628A58B5FDCA244C}" {
+    OffsetLeft 0
+    OffsetTop 0
+    SizeX 1920
+    OffsetRight -1920
+    SizeY 1080
+    OffsetBottom -1080
+   }
+   {
+    HorizontalLayoutWidgetClass "{628A58B5E7455068}" {
+     Name "Pylons"
+     Slot FrameWidgetSlot "{628A58B5E7455072}" {
+      PositionX 1360
+      OffsetLeft 1360
+      PositionY 408
+      OffsetTop 408
+      SizeX 500
+      OffsetRight -1860
+      SizeY 250
+      OffsetBottom -658
+     }
+    }
+   }
+  }
+ }
+}
